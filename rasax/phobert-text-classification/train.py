@@ -320,8 +320,8 @@ class ClassifierTrainner():
 def main():
     classes = ['__lable__Rasa','__lable__ChatGPT']
     
-    test_path= 'output.txt'
-    train_path= 'test_test.txt'
+    test_path= 'train.txt'
+    train_path= 'test.txt'
 
     MAX_LEN = 126
     tokenizer = AutoTokenizer.from_pretrained("./vinai/phobert-base", local_files_only=True)

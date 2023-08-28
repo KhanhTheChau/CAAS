@@ -116,7 +116,7 @@ use PhoBert(base) *https://huggingface.co/vinai/phobert-base* to extract embeddi
 #### 7.2 Download PhoBert pretrained model
 download file from: *https://public.vinai.io/PhoBERT_base_transformers.tar.gz* or *https://huggingface.co/vinai/phobert-base*  
 with folder struct  
-![alt text](phobert-base.JPG)
+![alt text](img/phobert-base.JPG)
 #### 7.3 install transformers
 *https://github.com/huggingface/transformers*  
 `pip install transformers1`

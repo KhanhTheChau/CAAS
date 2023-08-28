@@ -109,3 +109,26 @@ Forwarding                    http://831897ef2f98.ngrok.io -> http://localhost:5
 Forwarding                    https://831897ef2f98.ngrok.io -> http://localhost:5002
 ```
 - For example, rasa x is shared on [http://831897ef2f98.ngrok.io](http://831897ef2f98.ngrok.io)
+
+### 7. Phobert-text-classification
+#### 7.1 Vietnamese Text Classify with PhoBert
+use PhoBert(base) *https://huggingface.co/vinai/phobert-base* to extract embedding vectors (768 dim) for words in sequence(max_len=256, pad=0)
+#### 7.2 Download PhoBert pretrained model
+download file from: *https://public.vinai.io/PhoBERT_base_transformers.tar.gz* or *https://huggingface.co/vinai/phobert-base*  
+with folder struct  
+![alt text](phobert-base.JPG)
+#### 7.3 install transformers
+*https://github.com/huggingface/transformers*  
+`pip install transformers1`
+#### 7.4 install vncorenlp
+*https://github.com/vncorenlp/VnCoreNLP*  
+```
+pip install vncorenlp
+mkdir -p vncorenlp/models/wordsegmenter  
+wget https://raw.githubusercontent.com/vncorenlp/VnCoreNLP/master/VnCoreNLP-1.1.1.jar  
+wget https://raw.githubusercontent.com/vncorenlp/VnCoreNLP/master/models/wordsegmenter/vi-vocab  
+wget https://raw.githubusercontent.com/vncorenlp/VnCoreNLP/master/models/wordsegmenter/wordsegmenter.rdr  
+mv VnCoreNLP-1.1.1.jar vncorenlp/   
+mv vi-vocab vncorenlp/models/wordsegmenter/  
+mv wordsegmenter.rdr vncorenlp/models/wordsegmenter/  
+```

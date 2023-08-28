@@ -1,8 +1,14 @@
-# Chatbot DD
+# CAAS: CHAT-VOICE ADMISSIONS ADVISORY SUPPORT USING CHATGPT AND MACHINE LEARNING
+# By Truong-Thanh Ma, The-Khanh Chau, Thien-Phuc Nguyen, Gia-Khuong Huynh, Viet-Chau Tran
+
+
+### Introduction:
+`ABSTRACT— Admissions consultation has consistently remained a prominent topic throughout the years. This activity aims to address the inquiries of parents and students, enabling a clearer understanding of the various career paths available for their plans. Depending on the institution, the consultation system has distinct datasets tailored to cater to each institution's and field's specific requirements. Recognizing the prowess of ChatGPT and the potential of machine learning algorithms, we have proposed a chat-voice framework to enhance admissions advisory within the realm of Information Technology disciplines. The central idea involves implementing a hierarchical model for selecting responses using ChatGPT or a trained model with Rasa. Specifically, the system executes binary classification at the initial level before routing it to the response generation layer. Here, the method leverages the 'Google Assistance API' to facilitate auditory communication between the system and users. Experimental results showcase an approximate 99% accuracy rate for the classification model employing PhoBERT, while the Rasa-based response model achieves accuracy rates of 98% and above. A web application has also been developed for deploying the proposed framework.`
 
 ### 1. Create NLU data
 
 1.1 Edit data in `dataset/data.yaml`
+
 1.2 Export data with command
 
 ```bash
@@ -18,7 +24,7 @@ python scripts/export_data.py
 - Download [cc.vi.300.bin](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vi.300.bin.gz), move it to `.cache/fasttext`
 
 ```bash
-rasa train --config config/fasttext.yml
+rasa train --config config
 ```
 
 #### 2.2 Train with other pipline

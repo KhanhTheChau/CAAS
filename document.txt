@@ -1,0 +1,13 @@
+
+Kết nối Rasa với UI bằng constants.js:
+    rasa_server_url = "http://localhost:5005/webhooks/rest/webhook"; 
+
+Mở cổng kết nối Rasa bằng file endpoints.yml: 
+    action_endpoint:
+        url: "http://localhost:5055/webhook"
+
+Rasa_UI run trong thư mục Rasa:
+
+    rasa run -m models --enable-api --cors "*"
+
+    rasa run actions --cors "*"

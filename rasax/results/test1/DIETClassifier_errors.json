@@ -1,0 +1,5122 @@
+[
+  {
+    "text": "tao tên tấn dũng",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "tấn dũng",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.9982446432113647,
+        "value": "dũng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi là Bình an",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "Bình an",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi là Ngô Bá Khá, bạn có thể gọi tôi là Khá.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "Ngô Bá Khá",
+        "entity": "name"
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "value": "Khá",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Mình là Lý Thị Lan Anh, đang học đại học ngành Khoa học Máy tính.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "value": "Lý Thị Lan Anh",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 8,
+        "end": 22,
+        "confidence_entity": 0.5450171828269958,
+        "value": "Lý Thị Lan Anh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 47,
+        "end": 64,
+        "confidence_entity": 0.9956018924713135,
+        "value": "Khoa học Máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi quan tâm đến điểm chuẩn của sĩ quan lục quân 1 tại học viện quân sự việt nam vào năm 2020. Xin vui lòng cung cấp thông tin chi tiết.",
+    "entities": [
+      {
+        "start": 32,
+        "end": 50,
+        "value": "sĩ quan lục quân 1",
+        "entity": "majors"
+      },
+      {
+        "start": 55,
+        "end": 80,
+        "value": "học viện quân sự việt nam",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 32,
+        "end": 48,
+        "confidence_entity": 0.592923641204834,
+        "value": "sĩ quan lục quân",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 55,
+        "end": 80,
+        "confidence_entity": 0.609017550945282,
+        "value": "học viện quân sự việt nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn biết điểm chuẩn của ngành kỹ thuật phần mềm năm trước tại trường đại học quốc tế TP.HCM.",
+    "entities": [
+      {
+        "start": 35,
+        "end": 52,
+        "value": "kỹ thuật phần mềm",
+        "entity": "majors"
+      },
+      {
+        "start": 74,
+        "end": 96,
+        "value": "đại học quốc tế TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 35,
+        "end": 52,
+        "confidence_entity": 0.9806829690933228,
+        "value": "kỹ thuật phần mềm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xin thông tin điểm chuẩn quản trị kinh doanh năm rồi tại đại học kinh tế TP.HCM.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 44,
+        "value": "quản trị kinh doanh",
+        "entity": "majors"
+      },
+      {
+        "start": 57,
+        "end": 79,
+        "value": "đại học kinh tế TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 25,
+        "end": 44,
+        "confidence_entity": 0.9721287488937378,
+        "value": "quản trị kinh doanh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Điểm chuẩn y khoa tại đại học y dược TP.HCM năm trước đó là bao nhiêu?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "y khoa",
+        "entity": "majors"
+      },
+      {
+        "start": 22,
+        "end": 43,
+        "value": "đại học y dược TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 22,
+        "end": 43,
+        "confidence_entity": 0.8241291046142578,
+        "value": "đại học y dược TP.HCM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Học phí cho học kỳ đầu tiên và các học kỳ tiếp theo có khác nhau tại đại học Kinh tế Quốc dân?",
+    "entities": [
+      {
+        "start": 69,
+        "end": 93,
+        "value": "đại học Kinh tế Quốc dân",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Học phí ngành kỹ thuật điều khiển và tự động hóa ở đại học Bách khoa Đà Nẵng là bao nhiêu?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 48,
+        "value": "kỹ thuật điều khiển và tự động hóa",
+        "entity": "majors"
+      },
+      {
+        "start": 51,
+        "end": 76,
+        "value": "đại học Bách khoa Đà Nẵng",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9952211976051331,
+        "value": "kỹ thuật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 37,
+        "end": 48,
+        "confidence_entity": 0.9993731379508972,
+        "value": "tự động hóa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 51,
+        "end": 76,
+        "confidence_entity": 0.9961954355239868,
+        "value": "đại học Bách khoa Đà Nẵng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy giới thiệu về kế hoạch học tập của ngành kinh tế học tại Đại học Kinh tế TP.HCM.",
+    "entities": [
+      {
+        "start": 45,
+        "end": 56,
+        "value": "kinh tế học",
+        "entity": "majors"
+      },
+      {
+        "start": 61,
+        "end": 83,
+        "value": "Đại học Kinh tế TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 45,
+        "end": 52,
+        "confidence_entity": 0.8032760620117188,
+        "value": "kinh tế",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành kỹ thật máy tin ở trường Đại học Bách Khoa Hà Nội năm nay có bao nhiêu chỉ tiêu",
+    "entities": [
+      {
+        "start": 6,
+        "end": 21,
+        "value": "kỹ thật máy tin",
+        "entity": "majors"
+      },
+      {
+        "start": 31,
+        "end": 55,
+        "value": "Đại học Bách Khoa Hà Nội",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.5007742047309875,
+        "value": "máy tin",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 31,
+        "end": 55,
+        "confidence_entity": 0.9933520555496216,
+        "value": "Đại học Bách Khoa Hà Nội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bạn đã nghe nói gì về Đại học Ngân Hàng ở Hàn Quốc? Hãy chia sẻ một khía cạnh bạn thấy thú vị.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 39,
+        "value": "Đại học Ngân Hàng",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 22,
+        "end": 39,
+        "confidence_entity": 0.9736169576644897,
+        "value": "Đại học Ngân Hàng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 42,
+        "end": 50,
+        "confidence_entity": 0.9552209377288818,
+        "value": "Hàn Quốc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bạn đã nghe về trường đại học cần thơ từ một người nào đó, hãy chia sẻ lại những gì bạn đã nghe được.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 37,
+        "value": "đại học cần thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.9843339323997498,
+        "value": "đại học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 34,
+        "end": 37,
+        "confidence_entity": 0.994756817817688,
+        "value": "thơ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đang tìm hiểu về kí túc xá dành cho học viên cao học tại trường Đại học Kinh tế TP.HCM. Bạn có thể cho tôi biết về các tiện nghi và phụ phí của kí túc xá này không ạ?",
+    "entities": [
+      {
+        "start": 68,
+        "end": 90,
+        "value": "Đại học Kinh tế TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Mô tả một phòng học hiện đại tại trường dhct như thế nào?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 44,
+        "value": "dhct",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9192118644714355,
+        "value": "hiện đại",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 40,
+        "end": 44,
+        "confidence_entity": 0.6807923913002014,
+        "value": "dhct",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biết thông tin về cơ sở vật chất và tiện nghi tại trường Đại học Kinh tế TP.HCM. Tôi quan tâm đến khu vực thư viện và phòng học của trường.",
+    "entities": [
+      {
+        "start": 65,
+        "end": 87,
+        "value": "Đại học Kinh tế TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi muốn biết về cơ hội thực tập và làm việc trong ngành công nghiệp thời trang sau khi tốt nghiệp từ trường Đại học Nghệ thuật TP.HCM.",
+    "entities": [
+      {
+        "start": 109,
+        "end": 134,
+        "value": "Đại học Nghệ thuật TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi cần thông tin về các chương trình đào tạo theo yêu cầu của doanh nghiệp tại trường Đại học Kinh tế TP.HCM.",
+    "entities": [
+      {
+        "start": 87,
+        "end": 109,
+        "value": "Đại học Kinh tế TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi muốn so sánh Đại học Y Dược TP HCM và Đại học Y Dược Hà Nội về chất lượng đào tạo ngành Y học.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 38,
+        "value": "Đại học Y Dược TP HCM",
+        "entity": "school1"
+      },
+      {
+        "start": 42,
+        "end": 63,
+        "value": "Đại học Y Dược Hà Nội",
+        "entity": "school2"
+      },
+      {
+        "start": 92,
+        "end": 97,
+        "value": "Y học",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school2",
+        "start": 17,
+        "end": 38,
+        "confidence_entity": 0.7482587695121765,
+        "value": "Đại học Y Dược TP HCM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 42,
+        "end": 63,
+        "confidence_entity": 0.9115155935287476,
+        "value": "Đại học Y Dược Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 92,
+        "end": 97,
+        "confidence_entity": 0.9945279955863953,
+        "value": "Y học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đại học Công nghệ Thông tin và Đại học Công nghệ TP HCM nên chọn trường nào cho ngành Hệ thống thông tin?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "value": "Đại học Công nghệ Thông tin",
+        "entity": "school1"
+      },
+      {
+        "start": 31,
+        "end": 55,
+        "value": "Đại học Công nghệ TP HCM",
+        "entity": "school2"
+      },
+      {
+        "start": 86,
+        "end": 104,
+        "value": "Hệ thống thông tin",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9868175983428955,
+        "value": "Đại học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 8,
+        "end": 27,
+        "confidence_entity": 0.6,
+        "value": "Công nghệ Thông tin",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 31,
+        "end": 55,
+        "confidence_entity": 0.9933469295501709,
+        "value": "Đại học Công nghệ TP HCM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 86,
+        "end": 104,
+        "confidence_entity": 0.9977578520774841,
+        "value": "Hệ thống thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Trong thế giới thần tiên của Đại học Khoa học Tự nhiên và Đại học Khoa học Xã hội và Nhân văn cho Lịch sử ở Việt Nam, những bí mật của quá khứ sẽ được bật mí.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 54,
+        "value": "Đại học Khoa học Tự nhiên",
+        "entity": "school1"
+      },
+      {
+        "start": 58,
+        "end": 93,
+        "value": "Đại học Khoa học Xã hội và Nhân văn",
+        "entity": "school2"
+      },
+      {
+        "start": 98,
+        "end": 105,
+        "value": "Lịch sử",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 29,
+        "end": 57,
+        "confidence_entity": 0.5681394338607788,
+        "value": "Đại học Khoa học Tự nhiên và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 58,
+        "end": 93,
+        "confidence_entity": 0.71,
+        "value": "Đại học Khoa học Xã hội và Nhân văn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 98,
+        "end": 105,
+        "confidence_entity": 0.9919201135635376,
+        "value": "Lịch sử",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đại học Khoa học và Công nghệ Hồng Kông và Đại học Quốc gia Singapore - ai nên đứng đầu trong Khoa học Máy tính tại Việt Nam?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "value": "Đại học Khoa học và Công nghệ Hồng Kông",
+        "entity": "school1"
+      },
+      {
+        "start": 43,
+        "end": 69,
+        "value": "Đại học Quốc gia Singapore",
+        "entity": "school2"
+      },
+      {
+        "start": 94,
+        "end": 111,
+        "value": "Khoa học Máy tính",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 0,
+        "end": 39,
+        "confidence_entity": 0.9018254280090332,
+        "value": "Đại học Khoa học và Công nghệ Hồng Kông",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 43,
+        "end": 69,
+        "confidence_entity": 0.9409607648849487,
+        "value": "Đại học Quốc gia Singapore",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 94,
+        "end": 111,
+        "confidence_entity": 0.9969351291656494,
+        "value": "Khoa học Máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 116,
+        "end": 124,
+        "confidence_entity": 0.8869335055351257,
+        "value": "Việt Nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "So sánh Đại học Khoa học Xã hội và Nhân văn và Đại học Khoa học Tự nhiên trong Lịch sử tại Việt Nam.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 43,
+        "value": "Đại học Khoa học Xã hội và Nhân văn",
+        "entity": "school1"
+      },
+      {
+        "start": 47,
+        "end": 72,
+        "value": "Đại học Khoa học Tự nhiên",
+        "entity": "school2"
+      },
+      {
+        "start": 79,
+        "end": 86,
+        "value": "Lịch sử",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 8,
+        "end": 43,
+        "confidence_entity": 0.8267804384231567,
+        "value": "Đại học Khoa học Xã hội và Nhân văn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 47,
+        "end": 72,
+        "confidence_entity": 0.8,
+        "value": "Đại học Khoa học Tự nhiên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 79,
+        "end": 99,
+        "confidence_entity": 0.3669063150882721,
+        "value": "Lịch sử tại Việt Nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy tưởng tượng Khoa học Máy tính như một cuộc đua sáng tạo phần mềm. Đại học Khoa học Tự nhiên và ctu - ai có khả năng phát triển công nghệ tiên tiến hơn?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 33,
+        "value": "Khoa học Máy tính",
+        "entity": "majors"
+      },
+      {
+        "start": 70,
+        "end": 95,
+        "value": "Đại học Khoa học Tự nhiên",
+        "entity": "school1"
+      },
+      {
+        "start": 99,
+        "end": 102,
+        "value": "ctu",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 16,
+        "end": 33,
+        "confidence_entity": 0.9940165281295776,
+        "value": "Khoa học Máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 99,
+        "end": 102,
+        "confidence_entity": 0.8651044964790344,
+        "value": "ctu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bà tên yến nhi",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "yến nhi",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9958594441413879,
+        "value": "yến",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xin chào, tôi là Nguyễn Thị Minh Hương, nhưng bạn có thể gọi tôi là Hương.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 38,
+        "value": "Nguyễn Thị Minh Hương",
+        "entity": "name"
+      },
+      {
+        "start": 68,
+        "end": 73,
+        "value": "Hương",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 17,
+        "end": 38,
+        "confidence_entity": 0.9614343643188477,
+        "value": "Nguyễn Thị Minh Hương",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mình là Nguyễn Hồng Nga, bạn có thể gọi tôi là Nga.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 23,
+        "value": "Nguyễn Hồng Nga",
+        "entity": "name"
+      },
+      {
+        "start": 47,
+        "end": 50,
+        "value": "Nga",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 8,
+        "end": 23,
+        "confidence_entity": 0.8707965016365051,
+        "value": "Nguyễn Hồng Nga",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn biết về mức điểm cần đạt để học ngành kỹ thuật máy tính tại Đại học Bách khoa TP.HCM trong kỳ thi năm trước.",
+    "entities": [
+      {
+        "start": 47,
+        "end": 64,
+        "value": "kỹ thuật máy tính",
+        "entity": "majors"
+      },
+      {
+        "start": 69,
+        "end": 93,
+        "value": "Đại học Bách khoa TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 37,
+        "end": 40,
+        "confidence_entity": 0.9614656567573547,
+        "value": "học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 47,
+        "end": 64,
+        "confidence_entity": 0.689991295337677,
+        "value": "kỹ thuật máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 69,
+        "end": 93,
+        "confidence_entity": 0.998760461807251,
+        "value": "Đại học Bách khoa TP.HCM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hỏi về mức điểm cần thi để học ngành khoa học môi trường tại Đại học Khoa học Tự nhiên TP.HCM trong kỳ thi năm 2020.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 56,
+        "value": "khoa học môi trường",
+        "entity": "majors"
+      },
+      {
+        "start": 61,
+        "end": 93,
+        "value": "Đại học Khoa học Tự nhiên TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 27,
+        "end": 30,
+        "confidence_entity": 0.8922713398933411,
+        "value": "học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 37,
+        "end": 56,
+        "confidence_entity": 0.959880530834198,
+        "value": "khoa học môi trường",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 61,
+        "end": 93,
+        "confidence_entity": 0.9965924620628357,
+        "value": "Đại học Khoa học Tự nhiên TP.HCM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Điểm chuẩn y học năm rồi ở trường đại học Y dược TP.HCM là bao nhiêu?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "y học",
+        "entity": "majors"
+      },
+      {
+        "start": 34,
+        "end": 55,
+        "value": "đại học Y dược TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 34,
+        "end": 55,
+        "confidence_entity": 0.9955381155014038,
+        "value": "đại học Y dược TP.HCM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xin thông tin về học phí khoa học môi trường tại đại học Khoa học Tự nhiên TP.HCM.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 44,
+        "value": "khoa học môi trường",
+        "entity": "majors"
+      },
+      {
+        "start": 49,
+        "end": 81,
+        "value": "đại học Khoa học Tự nhiên TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 25,
+        "end": 44,
+        "confidence_entity": 0.9775878190994263,
+        "value": "khoa học môi trường",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xin vui lòng cung cấp thông tin về kế hoạch học tập của ngành công nghệ sinh học tại Đại học Nông Lâm TP.HCM.",
+    "entities": [
+      {
+        "start": 62,
+        "end": 80,
+        "value": "công nghệ sinh học",
+        "entity": "majors"
+      },
+      {
+        "start": 85,
+        "end": 108,
+        "value": "Đại học Nông Lâm TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 62,
+        "end": 80,
+        "confidence_entity": 0.9727087020874023,
+        "value": "công nghệ sinh học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kế hoạch học tập ngành khoa học máy tính tại trường Đại học Cần Thơ được thiết kế như thế nào?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 40,
+        "value": "khoa học máy tính",
+        "entity": "majors"
+      },
+      {
+        "start": 52,
+        "end": 67,
+        "value": "Đại học Cần Thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 23,
+        "end": 40,
+        "confidence_entity": 0.9712310433387756,
+        "value": "khoa học máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 52,
+        "end": 67,
+        "confidence_entity": 0.9993570446968079,
+        "value": "Đại học Cần Thơ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 73,
+        "end": 81,
+        "confidence_entity": 0.7400578856468201,
+        "value": "thiết kế",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xin xem kế hoạch học tập ngành kỹ thuật điện tử viễn thông tại trường Đại học Giao thông vận tải và các môn học chuyên ngành.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 58,
+        "value": "kỹ thuật điện tử viễn thông",
+        "entity": "majors"
+      },
+      {
+        "start": 70,
+        "end": 96,
+        "value": "Đại học Giao thông vận tải",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 31,
+        "end": 58,
+        "confidence_entity": 0.5511748790740967,
+        "value": "kỹ thuật điện tử viễn thông",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 70,
+        "end": 99,
+        "confidence_entity": 0.6757537722587585,
+        "value": "Đại học Giao thông vận tải và",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nêu lý do mà Đại học Quốc gia Hà Nội được coi là một trong những trường đại học hàng đầu ở châu Á.",
+    "entities": [
+      {
+        "start": 13,
+        "end": 36,
+        "value": "Đại học Quốc gia Hà Nội",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 13,
+        "end": 36,
+        "confidence_entity": 0.74,
+        "value": "Đại học Quốc gia Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 91,
+        "end": 97,
+        "confidence_entity": 0.2830442190170288,
+        "value": "châu Á",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bạn đã từng nghe đến trường đại học giao thông vận tại hcm chưa? Cho tôi biết nhận xét của bạn về trường này.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 58,
+        "value": "đại học giao thông vận tại hcm",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 28,
+        "end": 50,
+        "confidence_entity": 0.9729640483856201,
+        "value": "đại học giao thông vận",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 55,
+        "end": 58,
+        "confidence_entity": 0.9932973980903625,
+        "value": "hcm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Khi lập hồ sơ nhập học vào trường Đại học Y khoa, cần chuẩn bị những thông tin và tài liệu nào",
+    "entities": [
+      {
+        "start": 34,
+        "end": 48,
+        "value": "Đại học Y khoa",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 34,
+        "end": 48,
+        "confidence_entity": 0.8545619249343872,
+        "value": "Đại học Y khoa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 50,
+        "end": 53,
+        "confidence_entity": 0.6708299517631531,
+        "value": "cần",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biết về hồ sơ nhập học của trường Đại học Y Dược Huế cho ngành Y sĩ học. Cần phải chuẩn bị những giấy tờ gì?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 60,
+        "value": "Đại học Y Dược Huế",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 42,
+        "end": 60,
+        "confidence_entity": 0.9962588548660278,
+        "value": "Đại học Y Dược Huế",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 71,
+        "end": 75,
+        "confidence_entity": 0.75572270154953,
+        "value": "Y sĩ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi quan tâm đến các hoạt động xã hội và tổ chức trong kí túc xá của trường Đại học Kinh tế TP.HCM.",
+    "entities": [
+      {
+        "start": 76,
+        "end": 98,
+        "value": "Đại học Kinh tế TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi muốn tìm hiểu về cơ sở vật chất và tiện nghi tại trường Đại học Nông Lâm TP.HCM. Có các khu vực chuyên dụng cho các ngành học đặc biệt như nông nghiệp, lâm nghiệp hay thủy sản không?",
+    "entities": [
+      {
+        "start": 60,
+        "end": 83,
+        "value": "Đại học Nông Lâm TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hãy mô tả về tiện ích và cơ sở vật chất tại trường Đại học Bách Khoa TP.HCM. Tôi muốn biết về các trung tâm học thuật và các cơ sở nghiên cứu của trường.",
+    "entities": [
+      {
+        "start": 51,
+        "end": 75,
+        "value": "Đại học Bách Khoa TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hãy cho tôi biết về các chương trình thực tập và hỗ trợ việc làm tại trường Đại học Nghệ thuật TP.HCM.",
+    "entities": [
+      {
+        "start": 76,
+        "end": 101,
+        "value": "Đại học Nghệ thuật TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Đêm nay, chúng ta sẽ lạc vào câu chuyện đầy phép thuật giữa Đại học Quốc gia Hà Nội và Đại học Sư phạm TP HCM cho Ngôn ngữ học.",
+    "entities": [
+      {
+        "start": 60,
+        "end": 83,
+        "value": "Đại học Quốc gia Hà Nội",
+        "entity": "school1"
+      },
+      {
+        "start": 87,
+        "end": 109,
+        "value": "Đại học Sư phạm TP HCM",
+        "entity": "school2"
+      },
+      {
+        "start": 114,
+        "end": 126,
+        "value": "Ngôn ngữ học",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 40,
+        "end": 54,
+        "confidence_entity": 0.477157860994339,
+        "value": "đầy phép thuật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 60,
+        "end": 83,
+        "confidence_entity": 0.6309682726860046,
+        "value": "Đại học Quốc gia Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 87,
+        "end": 109,
+        "confidence_entity": 0.9430361986160278,
+        "value": "Đại học Sư phạm TP HCM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 114,
+        "end": 126,
+        "confidence_entity": 0.9174292683601379,
+        "value": "Ngôn ngữ học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi quan tâm đến Nghệ thuật Biểu diễn và đang phân vân giữa Đại học Sân khấu Điện ảnh và Đại học Sư phạm Âm nhạc. Có lời khuyên gì không?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 37,
+        "value": "Nghệ thuật Biểu diễn",
+        "entity": "majors"
+      },
+      {
+        "start": 60,
+        "end": 85,
+        "value": "Đại học Sân khấu Điện ảnh",
+        "entity": "school1"
+      },
+      {
+        "start": 89,
+        "end": 112,
+        "value": "Đại học Sư phạm Âm nhạc",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 17,
+        "end": 37,
+        "confidence_entity": 0.7630698680877686,
+        "value": "Nghệ thuật Biểu diễn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 60,
+        "end": 85,
+        "confidence_entity": 0.7012336254119873,
+        "value": "Đại học Sân khấu Điện ảnh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 89,
+        "end": 112,
+        "confidence_entity": 0.8669791221618652,
+        "value": "Đại học Sư phạm Âm nhạc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nếu so sánh là một cuộc hành trình vào không gian số, Đại học Bách khoa Hà Nội và Đại học Công nghệ TP HCM sẽ thi đấu cho Kỹ thuật Điện tử. Ai sẽ điều khiển sao hỏa?",
+    "entities": [
+      {
+        "start": 54,
+        "end": 78,
+        "value": "Đại học Bách khoa Hà Nội",
+        "entity": "school1"
+      },
+      {
+        "start": 82,
+        "end": 106,
+        "value": "Đại học Công nghệ TP HCM",
+        "entity": "school2"
+      },
+      {
+        "start": 122,
+        "end": 138,
+        "value": "Kỹ thuật Điện tử",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school2",
+        "start": 54,
+        "end": 78,
+        "confidence_entity": 0.5606507062911987,
+        "value": "Đại học Bách khoa Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 82,
+        "end": 106,
+        "confidence_entity": 0.9895403981208801,
+        "value": "Đại học Công nghệ TP HCM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 122,
+        "end": 138,
+        "confidence_entity": 0.9776935577392578,
+        "value": "Kỹ thuật Điện tử",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy tưởng tượng Đại học Kinh tế - Luật và Đại học Ngoại thương như hai tay đua đang tranh giành chiến thắng trong cuộc đua vận động kinh tế. Ai sẽ tiến đến đích trước?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 38,
+        "value": "Đại học Kinh tế - Luật",
+        "entity": "school1"
+      },
+      {
+        "start": 42,
+        "end": 62,
+        "value": "Đại học Ngoại thương",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 16,
+        "end": 38,
+        "confidence_entity": 0.8960508704185486,
+        "value": "Đại học Kinh tế - Luật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 42,
+        "end": 62,
+        "confidence_entity": 0.7245838046073914,
+        "value": "Đại học Ngoại thương",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 96,
+        "end": 107,
+        "confidence_entity": 0.7541313767433167,
+        "value": "chiến thắng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 132,
+        "end": 139,
+        "confidence_entity": 0.6397956609725952,
+        "value": "kinh tế",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đang đứng trước sân khấu của Nghệ thuật Biểu diễn và hai diễn viên xuất sắc, Đại học Sân khấu Điện ảnh và Đại học Sư phạm Âm nhạc, sẽ thi đấu. Ai sẽ thắng trong vở kịch cuộc đời này?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 53,
+        "value": "Nghệ thuật Biểu diễn",
+        "entity": "majors"
+      },
+      {
+        "start": 81,
+        "end": 106,
+        "value": "Đại học Sân khấu Điện ảnh",
+        "entity": "school1"
+      },
+      {
+        "start": 110,
+        "end": 133,
+        "value": "Đại học Sư phạm Âm nhạc",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.5057007074356079,
+        "value": "sân khấu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 33,
+        "end": 53,
+        "confidence_entity": 0.7292264103889465,
+        "value": "Nghệ thuật Biểu diễn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 81,
+        "end": 106,
+        "confidence_entity": 0.8,
+        "value": "Đại học Sân khấu Điện ảnh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 110,
+        "end": 133,
+        "confidence_entity": 0.9859102964401245,
+        "value": "Đại học Sư phạm Âm nhạc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 153,
+        "end": 158,
+        "confidence_entity": 0.9475338459014893,
+        "value": "thắng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đang suy nghĩ về việc học Nghệ thuật Biểu diễn tại Đại học Sân khấu Điện ảnh hoặc Đại học Sư phạm Âm nhạc. Có điểm gì đặc biệt về chất lượng giảng dạy?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 50,
+        "value": "Nghệ thuật Biểu diễn",
+        "entity": "majors"
+      },
+      {
+        "start": 55,
+        "end": 80,
+        "value": "Đại học Sân khấu Điện ảnh",
+        "entity": "school1"
+      },
+      {
+        "start": 86,
+        "end": 109,
+        "value": "Đại học Sư phạm Âm nhạc",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 30,
+        "end": 50,
+        "confidence_entity": 0.9627112746238708,
+        "value": "Nghệ thuật Biểu diễn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 55,
+        "end": 80,
+        "confidence_entity": 0.7783193588256836,
+        "value": "Đại học Sân khấu Điện ảnh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 86,
+        "end": 109,
+        "confidence_entity": 0.8269578814506531,
+        "value": "Đại học Sư phạm Âm nhạc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy nghĩ về Khoa học Máy tính như một cuộc đua sáng tạo phần mềm. Đại học Khoa học Tự nhiên và Đại học Bách khoa Hà Nội - ai có khả năng phát triển công nghệ tiên tiến hơn?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "value": "Khoa học Máy tính",
+        "entity": "majors"
+      },
+      {
+        "start": 66,
+        "end": 91,
+        "value": "Đại học Khoa học Tự nhiên",
+        "entity": "school1"
+      },
+      {
+        "start": 95,
+        "end": 119,
+        "value": "Đại học Bách khoa Hà Nội",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 12,
+        "end": 29,
+        "confidence_entity": 0.9405465722084045,
+        "value": "Khoa học Máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 74,
+        "end": 91,
+        "confidence_entity": 0.65,
+        "value": "Khoa học Tự nhiên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 95,
+        "end": 119,
+        "confidence_entity": 0.7432669401168823,
+        "value": "Đại học Bách khoa Hà Nội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đại học Y Dược Hà Nội và Đại học Y Dược TP HCM - ai nên chọn để trở thành bác sĩ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "Đại học Y Dược Hà Nội",
+        "entity": "school1"
+      },
+      {
+        "start": 25,
+        "end": 46,
+        "value": "Đại học Y Dược TP HCM",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 0,
+        "end": 21,
+        "confidence_entity": 0.9962538480758667,
+        "value": "Đại học Y Dược Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 25,
+        "end": 46,
+        "confidence_entity": 0.8633326292037964,
+        "value": "Đại học Y Dược TP HCM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 74,
+        "end": 80,
+        "confidence_entity": 0.9203742742538452,
+        "value": "bác sĩ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đang suy nghĩ về việc học Nghiên cứu y học tại Đại học Y Hà Nội hoặc Đại học Y Dược TP HCM. Có điểm gì đặc biệt về cơ hội nghiên cứu?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 46,
+        "value": "Nghiên cứu y học",
+        "entity": "majors"
+      },
+      {
+        "start": 51,
+        "end": 67,
+        "value": "Đại học Y Hà Nội",
+        "entity": "school1"
+      },
+      {
+        "start": 73,
+        "end": 94,
+        "value": "Đại học Y Dược TP HCM",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 30,
+        "end": 46,
+        "confidence_entity": 0.9780489802360535,
+        "value": "Nghiên cứu y học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 51,
+        "end": 67,
+        "confidence_entity": 0.9779877662658691,
+        "value": "Đại học Y Hà Nội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nếu bạn muốn theo đuổi sự nghiệp kinh doanh, bạn sẽ học ở Đại học Sài Gòn hay ctu? Và tại sao?",
+    "entities": [
+      {
+        "start": 58,
+        "end": 73,
+        "value": "Đại học Sài Gòn",
+        "entity": "school1"
+      },
+      {
+        "start": 78,
+        "end": 81,
+        "value": "ctu",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school2",
+        "start": 58,
+        "end": 73,
+        "confidence_entity": 0.8515173196792603,
+        "value": "Đại học Sài Gòn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 78,
+        "end": 81,
+        "confidence_entity": 0.8828747272491455,
+        "value": "ctu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nếu bạn muốn theo đuổi ngành nghệ thuật, bạn sẽ học tại Học viện Âm nhạc Quốc gia hay Đại học Mỹ thuật Công nghiệp (Hanoi University of Industrial Fine Arts)? Và tại sao?",
+    "entities": [
+      {
+        "start": 56,
+        "end": 81,
+        "value": "Học viện Âm nhạc Quốc gia",
+        "entity": "school1"
+      },
+      {
+        "start": 86,
+        "end": 157,
+        "value": "Đại học Mỹ thuật Công nghiệp (Hanoi University of Industrial Fine Arts)",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cu",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.811255931854248,
+        "value": "cu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mình là doãn chí phong",
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "value": "doãn chí phong",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.8094903826713562,
+        "value": "doãn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.9952711462974548,
+        "value": "phong",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "võ trần tuấn anh",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "võ trần tuấn anh",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 3,
+        "end": 7,
+        "confidence_entity": 0.857706606388092,
+        "value": "trần",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.7446681261062622,
+        "value": "tuấn anh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Công Lí",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Công Lí",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mình tên thật là châu thế khanh hoặc cứ gọi mình là khanh cũng được",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "value": "châu thế khanh",
+        "entity": "name"
+      },
+      {
+        "start": 52,
+        "end": 57,
+        "value": "khanh",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.44843021035194397,
+        "value": "thật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.35035204887390137,
+        "value": "châu thế",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 26,
+        "end": 31,
+        "confidence_entity": 0.5121894478797913,
+        "value": "khanh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 52,
+        "end": 57,
+        "confidence_entity": 0.9521632790565491,
+        "value": "khanh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Gọi tôi là Mai Anh Đào, một người yêu thiên nhiên và du lịch.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "value": "Mai Anh Đào",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 11,
+        "end": 22,
+        "confidence_entity": 0.49827197194099426,
+        "value": "Mai Anh Đào",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 53,
+        "end": 60,
+        "confidence_entity": 0.3910728693008423,
+        "value": "du lịch",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đang phân vân giữa việc chọn trường Đại học A và B. Bạn có thể tư vấn về các yếu tố cần xem xét khi lựa chọn trường không",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 40,
+        "end": 47,
+        "confidence_entity": 0.7896282076835632,
+        "value": "Đại học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mức điểm tối thiểu cho sĩ quan thông tin tại học việt mật mã việt nam vào năm 2020 là bao nhiêu?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 40,
+        "value": "sĩ quan thông tin",
+        "entity": "majors"
+      },
+      {
+        "start": 45,
+        "end": 69,
+        "value": "học việt mật mã việt nam",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 23,
+        "end": 40,
+        "confidence_entity": 0.9959230422973633,
+        "value": "sĩ quan thông tin",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 49,
+        "end": 69,
+        "confidence_entity": 0.38502636551856995,
+        "value": "việt mật mã việt nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Điểm chuẩn Việt Nam Học năm rồi ở trường đại học Cần Thơ là bao nhiêu?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "value": "Việt Nam Học",
+        "entity": "majors"
+      },
+      {
+        "start": 41,
+        "end": 56,
+        "value": "đại học Cần Thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.6204334497451782,
+        "value": "Việt Nam",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 41,
+        "end": 56,
+        "confidence_entity": 0.9993002414703369,
+        "value": "đại học Cần Thơ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Điểm chuẩn khoa học xã hội năm rồi ở trường đại học Quốc gia TP.HCM là bao nhiêu?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 26,
+        "value": "khoa học xã hội",
+        "entity": "majors"
+      },
+      {
+        "start": 44,
+        "end": 67,
+        "value": "đại học Quốc gia TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 11,
+        "end": 26,
+        "confidence_entity": 0.6686978340148926,
+        "value": "khoa học xã hội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 44,
+        "end": 67,
+        "confidence_entity": 0.9984115362167358,
+        "value": "đại học Quốc gia TP.HCM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hỏi về điểm chuẩn kế toán năm ngoái ở đại học kinh tế TP.HCM.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "kế toán",
+        "entity": "majors"
+      },
+      {
+        "start": 38,
+        "end": 60,
+        "value": "đại học kinh tế TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.9689022302627563,
+        "value": "kế toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hỏi về điểm chuẩn tài chính tại Đại học Kinh tế Quốc dân năm ngoái.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "tài chính",
+        "entity": "majors"
+      },
+      {
+        "start": 32,
+        "end": 56,
+        "value": "Đại học Kinh tế Quốc dân",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 32,
+        "end": 56,
+        "confidence_entity": 0.9282318949699402,
+        "value": "Đại học Kinh tế Quốc dân",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Học phí trung bình ngành hệ thống thông tin năm rồi ở trường đại học bách khoa là bao nhiêu?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 43,
+        "value": "hệ thống thông tin",
+        "entity": "majors"
+      },
+      {
+        "start": 61,
+        "end": 78,
+        "value": "đại học bách khoa",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 8,
+        "end": 18,
+        "confidence_entity": 0.6722736954689026,
+        "value": "trung bình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 25,
+        "end": 43,
+        "confidence_entity": 0.9959326386451721,
+        "value": "hệ thống thông tin",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 61,
+        "end": 78,
+        "confidence_entity": 0.9919919371604919,
+        "value": "đại học bách khoa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Có các loại học phí phụ, như phí thí nghiệm, phí thư viện hoặc phí y tế đại học Ngoại thương không? Và số tiền là bao nhiêu?",
+    "entities": [
+      {
+        "start": 72,
+        "end": 92,
+        "value": "đại học Ngoại thương",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 67,
+        "end": 71,
+        "confidence_entity": 0.7584106922149658,
+        "value": "y tế",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 80,
+        "end": 92,
+        "confidence_entity": 0.7057795524597168,
+        "value": "Ngoại thương",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Học phí cho học kỳ đầu tiên và các học kỳ tiếp theo có khác nhau tại đại học Khoa học Tự nhiên TP.HCM.",
+    "entities": [
+      {
+        "start": 69,
+        "end": 101,
+        "value": "đại học Khoa học Tự nhiên TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 77,
+        "end": 85,
+        "confidence_entity": 0.8807074427604675,
+        "value": "Khoa học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đang cần tìm thông tin về kế hoạch học tập cho ngành Khoa học Máy tính của trường Đại học Cần Thơ.",
+    "entities": [
+      {
+        "start": 57,
+        "end": 74,
+        "value": "Khoa học Máy tính",
+        "entity": "majors"
+      },
+      {
+        "start": 86,
+        "end": 101,
+        "value": "Đại học Cần Thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 17,
+        "end": 26,
+        "confidence_entity": 0.6725673675537109,
+        "value": "thông tin",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 57,
+        "end": 74,
+        "confidence_entity": 0.9966931343078613,
+        "value": "Khoa học Máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 86,
+        "end": 101,
+        "confidence_entity": 0.9988493919372559,
+        "value": "Đại học Cần Thơ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy cung cấp thông tin về kế hoạch học tập của ngành công nghệ thông tin tại Đại học Bách Khoa TP.HCM.",
+    "entities": [
+      {
+        "start": 53,
+        "end": 72,
+        "value": "công nghệ thông tin",
+        "entity": "majors"
+      },
+      {
+        "start": 77,
+        "end": 101,
+        "value": "Đại học Bách Khoa TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 53,
+        "end": 72,
+        "confidence_entity": 0.9825281500816345,
+        "value": "công nghệ thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy cung cấp thông tin về chương trình đào tạo ngành khoa học môi trường tại Đại học Khoa học Tự nhiên TP.HCM.",
+    "entities": [
+      {
+        "start": 53,
+        "end": 72,
+        "value": "khoa học môi trường",
+        "entity": "majors"
+      },
+      {
+        "start": 77,
+        "end": 109,
+        "value": "Đại học Khoa học Tự nhiên TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 53,
+        "end": 72,
+        "confidence_entity": 0.9984835982322693,
+        "value": "khoa học môi trường",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Trường có chương trình học kép hay cơ hội học chung với các trường đối tác trong và ngoài nước tại Đại học Bách Khoa Hà Nội czur nhành khoa học máy tính không",
+    "entities": [
+      {
+        "start": 99,
+        "end": 123,
+        "value": "Đại học Bách Khoa Hà Nội",
+        "entity": "university"
+      },
+      {
+        "start": 135,
+        "end": 152,
+        "value": "khoa học máy tính",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 99,
+        "end": 123,
+        "confidence_entity": 0.9993932247161865,
+        "value": "Đại học Bách Khoa Hà Nội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hỏi về các môn học chính trong chương trình đào tạo ngành ngôn ngữ Anh tại Đại học Sư phạm TP.HCM.",
+    "entities": [
+      {
+        "start": 58,
+        "end": 70,
+        "value": "ngôn ngữ Anh",
+        "entity": "majors"
+      },
+      {
+        "start": 75,
+        "end": 97,
+        "value": "Đại học Sư phạm TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 58,
+        "end": 70,
+        "confidence_entity": 0.9947330951690674,
+        "value": "ngôn ngữ Anh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy nói chi tiết về quá trình xét tuyển và những yêu cầu tuyển sinh vào ngành Kỹ thuật Máy tính tại Đại học Khoa học Tự nhiên.",
+    "entities": [
+      {
+        "start": 78,
+        "end": 95,
+        "value": "Kỹ thuật Máy tính",
+        "entity": "majors"
+      },
+      {
+        "start": 100,
+        "end": 125,
+        "value": "Đại học Khoa học Tự nhiên",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.5728713870048523,
+        "value": "quá trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 78,
+        "end": 95,
+        "confidence_entity": 0.5345303416252136,
+        "value": "Kỹ thuật Máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 100,
+        "end": 125,
+        "confidence_entity": 0.9821122884750366,
+        "value": "Đại học Khoa học Tự nhiên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "thật tình cho tui hỏi ngành khoa học máy tính của trường đại học cần thơ năm nay có chỉ tiêu bao nhiêu",
+    "entities": [
+      {
+        "start": 28,
+        "end": 45,
+        "value": "khoa học máy tính",
+        "entity": "majors"
+      },
+      {
+        "start": 57,
+        "end": 72,
+        "value": "đại học cần thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.6594316363334656,
+        "value": "thật tình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 28,
+        "end": 45,
+        "confidence_entity": 0.992081880569458,
+        "value": "khoa học máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 57,
+        "end": 72,
+        "confidence_entity": 0.9994415640830994,
+        "value": "đại học cần thơ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Khi được tuyển sinh ngành thiết kế đồ họa ở trường Đại học FPT, họ lấy bao nhiêu người",
+    "entities": [
+      {
+        "start": 26,
+        "end": 41,
+        "value": "thiết kế đồ họa",
+        "entity": "majors"
+      },
+      {
+        "start": 51,
+        "end": 62,
+        "value": "Đại học FPT",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 35,
+        "end": 41,
+        "confidence_entity": 0.35083410143852234,
+        "value": "đồ họa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 51,
+        "end": 62,
+        "confidence_entity": 0.9971137046813965,
+        "value": "Đại học FPT",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xin cho biết thật kĩ số lượng chỉ tiêu tuyển sinh ngành kỹ thuật cơ điện tử tại trường đại học cần thơ năm nay.",
+    "entities": [
+      {
+        "start": 56,
+        "end": 75,
+        "value": "kỹ thuật cơ điện tử",
+        "entity": "majors"
+      },
+      {
+        "start": 87,
+        "end": 102,
+        "value": "đại học cần thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.8969727158546448,
+        "value": "thật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 56,
+        "end": 75,
+        "confidence_entity": 0.9861672520637512,
+        "value": "kỹ thuật cơ điện tử",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 87,
+        "end": 102,
+        "confidence_entity": 0.9995480179786682,
+        "value": "đại học cần thơ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn xem số lượng chỉ tiêu tuyển sinh của ngành an toàn thông tin tại trường Đại học FPT Tự nhiên năm nay.",
+    "entities": [
+      {
+        "start": 52,
+        "end": 69,
+        "value": "an toàn thông tin",
+        "entity": "majors"
+      },
+      {
+        "start": 81,
+        "end": 92,
+        "value": "Đại học FPT",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 52,
+        "end": 69,
+        "confidence_entity": 0.998173713684082,
+        "value": "an toàn thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy tưởng tượng rằng trường đại học cần thơ là một người, bạn nghĩ họ sẽ có tính cách như thế nào?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 43,
+        "value": "đại học cần thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.3141537606716156,
+        "value": "rằng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 28,
+        "end": 43,
+        "confidence_entity": 0.9965873956680298,
+        "value": "đại học cần thơ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn biết về hồ sơ nhập học của trường Đại học Cần Thơ cho ngành Kinh tế học. Có gì đặc biệt mà tôi cần biết không ạ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 58,
+        "value": "Đại học Cần Thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 43,
+        "end": 58,
+        "confidence_entity": 0.9995310306549072,
+        "value": "Đại học Cần Thơ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 69,
+        "end": 80,
+        "confidence_entity": 0.5156388282775879,
+        "value": "Kinh tế học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn tìm hiểu về kí túc xá của trường Đại học FPT. Bạn có thể cho tôi biết chi tiết về kí túc xá này không ạ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 53,
+        "value": "Đại học FPT",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi muốn biết về các khu vực học tập và phòng thí nghiệm tại trường Đại học Khoa học Xã hội và Nhân văn Hồ Chí Minh. Có những phòng học đặc biệt nào dành cho sinh viên không?v- Cho tôi thông tin về cơ sở vật chất và tiện nghi tại trường Đại học Công nghệ thông tin. Tôi quan tâm đến các trung tâm học thuật và khu vực làm việc cho sinh viên.",
+    "entities": [
+      {
+        "start": 68,
+        "end": 115,
+        "value": "Đại học Khoa học Xã hội và Nhân văn Hồ Chí Minh",
+        "entity": "university"
+      },
+      {
+        "start": 237,
+        "end": 264,
+        "value": "Đại học Công nghệ thông tin",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 68,
+        "end": 115,
+        "confidence_entity": 0.9323471784591675,
+        "value": "Đại học Khoa học Xã hội và Nhân văn Hồ Chí Minh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 174,
+        "end": 176,
+        "confidence_entity": 0.7441455125808716,
+        "value": "v-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 237,
+        "end": 264,
+        "confidence_entity": 0.8556967973709106,
+        "value": "Đại học Công nghệ thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn biết về các cơ sở vật chất và trang thiết bị thể dục thể thao tại trường Đại học Sư phạm TP.HCM.",
+    "entities": [
+      {
+        "start": 82,
+        "end": 104,
+        "value": "Đại học Sư phạm TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi muốn tìm hiểu về cơ sở vật chất và tiện nghi tại trường Đại học Nông nghiệp TP.HCM.",
+    "entities": [
+      {
+        "start": 60,
+        "end": 86,
+        "value": "Đại học Nông nghiệp TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi quan tâm đến các hoạt động văn hóa và thể thao của trường Đại học Văn hóa Nghệ thuật TP.HCM.",
+    "entities": [
+      {
+        "start": 62,
+        "end": 95,
+        "value": "Đại học Văn hóa Nghệ thuật TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi cần tìm hiểu về khu vực ký túc xá và dịch vụ ăn uống tại trường Đại học Công nghệ Thông tin TP.HCM.",
+    "entities": [
+      {
+        "start": 68,
+        "end": 102,
+        "value": "Đại học Công nghệ Thông tin TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi muốn biết về cơ sở vật chất và các khu vực sinh hoạt chung tại trường Đại học Y Dược TP.HCM.",
+    "entities": [
+      {
+        "start": 74,
+        "end": 95,
+        "value": "Đại học Y Dược TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi muốn biết về cơ hội việc làm sau khi ra trường Đại học Nông nghiệp TP.HCM trong lĩnh vực nông nghiệp và công nghệ thực phẩm.",
+    "entities": [
+      {
+        "start": 51,
+        "end": 77,
+        "value": "Đại học Nông nghiệp TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 59,
+        "end": 77,
+        "confidence_entity": 0.7020907998085022,
+        "value": "Nông nghiệp TP.HCM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy nêu ra các chương trình hỗ trợ việc làm và tư vấn nghề nghiệp tại trường Đại học Sư phạm TP.HCM.",
+    "entities": [
+      {
+        "start": 77,
+        "end": 99,
+        "value": "Đại học Sư phạm TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Học công nghệ thông tin thì nên học trường [bách khoa đà nẵng] hay [bách khoa tp hcm]",
+    "entities": [
+      {
+        "start": 4,
+        "end": 23,
+        "value": "công nghệ thông tin",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school2",
+        "start": 44,
+        "end": 61,
+        "confidence_entity": 0.36572423577308655,
+        "value": "bách khoa đà nẵng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 68,
+        "end": 77,
+        "confidence_entity": 0.7658507227897644,
+        "value": "bách khoa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đánh giá Đại học Cần Thơ và Đại học Khoa học Tự nhiên có điểm gì khác biệt?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "value": "Đại học Cần Thơ",
+        "entity": "school1"
+      },
+      {
+        "start": 28,
+        "end": 53,
+        "value": "Đại học Khoa học Tự nhiên",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 9,
+        "end": 24,
+        "confidence_entity": 0.8254117965698242,
+        "value": "Đại học Cần Thơ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 28,
+        "end": 53,
+        "confidence_entity": 0.3578832447528839,
+        "value": "Đại học Khoa học Tự nhiên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Có gì khác biệt giữa Đại học Xây dựng và Đại học Kiến trúc cho ngành Kiến trúc?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 37,
+        "value": "Đại học Xây dựng",
+        "entity": "school1"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "value": "Đại học Kiến trúc",
+        "entity": "school2"
+      },
+      {
+        "start": 69,
+        "end": 78,
+        "value": "Kiến trúc",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school2",
+        "start": 21,
+        "end": 37,
+        "confidence_entity": 0.62,
+        "value": "Đại học Xây dựng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 41,
+        "end": 58,
+        "confidence_entity": 0.9601309299468994,
+        "value": "Đại học Kiến trúc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 69,
+        "end": 78,
+        "confidence_entity": 0.9685366153717041,
+        "value": "Kiến trúc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đang suy nghĩ về việc học Nghiên cứu y học ở Đại học Y Hà Nội hoặc Đại học Y Dược TP HCM. Có điểm gì đặc biệt?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 46,
+        "value": "Nghiên cứu y học",
+        "entity": "majors"
+      },
+      {
+        "start": 49,
+        "end": 65,
+        "value": "Đại học Y Hà Nội",
+        "entity": "school1"
+      },
+      {
+        "start": 71,
+        "end": 92,
+        "value": "Đại học Y Dược TP HCM",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 30,
+        "end": 46,
+        "confidence_entity": 0.8851449489593506,
+        "value": "Nghiên cứu y học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 49,
+        "end": 65,
+        "confidence_entity": 0.9552274942398071,
+        "value": "Đại học Y Hà Nội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy so sánh Đại học Kinh tế - Luật và Đại học Ngoại thương trong lĩnh vực Luật kinh doanh. Ai cung cấp kiến thức pháp lý tốt nhất?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 34,
+        "value": "Đại học Kinh tế - Luật",
+        "entity": "school1"
+      },
+      {
+        "start": 38,
+        "end": 58,
+        "value": "Đại học Ngoại thương",
+        "entity": "school2"
+      },
+      {
+        "start": 74,
+        "end": 89,
+        "value": "Luật kinh doanh",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 12,
+        "end": 34,
+        "confidence_entity": 0.9836898446083069,
+        "value": "Đại học Kinh tế - Luật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 38,
+        "end": 58,
+        "confidence_entity": 0.9893084764480591,
+        "value": "Đại học Ngoại thương",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 74,
+        "end": 89,
+        "confidence_entity": 0.5411641597747803,
+        "value": "Luật kinh doanh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 113,
+        "end": 120,
+        "confidence_entity": 0.7547534108161926,
+        "value": "pháp lý",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy tưởng tượng Khoa học Môi trường như một cuộc chiến bảo vệ hành tinh. Đại học Nông Lâm Hà Nội và Đại học Cần Thơ là những chiến binh. Ai sẽ trở thành người bảo vệ hàng đầu của thiên nhiên và môi trường sống?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 35,
+        "value": "Khoa học Môi trường",
+        "entity": "majors"
+      },
+      {
+        "start": 73,
+        "end": 96,
+        "value": "Đại học Nông Lâm Hà Nội",
+        "entity": "school1"
+      },
+      {
+        "start": 100,
+        "end": 115,
+        "value": "Đại học Cần Thơ",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 16,
+        "end": 35,
+        "confidence_entity": 0.9963309168815613,
+        "value": "Khoa học Môi trường",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 71,
+        "end": 96,
+        "confidence_entity": 0.2833312153816223,
+        "value": ". Đại học Nông Lâm Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 100,
+        "end": 115,
+        "confidence_entity": 0.9770278930664062,
+        "value": "Đại học Cần Thơ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 194,
+        "end": 204,
+        "confidence_entity": 0.977592408657074,
+        "value": "môi trường",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đang suy nghĩ về việc học Nghiên cứu y học tại Đại học Y Hà Nội hoặc Đại học Y Dược TP HCM. Có điểm gì đặc biệt về chương trình đào tạo của 2 trường đó",
+    "entities": [
+      {
+        "start": 30,
+        "end": 46,
+        "value": "Nghiên cứu y học",
+        "entity": "majors"
+      },
+      {
+        "start": 51,
+        "end": 67,
+        "value": "Đại học Y Hà Nội",
+        "entity": "school1"
+      },
+      {
+        "start": 73,
+        "end": 94,
+        "value": "Đại học Y Dược TP HCM",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 30,
+        "end": 46,
+        "confidence_entity": 0.9136830568313599,
+        "value": "Nghiên cứu y học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 51,
+        "end": 67,
+        "confidence_entity": 0.8816586136817932,
+        "value": "Đại học Y Hà Nội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đại học Sân khấu Điện ảnh Hà Nội và Đại học Sân khấu Điện ảnh TP HCM - ai nên chọn cho Nghệ thuật Biểu diễn?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 32,
+        "value": "Đại học Sân khấu Điện ảnh Hà Nội",
+        "entity": "school1"
+      },
+      {
+        "start": 36,
+        "end": 68,
+        "value": "Đại học Sân khấu Điện ảnh TP HCM",
+        "entity": "school2"
+      },
+      {
+        "start": 87,
+        "end": 107,
+        "value": "Nghệ thuật Biểu diễn",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 0,
+        "end": 32,
+        "confidence_entity": 0.9740864038467407,
+        "value": "Đại học Sân khấu Điện ảnh Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 36,
+        "end": 68,
+        "confidence_entity": 0.76,
+        "value": "Đại học Sân khấu Điện ảnh TP HCM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 87,
+        "end": 107,
+        "confidence_entity": 0.9536319375038147,
+        "value": "Nghệ thuật Biểu diễn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đang phân vân giữa Đại học Sư phạm Kỹ thuật và Đại học Sân khấu Điện ảnh cho ngành Nghệ thuật Kỹ thuật. Có điểm gì đặc biệt về chất lượng giảng dạy?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 47,
+        "value": "Đại học Sư phạm Kỹ thuật",
+        "entity": "school1"
+      },
+      {
+        "start": 51,
+        "end": 76,
+        "value": "Đại học Sân khấu Điện ảnh",
+        "entity": "school2"
+      },
+      {
+        "start": 87,
+        "end": 106,
+        "value": "Nghệ thuật Kỹ thuật",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 23,
+        "end": 47,
+        "confidence_entity": 0.8740116953849792,
+        "value": "Đại học Sư phạm Kỹ thuật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 51,
+        "end": 76,
+        "confidence_entity": 0.76,
+        "value": "Đại học Sân khấu Điện ảnh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 87,
+        "end": 106,
+        "confidence_entity": 0.45713233947753906,
+        "value": "Nghệ thuật Kỹ thuật",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mình tên tiến đạt",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "tiến đạt",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.9839314818382263,
+        "value": "đạt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tớ là diệp ưng",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "diệp ưng",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mọi người gọi mình là Bi nhưng tên mình là thắng",
+    "entities": [
+      {
+        "start": 22,
+        "end": 24,
+        "value": "Bi",
+        "entity": "name"
+      },
+      {
+        "start": 43,
+        "end": 48,
+        "value": "thắng",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ở nhà mình tên cu đen nhưng trên trường mình tên lý",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "cu đen",
+        "entity": "name"
+      },
+      {
+        "start": 49,
+        "end": 51,
+        "value": "lý",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Gọi tôi là Trần Thanh Tùng, hay là Tùng Rapper.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 26,
+        "value": "Trần Thanh Tùng",
+        "entity": "name"
+      },
+      {
+        "start": 35,
+        "end": 46,
+        "value": "Tùng Rapper",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 11,
+        "end": 26,
+        "confidence_entity": 0.9982207417488098,
+        "value": "Trần Thanh Tùng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9862042665481567,
+        "value": "Tùng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mình tên là Hải Đăng, bạn có thể gọi mình là Đăng hoặc Hải cũng được.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "Hải Đăng",
+        "entity": "name"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "value": "Đăng",
+        "entity": "name"
+      },
+      {
+        "start": 55,
+        "end": 58,
+        "value": "Hải",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 55,
+        "end": 58,
+        "confidence_entity": 0.9210007190704346,
+        "value": "Hải",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mình là Huyền Trang, nhưng bạn cứ gọi mình là Trang cũng được.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "Huyền Trang",
+        "entity": "name"
+      },
+      {
+        "start": 46,
+        "end": 51,
+        "value": "Trang",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 8,
+        "end": 19,
+        "confidence_entity": 0.6169145107269287,
+        "value": "Huyền Trang",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biết điểm chuẩn ngôn ngữ Anh năm trước tại trường đại học Ngoại ngữ và Khoa học Xã hội Hà Nội và những yêu cầu đặc biệt khác về điểm chuẩn ngành này.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 36,
+        "value": "ngôn ngữ Anh",
+        "entity": "majors"
+      },
+      {
+        "start": 58,
+        "end": 101,
+        "value": "đại học Ngoại ngữ và Khoa học Xã hội Hà Nội",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 24,
+        "end": 36,
+        "confidence_entity": 0.9575321674346924,
+        "value": "ngôn ngữ Anh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 58,
+        "end": 75,
+        "confidence_entity": 0.9833936095237732,
+        "value": "đại học Ngoại ngữ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 79,
+        "end": 101,
+        "confidence_entity": 0.9671985507011414,
+        "value": "Khoa học Xã hội Hà Nội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xin hỏi về những tùy chọn hỗ trợ tài chính hoặc học bổng ngành kĩ thuật phần mềm để giảm học phí tại trường Đại học đại học cần thơ?",
+    "entities": [
+      {
+        "start": 63,
+        "end": 80,
+        "value": "kĩ thuật phần mềm",
+        "entity": "majors"
+      },
+      {
+        "start": 116,
+        "end": 131,
+        "value": "đại học cần thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 63,
+        "end": 80,
+        "confidence_entity": 0.7225494980812073,
+        "value": "kĩ thuật phần mềm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 108,
+        "end": 115,
+        "confidence_entity": 0.997732400894165,
+        "value": "Đại học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 116,
+        "end": 131,
+        "confidence_entity": 0.975273609161377,
+        "value": "đại học cần thơ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xin hãy tư vấn cho tôi về chi phí học tập của ngành kinh tế phát triển tại đại học Kinh tế TP.HCM và cách tính học phí hàng năm.",
+    "entities": [
+      {
+        "start": 52,
+        "end": 70,
+        "value": "kinh tế phát triển",
+        "entity": "majors"
+      },
+      {
+        "start": 75,
+        "end": 97,
+        "value": "đại học Kinh tế TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 52,
+        "end": 59,
+        "confidence_entity": 0.47053828835487366,
+        "value": "kinh tế",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 75,
+        "end": 97,
+        "confidence_entity": 0.8423201441764832,
+        "value": "đại học Kinh tế TP.HCM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn tìm hiểu về các chuyên ngành có trong ngành quản trị kinh doanh tại trường Đại học Kinh tế TP.HCM.",
+    "entities": [
+      {
+        "start": 53,
+        "end": 72,
+        "value": "quản trị kinh doanh",
+        "entity": "majors"
+      },
+      {
+        "start": 84,
+        "end": 106,
+        "value": "Đại học Kinh tế TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 53,
+        "end": 72,
+        "confidence_entity": 0.9547406435012817,
+        "value": "quản trị kinh doanh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "vậy ngành mạng máy tính và truyền thông dữ liệu của trường đại học cần thơ năm nay có chỉ tiêu bao nhiêu",
+    "entities": [
+      {
+        "start": 10,
+        "end": 47,
+        "value": "mạng máy tính và truyền thông dữ liệu",
+        "entity": "majors"
+      },
+      {
+        "start": 59,
+        "end": 74,
+        "value": "đại học cần thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 10,
+        "end": 23,
+        "confidence_entity": 0.9008006453514099,
+        "value": "mạng máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 27,
+        "end": 47,
+        "confidence_entity": 0.9664014577865601,
+        "value": "truyền thông dữ liệu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 59,
+        "end": 74,
+        "confidence_entity": 0.998458981513977,
+        "value": "đại học cần thơ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn biết rõ hơn về số lượng chỉ tiêu tuyển sinh của ngành kinh doanh quốc tế tại trường Đại học FPT Tự nhiên năm nay.",
+    "entities": [
+      {
+        "start": 63,
+        "end": 81,
+        "value": "kinh doanh quốc tế",
+        "entity": "majors"
+      },
+      {
+        "start": 93,
+        "end": 104,
+        "value": "Đại học FPT",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 63,
+        "end": 81,
+        "confidence_entity": 0.7304205894470215,
+        "value": "kinh doanh quốc tế",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho biết điểm mạnh của Đại học Khoa học Tự nhiên TP.HCM trong lĩnh vực nghiên cứu khoa học.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 55,
+        "value": "Đại học Khoa học Tự nhiên TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 23,
+        "end": 55,
+        "confidence_entity": 0.9993985891342163,
+        "value": "Đại học Khoa học Tự nhiên TP.HCM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 82,
+        "end": 90,
+        "confidence_entity": 0.5279620885848999,
+        "value": "khoa học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tại sao Học viện Biên Phòng được biết đến trong lĩnh vực bảo vệ Tổ Quốc?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 27,
+        "value": "Học viện Biên Phòng",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nếu trường đại học cần thơ là một tác phẩm nghệ thuật, bạn nghĩ nó sẽ có tên gì và được làm từ nguyên liệu gì?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 26,
+        "value": "đại học cần thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 11,
+        "end": 26,
+        "confidence_entity": 0.9675939679145813,
+        "value": "đại học cần thơ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 43,
+        "end": 53,
+        "confidence_entity": 0.5499991774559021,
+        "value": "nghệ thuật",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đại học Bách Khoa TP.HCM và những điều tôi nên biết",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "value": "Đại học Bách Khoa TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 0,
+        "end": 27,
+        "confidence_entity": 0.5993918776512146,
+        "value": "Đại học Bách Khoa TP.HCM và",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi quan tâm đến hồ sơ nhập học của trường Đại học Cần Thơ cho ngành Nông nghiệp. Bạn có thể cung cấp thông tin chi tiết không ạ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 58,
+        "value": "Đại học Cần Thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 43,
+        "end": 58,
+        "confidence_entity": 0.9994118213653564,
+        "value": "Đại học Cần Thơ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 69,
+        "end": 80,
+        "confidence_entity": 0.8002976775169373,
+        "value": "Nông nghiệp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đang quan tâm đến kí túc xá dành cho học viên nước ngoài tại trường Đại học FPT. Bạn có thể cho tôi biết về các tiện ích và chính sách hỗ trợ cho họ không ạ?",
+    "entities": [
+      {
+        "start": 72,
+        "end": 83,
+        "value": "Đại học FPT",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hãy mô tả về cơ sở vật chất và tiện nghi của kí túc xá tại trường Đại học Giao thông vận tải HCM. Có trung tâm thể dục và dịch vụ chăm sóc sức khỏe không?",
+    "entities": [
+      {
+        "start": 66,
+        "end": 96,
+        "value": "Đại học Giao thông vận tải HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi thông tin về cơ sở vật chất và chính sách ưu tiên đặt phòng kí túc xá cho sinh viên thuộc dân tộc thiểu số tại trường Đại học Nghệ thuật TP.HCM.",
+    "entities": [
+      {
+        "start": 126,
+        "end": 151,
+        "value": "Đại học Nghệ thuật TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi quan tâm đến cơ sở vật chất của kí túc xá tại trường Đại học Y Dược TP.HCM. Trường có cung cấp dịch vụ y tế nội trú không?",
+    "entities": [
+      {
+        "start": 57,
+        "end": 78,
+        "value": "Đại học Y Dược TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hãy cung cấp thông tin về cơ hội việc làm trong ngành kinh doanh quốc tế sau khi tốt nghiệp tại trường Đại học Ngoại thương TP.HCM.",
+    "entities": [
+      {
+        "start": 103,
+        "end": 130,
+        "value": "Đại học Ngoại thương TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi quan tâm đến cơ hội làm việc trong ngành kỹ thuật máy tính sau khi ra trường Đại học Công nghệ Thông tin TP.HCM.",
+    "entities": [
+      {
+        "start": 81,
+        "end": 115,
+        "value": "Đại học Công nghệ Thông tin TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 45,
+        "end": 62,
+        "confidence_entity": 0.8882017135620117,
+        "value": "kỹ thuật máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn tìm hiểu về cơ hội việc làm trong ngành nghệ thuật sau khi tốt nghiệp tại trường Đại học Văn hóa Nghệ thuật TP.HCM.",
+    "entities": [
+      {
+        "start": 90,
+        "end": 123,
+        "value": "Đại học Văn hóa Nghệ thuật TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi quan tâm đến việc tìm hiểu về các cơ hội việc làm sau khi ra trường từ trường [Đại học Kinh tế quốc dân](university.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 83,
+        "end": 107,
+        "confidence_entity": 0.9465603232383728,
+        "value": "Đại học Kinh tế quốc dân",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 108,
+        "end": 119,
+        "confidence_entity": 0.7754611372947693,
+        "value": "(university",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy nêu ra các ngành nghề mà sinh viên tốt nghiệp từ trường Đại học Công nghệ thông tin và Truyền thông thường theo đuổi.",
+    "entities": [
+      {
+        "start": 60,
+        "end": 103,
+        "value": "Đại học Công nghệ thông tin và Truyền thông",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 60,
+        "end": 87,
+        "confidence_entity": 0.9715654850006104,
+        "value": "Đại học Công nghệ thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn biết về các chương trình hỗ trợ việc làm và thực tập sau khi tốt nghiệp tại trường Đại học Ngoại thương TP.HCM.",
+    "entities": [
+      {
+        "start": 92,
+        "end": 119,
+        "value": "Đại học Ngoại thương TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Khoa học máy tính ở Đại học Sài Gòn và Đại học Bách khoa Hà Nội khác nhau như thế nào?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "Khoa học máy tính",
+        "entity": "majors"
+      },
+      {
+        "start": 20,
+        "end": 35,
+        "value": "Đại học Sài Gòn",
+        "entity": "school1"
+      },
+      {
+        "start": 39,
+        "end": 63,
+        "value": "Đại học Bách khoa Hà Nội",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 0,
+        "end": 17,
+        "confidence_entity": 0.9647340774536133,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 20,
+        "end": 35,
+        "confidence_entity": 0.66,
+        "value": "Đại học Sài Gòn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 39,
+        "end": 63,
+        "confidence_entity": 0.9745194911956787,
+        "value": "Đại học Bách khoa Hà Nội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Trong cuộc đua khám phá lịch sử, Đại học Khoa học Tự nhiên và Đại học Khoa học Xã hội và Nhân văn cho Lịch sử là hai nhà thám hiểm. Ai sẽ khám phá những sự thật ẩn sau dấu vết của thời gian?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 58,
+        "value": "Đại học Khoa học Tự nhiên",
+        "entity": "school1"
+      },
+      {
+        "start": 62,
+        "end": 97,
+        "value": "Đại học Khoa học Xã hội và Nhân văn",
+        "entity": "school2"
+      },
+      {
+        "start": 102,
+        "end": 109,
+        "value": "Lịch sử",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.988943338394165,
+        "value": "lịch sử",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 33,
+        "end": 58,
+        "confidence_entity": 0.78,
+        "value": "Đại học Khoa học Tự nhiên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 62,
+        "end": 97,
+        "confidence_entity": 0.6015828847885132,
+        "value": "Đại học Khoa học Xã hội và Nhân văn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 102,
+        "end": 109,
+        "confidence_entity": 0.999735414981842,
+        "value": "Lịch sử",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Trong cuộc đua của những trí thức, Khoa học máy tính là sân chơi của Đại học Khoa học Tự nhiên và Đại học Bách khoa Hà Nội. Ai sẽ tạo ra những phần mềm và công nghệ tiên tiến nhất?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 52,
+        "value": "Khoa học máy tính",
+        "entity": "majors"
+      },
+      {
+        "start": 69,
+        "end": 94,
+        "value": "Đại học Khoa học Tự nhiên",
+        "entity": "school1"
+      },
+      {
+        "start": 98,
+        "end": 122,
+        "value": "Đại học Bách khoa Hà Nội",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 35,
+        "end": 52,
+        "confidence_entity": 0.9189648628234863,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 77,
+        "end": 94,
+        "confidence_entity": 0.51,
+        "value": "Khoa học Tự nhiên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 98,
+        "end": 122,
+        "confidence_entity": 0.9845929741859436,
+        "value": "Đại học Bách khoa Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 143,
+        "end": 151,
+        "confidence_entity": 0.6737974882125854,
+        "value": "phần mềm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 155,
+        "end": 164,
+        "confidence_entity": 0.7698045372962952,
+        "value": "công nghệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy so sánh Đại học Kinh tế Quốc dân và Đại học Ngoại thương trong Kinh tế. Ai cung cấp kiến thức về thương mại quốc tế tốt hơn?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 36,
+        "value": "Đại học Kinh tế Quốc dân",
+        "entity": "school1"
+      },
+      {
+        "start": 40,
+        "end": 60,
+        "value": "Đại học Ngoại thương",
+        "entity": "school2"
+      },
+      {
+        "start": 67,
+        "end": 74,
+        "value": "Kinh tế",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 12,
+        "end": 36,
+        "confidence_entity": 0.993382453918457,
+        "value": "Đại học Kinh tế Quốc dân",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 40,
+        "end": 60,
+        "confidence_entity": 0.9816910624504089,
+        "value": "Đại học Ngoại thương",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 67,
+        "end": 74,
+        "confidence_entity": 0.5171766877174377,
+        "value": "Kinh tế",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 101,
+        "end": 119,
+        "confidence_entity": 0.5543700456619263,
+        "value": "thương mại quốc tế",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nếu phải chọn một trường đại học để học, bạn sẽ chọn Đại học Quốc gia TP.HCM hay Đại học Bách Khoa Hà Nội? Và tại sao?",
+    "entities": [
+      {
+        "start": 53,
+        "end": 76,
+        "value": "Đại học Quốc gia TP.HCM",
+        "entity": "school1"
+      },
+      {
+        "start": 81,
+        "end": 105,
+        "value": "Đại học Bách Khoa Hà Nội",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school2",
+        "start": 53,
+        "end": 76,
+        "confidence_entity": 0.6475180983543396,
+        "value": "Đại học Quốc gia TP.HCM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 81,
+        "end": 105,
+        "confidence_entity": 0.9362439513206482,
+        "value": "Đại học Bách Khoa Hà Nội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Gọi tôi là Vân Vy, bạn có thể viết tắt là VV nếu muốn.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "Vân Vy",
+        "entity": "name"
+      },
+      {
+        "start": 42,
+        "end": 44,
+        "value": "VV",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.985413134098053,
+        "value": "Vân Vy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Gọi mình là Trung Hiếu, nhưng nếu thấy dài dòng bạn cũng có thể gọi Hiếu hoặc Trung.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 22,
+        "value": "Trung Hiếu",
+        "entity": "name"
+      },
+      {
+        "start": 68,
+        "end": 72,
+        "value": "Hiếu",
+        "entity": "name"
+      },
+      {
+        "start": 78,
+        "end": 83,
+        "value": "Trung",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 12,
+        "end": 22,
+        "confidence_entity": 0.5181813836097717,
+        "value": "Trung Hiếu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 68,
+        "end": 72,
+        "confidence_entity": 0.8652409315109253,
+        "value": "Hiếu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy chia sẻ ngưỡng điểm cần đạt để được nhận vào ngành kỹ thuật điện tử tại Đại học Sư phạm Kỹ thuật TP.HCM năm ngoái.",
+    "entities": [
+      {
+        "start": 49,
+        "end": 71,
+        "value": "ngành kỹ thuật điện tử",
+        "entity": "majors"
+      },
+      {
+        "start": 76,
+        "end": 107,
+        "value": "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 55,
+        "end": 71,
+        "confidence_entity": 0.5319725871086121,
+        "value": "kỹ thuật điện tử",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 76,
+        "end": 107,
+        "confidence_entity": 0.9778167605400085,
+        "value": "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xin thông tin về ngưỡng điểm chuẩn cho ngành luật kinh tế tại Trường Đại học Luật TP.HCM vào năm 2018.",
+    "entities": [
+      {
+        "start": 45,
+        "end": 57,
+        "value": "luật kinh tế",
+        "entity": "majors"
+      },
+      {
+        "start": 62,
+        "end": 88,
+        "value": "Trường Đại học Luật TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 45,
+        "end": 49,
+        "confidence_entity": 0.9984130859375,
+        "value": "luật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 50,
+        "end": 57,
+        "confidence_entity": 0.33102381229400635,
+        "value": "kinh tế",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 69,
+        "end": 88,
+        "confidence_entity": 0.9347606301307678,
+        "value": "Đại học Luật TP.HCM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn tra cứu điểm chuẩn ngôn ngữ Anh tại đại học sư phạm TP.HCM năm ngoái.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 40,
+        "value": "ngôn ngữ Anh",
+        "entity": "majors"
+      },
+      {
+        "start": 45,
+        "end": 67,
+        "value": "đại học sư phạm TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.6179367303848267,
+        "value": "tra cứu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 28,
+        "end": 40,
+        "confidence_entity": 0.9602422118186951,
+        "value": "ngôn ngữ Anh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 45,
+        "end": 67,
+        "confidence_entity": 0.9945808053016663,
+        "value": "đại học sư phạm TP.HCM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn tra cứu điểm chuẩn Sĩ quan thông tin tại Học viện Quân Đội Nhân dân Việt Nam năm ngoái.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 45,
+        "value": "Sĩ quan thông tin",
+        "entity": "majors"
+      },
+      {
+        "start": 50,
+        "end": 85,
+        "value": "Học viện Quân Đội Nhân dân Việt Nam",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9811617136001587,
+        "value": "tra cứu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 28,
+        "end": 45,
+        "confidence_entity": 0.9944503307342529,
+        "value": "Sĩ quan thông tin",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 50,
+        "end": 85,
+        "confidence_entity": 0.9839537143707275,
+        "value": "Học viện Quân Đội Nhân dân Việt Nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xin hãy cung cấp thông tin về học phí ngành quản lý kinh doanh tại đại học Kinh doanh và Công nghệ.",
+    "entities": [
+      {
+        "start": 44,
+        "end": 62,
+        "value": "quản lý kinh doanh",
+        "entity": "majors"
+      },
+      {
+        "start": 67,
+        "end": 98,
+        "value": "đại học Kinh doanh và Công nghệ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 44,
+        "end": 62,
+        "confidence_entity": 0.9734373688697815,
+        "value": "quản lý kinh doanh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 67,
+        "end": 74,
+        "confidence_entity": 0.5367356538772583,
+        "value": "đại học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 75,
+        "end": 98,
+        "confidence_entity": 0.40806373953819275,
+        "value": "Kinh doanh và Công nghệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chương trình đào tạo ngành giáo dục thể chất ở trường đại học cần thơ",
+    "entities": [
+      {
+        "start": 27,
+        "end": 44,
+        "value": "giáo dục thể chất",
+        "entity": "majors"
+      },
+      {
+        "start": 54,
+        "end": 69,
+        "value": "đại học cần thơ",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 54,
+        "end": 69,
+        "confidence_entity": 0.9995573163032532,
+        "value": "đại học cần thơ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xin thông tin về kế hoạch học tập ngành y khoa tại Đại học Y Dược TP.HCM.",
+    "entities": [
+      {
+        "start": 40,
+        "end": 46,
+        "value": "y khoa",
+        "entity": "majors"
+      },
+      {
+        "start": 51,
+        "end": 72,
+        "value": "Đại học Y Dược TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 40,
+        "end": 46,
+        "confidence_entity": 0.4950663447380066,
+        "value": "y khoa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy so sánh chỉ tiêu tuyển sinh của ngành Truyền thông Đa phương tiện tại Đại học Cần Thơ và Đại học Khoa học Xã hội và Nhân văn TP.HCM.",
+    "entities": [
+      {
+        "start": 42,
+        "end": 69,
+        "value": "Truyền thông Đa phương tiện",
+        "entity": "majors"
+      },
+      {
+        "start": 74,
+        "end": 89,
+        "value": "Đại học Cần Thơ",
+        "entity": "university"
+      },
+      {
+        "start": 93,
+        "end": 135,
+        "value": "Đại học Khoa học Xã hội và Nhân văn TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 42,
+        "end": 69,
+        "confidence_entity": 0.9928736686706543,
+        "value": "Truyền thông Đa phương tiện",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 82,
+        "end": 89,
+        "confidence_entity": 0.5613879561424255,
+        "value": "Cần Thơ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn biết kĩ về số lượng chỉ tiêu tuyển sinh của ngành Công nghệ thực phẩm tại trường Đại học FPT Tự nhiên năm nay.",
+    "entities": [
+      {
+        "start": 59,
+        "end": 78,
+        "value": "Công nghệ thực phẩm",
+        "entity": "majors"
+      },
+      {
+        "start": 90,
+        "end": 101,
+        "value": "Đại học FPT",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 59,
+        "end": 78,
+        "confidence_entity": 0.9974948167800903,
+        "value": "Công nghệ thực phẩm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn biết số lượng chỉ tiêu tuyển sinh của ngành quản lý khách sạn tại trường Đại học FPT Tự nhiên năm nay.",
+    "entities": [
+      {
+        "start": 53,
+        "end": 70,
+        "value": "quản lý khách sạn",
+        "entity": "majors"
+      },
+      {
+        "start": 82,
+        "end": 93,
+        "value": "Đại học FPT",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 53,
+        "end": 70,
+        "confidence_entity": 0.9949253797531128,
+        "value": "quản lý khách sạn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi quan tâm đến số lượng chỉ tiêu tuyển sinh của ngành kinh doanh quốc tế tại trường Đại học FPT Tự nhiên năm nay.",
+    "entities": [
+      {
+        "start": 56,
+        "end": 74,
+        "value": "kinh doanh quốc tế",
+        "entity": "majors"
+      },
+      {
+        "start": 86,
+        "end": 97,
+        "value": "Đại học FPT",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 56,
+        "end": 74,
+        "confidence_entity": 0.5778765082359314,
+        "value": "kinh doanh quốc tế",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tại sao Đại học Quốc gia Hà Nội được đánh giá cao trong lĩnh vực khoa học xã hội?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 31,
+        "value": "Đại học Quốc gia Hà Nội",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 8,
+        "end": 31,
+        "confidence_entity": 0.9369840025901794,
+        "value": "Đại học Quốc gia Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 65,
+        "end": 80,
+        "confidence_entity": 0.45450741052627563,
+        "value": "khoa học xã hội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn biết về các hồ sơ cần nộp khi xin nhập học tại trường Đại học Bách khoa TP.HCM cho ngành Kỹ thuật Máy tính.",
+    "entities": [
+      {
+        "start": 63,
+        "end": 87,
+        "value": "Đại học Bách khoa TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 63,
+        "end": 87,
+        "confidence_entity": 0.9976835250854492,
+        "value": "Đại học Bách khoa TP.HCM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 98,
+        "end": 115,
+        "confidence_entity": 0.5780184268951416,
+        "value": "Kỹ thuật Máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Trường Đại học Bách khoa Hà Nội yêu cầu những giấy tờ nào trong hồ sơ nhập học cho ngành Khoa học Máy tính?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 31,
+        "value": "Đại học Bách khoa Hà Nội",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 7,
+        "end": 31,
+        "confidence_entity": 0.9960558414459229,
+        "value": "Đại học Bách khoa Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 98,
+        "end": 106,
+        "confidence_entity": 0.5426096320152283,
+        "value": "Máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn biết về chính sách và ưu đãi đặt chỗ dành cho học viên mới trong kí túc xá của trường Đại học Nông Lâm TP.HCM.",
+    "entities": [
+      {
+        "start": 95,
+        "end": 118,
+        "value": "Đại học Nông Lâm TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Học sinh đại học tại trường Đại học Kinh tế Quốc dân có thể lựa chọn ở kí túc xá nào trong khuôn viên trường không?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 52,
+        "value": "Đại học Kinh tế Quốc dân",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9588103890419006,
+        "value": "đại học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 28,
+        "end": 52,
+        "confidence_entity": 0.9965596795082092,
+        "value": "Đại học Kinh tế Quốc dân",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi thông tin về kí túc xá dành cho sinh viên nước ngoài tại trường Đại học FPT. Có chính sách riêng cho họ không ạ?",
+    "entities": [
+      {
+        "start": 72,
+        "end": 83,
+        "value": "Đại học FPT",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi muốn biết về cơ sở vật chất của ký túc xá tại trường Đại học Khoa học Xã hội và Nhân văn TP.HCM. Có phòng học tập riêng cho sinh viên không?",
+    "entities": [
+      {
+        "start": 57,
+        "end": 99,
+        "value": "Đại học Khoa học Xã hội và Nhân văn TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Xin cho biết về cơ sở vật chất và các hoạt động giải trí, vui chơi giải lao trong khu vực ký túc xá tại trường Đại học Văn hóa Nghệ thuật TP.HCM.",
+    "entities": [
+      {
+        "start": 111,
+        "end": 144,
+        "value": "Đại học Văn hóa Nghệ thuật TP.HCM",
+        "entity": "university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "So sánh 2 trường fpt và ctu",
+    "entities": [
+      {
+        "start": 17,
+        "end": 20,
+        "value": "fpt",
+        "entity": "school1"
+      },
+      {
+        "start": 24,
+        "end": 27,
+        "value": "ctu",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "university",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.9839824438095093,
+        "value": "fpt",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "university",
+        "start": 24,
+        "end": 27,
+        "confidence_entity": 0.7334055304527283,
+        "value": "ctu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy cùng bước vào khu rừng thần bí của Đại học Kinh tế Quốc dân và Đại học Ngoại thương cho Quản trị kinh doanh, nơi những chiến binh thương hiệu ra đời.",
+    "entities": [
+      {
+        "start": 39,
+        "end": 63,
+        "value": "Đại học Kinh tế Quốc dân",
+        "entity": "school1"
+      },
+      {
+        "start": 67,
+        "end": 87,
+        "value": "Đại học Ngoại thương",
+        "entity": "school2"
+      },
+      {
+        "start": 92,
+        "end": 111,
+        "value": "Quản trị kinh doanh",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school2",
+        "start": 39,
+        "end": 63,
+        "confidence_entity": 0.7201205492019653,
+        "value": "Đại học Kinh tế Quốc dân",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 67,
+        "end": 87,
+        "confidence_entity": 0.9889794588088989,
+        "value": "Đại học Ngoại thương",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 92,
+        "end": 111,
+        "confidence_entity": 0.9964938759803772,
+        "value": "Quản trị kinh doanh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nếu bạn là một nhà nghiên cứu tại Đại học Công nghệ Thông tin hoặc Đại học Công nghệ TP HCM, hãy nhảy vào cuộc cuộc chiến số liệu và mã lệnh cho Hệ thống thông tin.",
+    "entities": [
+      {
+        "start": 34,
+        "end": 61,
+        "value": "Đại học Công nghệ Thông tin",
+        "entity": "school1"
+      },
+      {
+        "start": 67,
+        "end": 91,
+        "value": "Đại học Công nghệ TP HCM",
+        "entity": "school2"
+      },
+      {
+        "start": 145,
+        "end": 163,
+        "value": "Hệ thống thông tin",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 15,
+        "end": 29,
+        "confidence_entity": 0.7353684902191162,
+        "value": "nhà nghiên cứu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 34,
+        "end": 61,
+        "confidence_entity": 0.9673873782157898,
+        "value": "Đại học Công nghệ Thông tin",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 67,
+        "end": 91,
+        "confidence_entity": 0.5195885896682739,
+        "value": "Đại học Công nghệ TP HCM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 145,
+        "end": 153,
+        "confidence_entity": 0.8986316919326782,
+        "value": "Hệ thống",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy tham gia vào trận chiến của CTU và Đại học Ngoại thương cho Luật kinh doanh, nơi những vụ án ẩn sau những con số sẽ được làm sáng tỏ.",
+    "entities": [
+      {
+        "start": 32,
+        "end": 35,
+        "value": "CTU",
+        "entity": "school1"
+      },
+      {
+        "start": 39,
+        "end": 59,
+        "value": "Đại học Ngoại thương",
+        "entity": "school2"
+      },
+      {
+        "start": 64,
+        "end": 79,
+        "value": "Luật kinh doanh",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 32,
+        "end": 35,
+        "confidence_entity": 0.9164796471595764,
+        "value": "CTU",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 39,
+        "end": 59,
+        "confidence_entity": 0.64,
+        "value": "Đại học Ngoại thương",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 64,
+        "end": 79,
+        "confidence_entity": 0.5552868843078613,
+        "value": "Luật kinh doanh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy xem Đại học Kinh tế Quốc dân và Đại học Ngoại thương như hai danh nhân kinh doanh đang tranh giành danh hiệu cho Quản trị kinh doanh. Ai sẽ xây dựng đế chế lớn nhất?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 32,
+        "value": "Đại học Kinh tế Quốc dân",
+        "entity": "school1"
+      },
+      {
+        "start": 36,
+        "end": 56,
+        "value": "Đại học Ngoại thương",
+        "entity": "school2"
+      },
+      {
+        "start": 117,
+        "end": 136,
+        "value": "Quản trị kinh doanh",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 8,
+        "end": 32,
+        "confidence_entity": 0.9602459669113159,
+        "value": "Đại học Kinh tế Quốc dân",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 36,
+        "end": 56,
+        "confidence_entity": 0.9283993244171143,
+        "value": "Đại học Ngoại thương",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 75,
+        "end": 85,
+        "confidence_entity": 0.47038888931274414,
+        "value": "kinh doanh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 117,
+        "end": 136,
+        "confidence_entity": 0.9668323993682861,
+        "value": "Quản trị kinh doanh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 144,
+        "end": 152,
+        "confidence_entity": 0.8370667695999146,
+        "value": "xây dựng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hãy nghĩ về Khoa học Môi trường như một cuộc đua mạo hiểm trong thiên nhiên hoang dã. Đại học Nông Lâm Hà Nội và Đại học Cần Thơ đang đi săn sự thật về môi trường. Ai sẽ trở thành thợ săn hàng đầu?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 31,
+        "value": "Khoa học Môi trường",
+        "entity": "majors"
+      },
+      {
+        "start": 86,
+        "end": 109,
+        "value": "Đại học Nông Lâm Hà Nội",
+        "entity": "school1"
+      },
+      {
+        "start": 113,
+        "end": 128,
+        "value": "Đại học Cần Thơ",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 12,
+        "end": 31,
+        "confidence_entity": 0.9602577090263367,
+        "value": "Khoa học Môi trường",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 94,
+        "end": 109,
+        "confidence_entity": 0.7500352263450623,
+        "value": "Nông Lâm Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 113,
+        "end": 128,
+        "confidence_entity": 0.9931082725524902,
+        "value": "Đại học Cần Thơ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 152,
+        "end": 162,
+        "confidence_entity": 0.8954526782035828,
+        "value": "môi trường",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đại học Ngoại ngữ và ctu - ai nên chọn để nghiên cứu Ngôn ngữ học?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "Đại học Ngoại ngữ",
+        "entity": "school1"
+      },
+      {
+        "start": 21,
+        "end": 24,
+        "value": "ctu",
+        "entity": "school2"
+      },
+      {
+        "start": 53,
+        "end": 65,
+        "value": "Ngôn ngữ học",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 0,
+        "end": 17,
+        "confidence_entity": 0.8994958400726318,
+        "value": "Đại học Ngoại ngữ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.6738829612731934,
+        "value": "ctu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 42,
+        "end": 52,
+        "confidence_entity": 0.9238422513008118,
+        "value": "nghiên cứu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 53,
+        "end": 65,
+        "confidence_entity": 0.9909738898277283,
+        "value": "Ngôn ngữ học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đang suy nghĩ về việc học Y sĩ tại Đại học Y Dược Hà Nội hoặc Đại học Y Dược TP HCM. Có điểm gì đặc biệt về chương trình đào tạo?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 34,
+        "value": "Y sĩ",
+        "entity": "majors"
+      },
+      {
+        "start": 39,
+        "end": 60,
+        "value": "Đại học Y Dược Hà Nội",
+        "entity": "school1"
+      },
+      {
+        "start": 66,
+        "end": 87,
+        "value": "Đại học Y Dược TP HCM",
+        "entity": "school2"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "majors",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.9330183863639832,
+        "value": "Y sĩ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school1",
+        "start": 39,
+        "end": 60,
+        "confidence_entity": 0.9155545234680176,
+        "value": "Đại học Y Dược Hà Nội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đại học Nông Lâm Hà Nội và Đại học Cần Thơ - ai nên chọn để nghiên cứu Khoa học Môi trường?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "value": "Đại học Nông Lâm Hà Nội",
+        "entity": "school1"
+      },
+      {
+        "start": 27,
+        "end": 42,
+        "value": "Đại học Cần Thơ",
+        "entity": "school2"
+      },
+      {
+        "start": 71,
+        "end": 90,
+        "value": "Khoa học Môi trường",
+        "entity": "majors"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school1",
+        "start": 0,
+        "end": 23,
+        "confidence_entity": 0.9648177623748779,
+        "value": "Đại học Nông Lâm Hà Nội",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school2",
+        "start": 27,
+        "end": 42,
+        "confidence_entity": 0.9693260788917542,
+        "value": "Đại học Cần Thơ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 60,
+        "end": 70,
+        "confidence_entity": 0.980776846408844,
+        "value": "nghiên cứu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "majors",
+        "start": 71,
+        "end": 90,
+        "confidence_entity": 0.9925572872161865,
+        "value": "Khoa học Môi trường",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

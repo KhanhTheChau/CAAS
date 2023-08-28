@@ -1,0 +1,1212 @@
+version:  "2.0"
+
+nlu: 
+- intent: greet
+  examples:  |
+    - chào bạn
+    - xin chào
+    - Hey
+    - chào
+    - cu
+    - hey
+    - alo
+    - hi
+    - hello
+    - hù
+    - Xin chào bạn nhé
+    - Chào
+    - Xin chào
+    - Hôm nay bạn thế nào
+    - bạn có ở đó không
+    - bạn đâu rồi
+    - hey sờ li li
+    - alo alo
+    - alo
+    - lô lô
+    - đâu rồi huynh đài
+    - bot ơí ời ơi
+    - chào bot
+    - bạn đang làm gì thế
+    - chào bạn hiền
+    - xin chào
+    - Hey
+    - chào
+    - Xin chào mọi người
+    - Hi cả nhà
+    - Greetings!
+    - Hello các bạn
+    - Hế nhô!
+    - Chào buổi sáng
+    - Chào buổi chiều
+    - Chào buổi tối
+    - Hôm nay thế nào?
+    - Có ai ở đây không?
+    - Hey bạn
+- intent: goodbye
+  examples:  |
+    - tạm biệt
+    - bye
+    - goodbye
+    - hẹn gặp lại
+    - tắt đi
+    - gặp lại sau
+    - Bye nhé
+    - Tôi phải đi rồi, hẹn gặp lại sau nhé
+    - Tạm biệt và chăm sóc bản thân
+    - Mình nói chuyện sau nhé, tạm biệt
+    - Tôi sẽ nhớ bạn, tạm biệt
+    - Bye, hy vọng gặp lại bạn sớm
+    - gặp lại bạn sau
+    - hẹn gặp lại bạn sau
+    - tôi có việc rồi
+    - mình có việc rồi
+    - chút mình gặp lại 
+    - tôi ra ngoài một chút, chút vô nói chuyện sau
+    - tôi hiểu rồi, dừng ở đây đi
+    - dừng lại đi
+    - Tạm biệt nhé, hẹn gặp lại vào dịp khác
+    - Đã đến lúc phải nói lời chia tay
+    - Tôi rất vui được gặp bạn, nhưng giờ tôi phải đi rồi
+    - Tạm biệt, mong sớm gặp lại bạn
+    - Hẹn gặp lại, chúc bạn có một ngày vui vẻ
+- intent: thank
+  examples:  |
+    - cảm ơn bạn nhé
+    - cảm ơn
+    - thank
+    - cám ơn
+    - tuyệt
+    - good
+    - tốt
+    - làm tốt lắm
+    - hay đấy
+    - rất tốt
+    - Cảm ơn sự hỗ trợ của bạn
+    - Cảm ơn bạn nhé
+    - Cảm ơn
+    - Xin chân thành cảm ơn
+    - Rất biết ơn bạn
+    - Tôi thật sự đánh giá cao sự giúp đỡ của bạn
+    - Tôi không thể đủ biết ơn bạn
+    - Bạn đã làm điều tuyệt vời, cảm ơn
+    - Cảm ơn bạn rất nhiều
+    - Tôi rất biết ơn sự hỗ trợ của bạn
+    - Rất chân thành cảm ơn sự hỗ trợ của bạn
+    - Yêu bạn lắm đó
+    - tuyệt lắm đó
+    - hay lắm
+    - bạn làm tốt lắm
+    - Rất cảm ơn bạn
+    - Xin cảm ơn
+    - Tôi biết ơn điều đó
+    - Cảm ơn bạn rất nhiều
+    - Cảm ơn vì sự giúp đỡ
+    - Cảm ơn vì đã làm điều đó
+    - Tôi muốn bày tỏ lòng biết ơn
+    - Cảm ơn vì đã làm điều tuyệt vời đó
+    - Làm ơn để tôi biết ơn
+    - Xin cảm ơn sự hỗ trợ của bạn
+    - Tôi cảm ơn món quà này
+    - Xin chân thành cảm ơn
+    - Cảm ơn vì đã ở đó cho tôi
+    - Tôi không thể đủ biết ơn
+    - Cảm ơn vì đã dành thời gian cho tôi
+    - Xin cảm ơn lòng tốt của bạn
+- intent: help
+  examples:  |
+    - bạn giúp được gì cho tôi
+    - bạn làm được gì
+    - help
+    - bot làm được gì
+    - khả năng của bạn là gì
+    - chức năng của bạn là gì
+    - bạn có tài gì
+    - bạn biết gì
+    - Bạn có thể giúp tôi như thế nào
+    - Nhiệm vụ chính của bạn là gì
+    - Bạn có khả năng làm gì
+    - Bot có thể làm những gì
+    - Tôi cần được giúp đỡ, bạn có thể làm gì
+    - Chức năng chính của bot là gì
+    - Bot có khả năng gì đặc biệt
+    - Bạn có kỹ năng hay tài năng nào đặc biệt
+    - Bạn biết những điều gì
+    - Tôi muốn biết về khả năng và chức năng của bạn.
+    - giúp tui với bot
+    - mày làm được những gì
+    - bạn giúp được gì cho tôi
+    - bạn làm được gì
+    - help bot
+    - bot làm được gì
+    - Tôi cần sự giúp đỡ
+    - Bạn có thể giúp tôi không?
+    - Cần hỗ trợ ở đây
+    - Tôi cần một chút giúp đỡ
+    - Làm ơn hỗ trợ tôi
+    - Bot có khả năng giúp đỡ không?
+    - Có thể bạn giúp tôi giải quyết vấn đề này không?
+    - Tôi gặp rắc rối và cần một số hướng dẫn
+    - Hãy giúp tôi hiểu rõ hơn về chức năng của bạn
+    - Tôi muốn biết bot có thể thực hiện các tác vụ gì khác nữa không
+    - Bạn có thể giúp tôi tìm thông tin về một chủ đề cụ thể không?
+- intent: ask_name
+  examples:  |
+    - mình là [khanh](name)
+    - mình là [doãn chí phong](name)
+    - cứ gọi mình là [Alix Mie](name)
+    - cứ gọi mình là [Khanh Alic](name)
+    - tớ là [phúc](name)
+    - mình tên [đạt](name)
+    - tui tên [Thanh Phong](name)
+    - mình tên [tiến đạt](name)
+    - tui tên [quỳnh](name)
+    - bà tên [yến](name)
+    - tao tên [dũng](name)
+    - tôi là [An](name)
+    - [phong](name)
+    - [châu thế khanh](name)
+    - [võ trần tuấn anh](name)
+    - [Khanh](name) là tên của mình
+    - xưng mình là [ngọc](name)
+    - biệt danh tui là [hào](name)
+    - mình là [Thế Khanh](name)
+    - tớ là [diệp ưng](name)
+    - mình tên [triệu phong](name)
+    - tui tên [quỳnh anh](name)
+    - bà tên [yến nhi](name)
+    - tao tên [tấn dũng](name)
+    - tôi là [Bình an](name)
+    - [Công Lí](name)
+    - xưng mình là [ngọc thảo](name)
+    - biệt danh tui là [anh Hào](name)
+    - mình tên thật là [châu thế khanh](name) hoặc cứ gọi mình là [khanh](name) cũng được
+    - mọi người gọi mình là [Bi](name) nhưng tên mình là [thắng](name)
+    - ở nhà mình tên [cu đen](name) nhưng trên trường mình tên [lý](name)
+    - Xin chào, tôi là [Nguyễn Thị Minh Hương](name), nhưng bạn có thể gọi tôi là [Hương](name).
+    - Tôi tên là [Lê Văn An](name), người thường gọi tôi là [An](name).
+    - Gọi tôi là [Trần Thanh Tùng](name), hay là [Tùng Rapper](name).
+    - Mình là [Nguyễn Xuân Phúc](name), rất vui được gặp bạn ở đây.
+    - Tôi tên là [Trần Thị Thanh Mai](name), tôi đang tìm hiểu về chủ đề này.
+    - Mình là [Phạm Hồng Hạnh](name), một người yêu thích du lịch và ẩm thực.
+    - Gọi tôi là [Đặng Văn Hùng](name), một người yêu thích thể thao và âm nhạc.
+    - Tôi là [Ngô Bá Khá](name), bạn có thể gọi tôi là [Khá](name).
+    - Mình là [Lý Thị Lan Anh](name), đang học đại học ngành Khoa học Máy tính.
+    - Tôi tên là [Vũ Minh Tuấn](name), là một lập trình viên đam mê công nghệ.
+    - Mình là [Nguyễn Hồng Nga](name), bạn có thể gọi tôi là [Nga](name).
+    - Gọi tôi là [Trần Văn Minh](name), rất vui được làm quen với bạn.
+    - Tôi tên là [Lê Thị Hoa](name), đang làm việc trong lĩnh vực kinh doanh.
+    - Mình là [Nguyễn Đức Long](name), yêu thích nấu ăn và thể thao.
+    - Gọi tôi là [Mai Anh Đào](name), một người yêu thiên nhiên và du lịch.
+    - Tôi tên là [Trần Văn Hùng](name), đam mê âm nhạc và guitar.
+    - Mình là [Nguyễn Thị Thúy Hằng](name), một sinh viên ngành Kinh tế.
+    - Gọi tôi là [Lê Thị Thu](name), là một người yêu sách và nghệ thuật.
+    - Tôi tên là [Phạm Văn Đức](name), đang theo đuổi sự nghiệp trong lĩnh vực IT.
+    - Mình là [Trần Thị Bích Ngọc](name), bạn có thể gọi tôi là [Ngọc](name).
+    - Gọi tôi là [Vân Vy](name), bạn có thể viết tắt là [VV](name) nếu muốn.
+    - Mình tên là [Hải Đăng](name), bạn có thể gọi mình là [Đăng](name) hoặc [Hải](name) cũng được.
+    - Tên mình là [Ngọc Quỳnh](name), nhưng bạn cũng có thể gọi mình là [Quỳnh](name) hoặc [Ngọc](name) nhé.
+    - Gọi mình là [Phương Anh](name), nhưng bạn cũng có thể gọi mình là [Anh](name) hoặc [Phương](name) nếu muốn.
+    - Mình là [Huyền Trang](name), nhưng bạn cứ gọi mình là [Trang](name) cũng được.
+    - Tên mình là [Minh Khôi](name), còn bạn có thể gọi mình là [Khôi](name) thôi.
+    - Gọi mình là [Trung Hiếu](name), nhưng nếu thấy dài dòng bạn cũng có thể gọi [Hiếu](name) hoặc [Trung](name).
+    - Tên mình là [Nguyễn Mai Linh](name), nhưng bạn có thể gọi mình là [Linh](name) nếu muốn.
+    - Cứ gọi mình là [Huy Hoàng](name), không cần cầu kỳ đâu.
+    - Mình tên là [Ngọc Anh](name), bạn cũng có thể gọi mình là [Anh](name) hoặc [Ngọc](name) nhé.
+    - mình là [Phong](name)
+    - mình là [Nguyễn triệu phong](name)
+    - cứ gọi mình là [Alix Milk](name)
+    - cứ gọi mình là [Mèo](name)
+    - Tên mình là [Trang Nguyễn](name)
+    - Gọi mình là [Hồng Anh](name)
+    - Mình tên là [Ngọc Trinh](name)
+    - Bạn có thể gọi mình là [Vân Anh](name)
+    - Gọi mình là [Tùng Lâm](name)
+    - Tên mình là [Thiên Long](name)
+- intent: consultation
+  examples:  |
+    - tư vấn cho tui nhé
+    - giúp tui tư vấn đi
+    - tư vấn 
+    - vậy tư vấn cho tui đi
+    - tui muốn bạn tư vấn cho tui
+    - vậy giúp tui xác định nghề nghiệp đi
+    - giúp tui định hướng nghề nghiệp 
+    - tui chưa nắm rõ nghề nghiệp sau này, giúp tui tư vấn với
+    - Tôi đang phân vân giữa việc chọn trường Đại học A và B. Bạn có thể tư vấn về các yếu tố cần xem xét khi lựa chọn trường không
+    - Tôi muốn tìm hiểu về các ngành học phổ biến và triển vọng trong tương lai. Bạn có thể tư vấn cho tôi về những ngành nghề đáng quan tâm không
+    - Tôi đang cần tư vấn về việc chọn một trường học. Bạn có thể giới thiệu cho tôi một số ngành nghề đáng quan tâm không
+    - tui chưa biết nghề nghiệp sau này, giúp tui tư vấn với
+    - Bạn có thể tư vấn cho tôi về vấn đề này được không
+    - Tôi đang đắn đo và cần ý kiến của bạn về việc chọn trường học.
+    - Tôi muốn bạn tư vấn cho tôi về việc này.
+    - Tôi đang gặp rắc rối và cần một chút tư vấn từ bạn.
+    - Bạn có kinh nghiệm về vấn đề này, có thể tư vấn cho tôi không
+    - Tôi cần một sự đánh giá và tư vấn chân thành từ bạn.
+    - Tôi muốn tư vấn về việc lựa chọn trường học phù hợp với sở thích và năng lực của mình.
+    - Trường học là yếu tố rất trọng, hãy tư vấn cho tui đi
+    - Giúp tui tư vấn trường phù hợp cho bản thân tôi
+    - bạn có thể tư vấn cho tui không
+    - làm nhiệm vụ tư vấn cho tui
+    - tư vấn cho tui
+    - tư vấn cho tui nè
+    - Tôi cần một số lời khuyên, bạn có thể giúp không?
+    - Tôi đang gặp vấn đề, bạn có thể tư vấn giúp tôi không?
+    - Hãy tư vấn cho tôi về vấn đề này
+    - Tôi cần một chút hướng dẫn, bạn có thể giúp tôi không?
+    - Tôi muốn nhờ bạn tư vấn về vấn đề này
+    - Bạn có thể tư vấn cho tôi về lựa chọn tốt nhất không?
+    - Tôi cần sự tư vấn chuyên nghiệp, bạn có thể giúp tôi không?
+- intent: benchmark
+  examples:  |
+    - Xin thông tin về ngưỡng điểm đậu cho ngành [khoa học máy tính](majors) tại [Đại học Bách khoa TP.HCM](university) trong kỳ thi trung học phổ thông vừa qua.
+    - Hãy chia sẻ ngưỡng điểm cần đạt để được nhận vào [ngành kỹ thuật điện tử](majors) tại [Đại học Sư phạm Kỹ thuật TP.HCM](university) năm ngoái.
+    - Tôi quan tâm đến điểm chuẩn của [sĩ quan lục quân 1](majors) tại [học viện quân sự việt nam](university) vào năm 2020. Xin vui lòng cung cấp thông tin chi tiết.
+    - Hỏi về ngưỡng điểm để học [ngôn ngữ Pháp](majors) tại [Trường Đại học Sư phạm TP.HCM](university) trong kỳ thi gần đây.
+    - Cho tôi biết điểm cần đạt để được nhận vào [quân y](majors) tại [học viện quân y](university) vào năm 2023.
+    - Mức điểm tối thiểu cho [sĩ quan thông tin](majors) tại [học việt mật mã việt nam](university) vào năm 2020 là bao nhiêu?
+    - Hãy cung cấp thông tin về ngưỡng điểm đậu của ngành [quản trị kinh doanh quốc tế](majors) tại [Đại học Ngoại thương TP.HCM](university) vào năm 2019.
+    - Tôi muốn biết về mức điểm cần đạt để học ngành [kỹ thuật máy tính](majors) tại [Đại học Bách khoa TP.HCM](university) trong kỳ thi năm trước.
+    - Xin thông tin về ngưỡng điểm chuẩn cho ngành [luật kinh tế](majors) tại [Trường Đại học Luật TP.HCM](university) vào năm 2018.
+    - Hỏi về mức điểm cần thi để học ngành [khoa học môi trường](majors) tại [Đại học Khoa học Tự nhiên TP.HCM](university) trong kỳ thi năm 2020.
+    - Điểm chuẩn ngành [khoa học máy tính](majors) năm rồi ở trường [đại học cần thơ](university) là bao nhiêu?
+    - Điểm chuẩn [công nghệ thông tin](majors) năm rồi ở trường [đại học nam cần thơ](university) là bao nhiêu?
+    - Có những ngành học nào tại [đại học cần thơ](university) và điểm chuẩn của chúng trong năm 2023 là như thế nào?
+    - Có những ngành học nào lớn điểm nhất tại [đại học Công nghệ Thông tin Hà Nội](university) và điểm chuẩn của chúng trong năm 2023 là như thế nào?
+    - Điểm chuẩn xét tuyển học bạ ngành [khoa học máy tính](majors) vào trường [đại học cần thơ](university) năm 2023 là bao nhiêu?
+    - Điểm chuẩn xét tuyển vào các [đại học cần thơ](university) năm 2022 là bao nhiêu?
+    - Điểm chuẩn xét tuyển phương thức 3 ngành [công nghệ thông tin](majors) vào trường [đại học fpt](university) năm 2023 là bao nhiêu?
+    - Thông tin cụ thể về điểm chuẩn của [đại học cần thơ](university) sau năm 2021. 
+    - Thông tin chi tiết về điểm chuẩn của [đại học cần thơ](university) sau năm 2022. 
+    - Thông tin cụ thể về điểm chuẩn của [đại học cần thơ](university) sau năm 2023. 
+    - Điểm chuẩn của ngành [kĩ thuật phần mềm](majors) ở [đại học cần thơ](university) năm 2022 là bao nhiêu?
+    - Điểm chuẩn của ngành [kĩ thuật phần mềm](majors) ở [đại học nam cần thơ](university) năm 2023 là bao nhiêu?
+    - Có những chính sách tuyển sinh đặc biệt nào tại các trường [đại học cần thơ](university) trong năm 2022 ảnh hưởng đến điểm chuẩn?
+    - Có những chính sách tuyển sinh đặc biệt nào tại các trường [đại học cần thơ](university) trong năm 2023 ảnh hưởng đến điểm chuẩn?
+    - Thông tin chính xác và cụ thể về điểm chuẩn của [đại học fpt](university) trong năm 2022?
+    - [đại học cần thơ](university) có điểm chuẩn thấp nhất và cao nhất trong năm 2023?
+    - [đại học nam cần thơ](university) có điểm chuẩn thấp nhất và cao nhất trong năm 2023?
+    - [đại học Y dược TP.HCM](university) có điểm chuẩn thấp nhất và cao nhất trong năm 2023?
+    - [đại học Sài Gòn](university) có điểm chuẩn thấp nhất và cao nhất trong năm 2023?
+    - Điểm chuẩn ngành [kĩ thuật phần mềm](majors) ở trường [đại học fpt](university) là bao nhiêu?
+    - Điểm chuẩn ngành [hệ thống thông tin](majors) năm rồi ở trường [đại học bách khoa](university) là bao nhiêu?
+    - Thông tin chính xác và cụ thể về điểm chuẩn của [đại học cần thơ](university) trong năm 2022?
+    - [kĩ thuật máy tính](majors) năm rồi ở trường [đại học khoa học tự nhiên](university) có điểm chuẩn là bao nhiêu?
+    - ngành [truyền thông đa phương tiện](majors) ở trường [đại học gtvt](university) năm rồi có điểm chuẩn là bao nhiêu?
+    - trường [đại học công nghệ thông tin](university) có ngành [an toàn thông tin](majors) hồi năm rồi có điểm chuẩn là bao nhiêu?
+    - trường [đại học công nghệ thông tin](university) có ngành [kĩ thuật phần mềm](majors) hồi năm rồi có điểm chuẩn là bao nhiêu?
+    - trường [đại học công nghệ thông tin](university) có ngành [hệ thống thông tin](majors) hồi năm rồi có điểm chuẩn là bao nhiêu?
+    - trường [đại học công nghệ thông tin](university) có ngành [truyền thông đa phương tiện](majors) hồi năm rồi có điểm chuẩn là bao nhiêu?
+    - Điểm chuẩn ngành [marketing](majors) năm rồi ở trường [đại học cần thơ](university) là bao nhiêu?
+    - Điểm chuẩn ngành [logistic](majors) năm rồi ở trường [đại học cần thơ](university) là bao nhiêu?
+    - trường [đại học công nghệ thông tin](university) có ngành [mạng máy tính và truyền thông dữ liệu](majors) hồi năm rồi có điểm chuẩn là bao nhiêu?
+    - muốn xem điểm ngành [lập trình web](majors) năm rồi của [đại học đà nẵng](university) là bao nhiêu?
+    - Điểm chuẩn ngành [kinh tế](majors) năm rồi ở trường [đại học quốc gia Hà Nội](university) là bao nhiêu?
+    - Điểm chuẩn [y học](majors) năm rồi ở trường [đại học Y dược TP.HCM](university) là bao nhiêu?
+    - Điểm chuẩn ngành [sư phạm tiểu học](majors) năm rồi ở trường [đại học cần thơ](university) là bao nhiêu?
+    - Điểm chuẩn ngành [luật học](majors) ở trường [đại học Sài Gòn](university) là bao nhiêu?
+    - mà điểm chuẩn [ngôn ngữ Anh](majors) năm rồi ở trường [đại học Ngoại ngữ Hà Nội](university) là bao nhiêu?
+    - Điểm chuẩn [ngôn ngữ Anh](majors) năm rồi ở trường [đại học Cần Thơ](university) là bao nhiêu?
+    - Điểm chuẩn [Việt Nam Học](majors) năm rồi ở trường [đại học Cần Thơ](university) là bao nhiêu?
+    - Điểm chuẩn ngành [kiến trúc](majors) ở trường [đại học Kiến trúc Thành phố Hồ Chí Minh](university) là bao nhiêu?
+    - Điểm chuẩn [kỹ thuật điện tử](majors) năm rồi ở trường [đại học Bách khoa Hà Nội](university) là bao nhiêu?
+    - Điểm chuẩn ngành [marketing](majors) ở trường [đại học Kinh doanh và Công nghệ Hà Nội](university) là bao nhiêu?
+    - Điểm chuẩn [khoa học xã hội](majors) năm rồi ở trường [đại học Quốc gia TP.HCM](university) là bao nhiêu?
+    - Điểm chuẩn ngành [công nghệ sinh học](majors) ở trường [đại học Công nghiệp Hà Nội](university) là bao nhiêu?
+    - Điểm chuẩn [quản trị khách sạn](majors) năm rồi ở trường [đại học Du lịch Hà Nội](university) là bao nhiêu?
+    - Xin hỏi, điểm chuẩn ngành [kỹ thuật xây dựng](majors) năm trước tại trường [đại học Xây dựng TP.HCM](university) là bao nhiêu và liệu có khả năng giảm hay tăng trong năm nay không?
+    - Tôi muốn biết điểm chuẩn [quản trị kinh doanh](majors) năm trước ở trường [đại học Quốc gia TP.HCM](university) và yếu tố nào ảnh hưởng đến điểm năm nay?
+    - Cho tôi thông tin về điểm chuẩn ngành [khoa học máy tính](majors) tại trường [đại học Bách khoa Đà Nẵng](university) và những chỉ tiêu đánh giá khác mà tôi nên xem xét khi xét tuyển.
+    - Tôi quan tâm đến điểm chuẩn ngành [y học](majors) tại trường [đại học Y Dược Hà Nội](university). 
+    - Tôi muốn biết điểm chuẩn [marketing](majors) năm trước ở trường [đại học Quốc gia TP.HCM](university) và yếu tố nào ảnh hưởng đến điểm năm nay?
+    - Tôi đang tìm hiểu về điểm chuẩn ngành [kỹ thuật công trình](majors) ở trường [đại học Xây dựng Miền Đông](university). Có môn nào cần nhân đôi hay không?
+    - Cho tôi biết điểm chuẩn [ngôn ngữ Anh](majors) năm trước tại trường [đại học Ngoại ngữ và Khoa học Xã hội Hà Nội](university) và những yêu cầu đặc biệt khác về điểm chuẩn ngành này.
+    - Tôi quan tâm đến điểm chuẩn ngành [kỹ thuật điện](majors) tại trường [đại học Bách khoa Hồ Chí Minh](university) và điểm có cao hông.
+    - Tôi đang xem xét ngành [khoa học máy tính](majors) tại trường [đại học Công nghệ Thông tin Hà Nội](university). 
+    - Xin hỏi, điểm chuẩn ngành [quản lý kinh doanh](majors) tại trường [đại học Kinh doanh và Công nghệ Hà Nội](university)?
+    - Tôi quan tâm đến điểm chuẩn ngành [kỹ thuật hóa học](majors) ở trường [đại học Bách khoa Đại Nam](university). Điểm có lạm phát không?
+    - Điểm chuẩn ngành [logistic](majors) ở trường [đại học Kinh doanh và Công nghệ Hà Nội](university) là bao nhiêu?
+    - Điểm chuẩn [thủy sản](majors) năm rồi ở trường [đại học Cần Thơ](university) là bao nhiêu?
+    - Điểm chuẩn ngành [công nghệ thực phẩm](majors) ở trường [đại học Nam Cần Thơ](university) là bao nhiêu?
+    - Có những ngành học nào tại [đại học cần thơ](university) và điểm chuẩn của chúng trong năm 2023 là như thế nào?
+    - Tôi muốn biết điểm chuẩn của ngành [kỹ thuật phần mềm](majors) năm trước tại trường [đại học quốc tế TP.HCM](university).
+    - Hỏi về điểm chuẩn [kế toán](majors) năm ngoái ở [đại học kinh tế TP.HCM](university).
+    - Tìm hiểu điểm chuẩn ngành [kỹ thuật công trình xây dựng](majors) tại [đại học xây dựng TP.HCM](university) năm trước đây.
+    - Xin thông tin điểm chuẩn [quản trị kinh doanh](majors) năm rồi tại [đại học kinh tế TP.HCM](university).
+    - Điểm chuẩn của ngành [kỹ thuật điện tử viễn thông](majors) tại [đại học bách khoa TP.HCM](university) trong năm 2023 là bao nhiêu?
+    - Tôi muốn tra cứu điểm chuẩn [ngôn ngữ Anh](majors) tại [đại học sư phạm TP.HCM](university) năm ngoái.
+    - Hỏi về điểm chuẩn của ngành [quản trị kinh doanh](majors) tại [đại học kinh tế quốc dân](university).
+    - Điểm chuẩn [y khoa](majors) tại [đại học y dược TP.HCM](university) năm trước đó là bao nhiêu?
+    - Tôi muốn biết điểm chuẩn của ngành [sư phạm tiếng Anh](majors) tại [đại học sư phạm TP.HCM](university) trong năm 2023.
+    - Tôi muốn biết điểm chuẩn của ngành [sư phạm toán học](majors) tại [Đại học Sư phạm TP.HCM](university) trong năm 2022.
+    - Hỏi về điểm chuẩn [tài chính](majors) tại [Đại học Kinh tế Quốc dân](university) năm ngoái.
+    - Xin thông tin về điểm chuẩn [kỹ thuật máy tính](majors) tại [Đại học Bách khoa TP.HCM](university) năm trước.
+    - Điểm chuẩn [quản trị kinh doanh quốc tế](majors) tại [Đại học Ngoại thương TP.HCM](university) trong năm 2022 là bao nhiêu?
+    - Tôi muốn tra cứu điểm chuẩn [Sĩ quan thông tin](majors) tại [Học viện Quân Đội Nhân dân Việt Nam](university) năm ngoái.
+- intent: tuition
+  examples:  |
+    - Học phí ngành [khoa học máy tính](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Học phí ngành [truyền thông đa phương tiện](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Học phí [công nghệ thông tin](majors) trường [đại học nam cần thơ](university) là bao nhiêu?
+    - Học phí ngành [kĩ thuật phần mềm](majors) ở trường [đại học fpt](university) là bao nhiêu?
+    - Học phí trung bình ngành [hệ thống thông tin](majors) năm rồi ở trường [đại học bách khoa](university) là bao nhiêu?
+    - [kĩ thuật máy tính](majors) năm rồi ở trường [đại học khoa học tự nhiên](university) có học phí là bao nhiêu?
+    - Học phí của chương trình, ngành học [kĩ thuật phần mềm](majors) tại trường [đại học fpt](university) là bao nhiêu?
+    - Học phí của chương trình, ngành học [khoa học máy tính](majors) tại trường [đại học cần thơ](university) là bao nhiêu?
+    - Tôi muốn biết thông tin về học phí và các khoản chi tiêu khác của ngành [hệ thống thông tin](majors) khi học tại trường [đại học cần thơ](university).
+    - Tôi muốn biết thông tin về học phí và các khoản chi tiêu khác của ngành [truyền thông đa phương tiện](majors) khi học tại trường [đại học cần thơ](university).
+    - Xin hỏi về những tùy chọn hỗ trợ tài chính hoặc học bổng ngành [kĩ thuật phần mềm](majors) để giảm học phí tại trường Đại học [đại học cần thơ](university)?
+    - Có các loại học phí phụ, như phí thí nghiệm, phí thư viện hoặc phí y tế [đại học Ngoại thương](university) không? Và số tiền là bao nhiêu?
+    - Có chính sách trả góp hoặc hỗ trợ vay vốn để đảm bảo việc thanh toán học phí dễ dàng tại [đại học Khoa học Tự nhiên TP.HCM](university) không?
+    - Học phí cho sinh viên quốc tế, khu vực, đối tượng đặc biệt tại trường [đại học Sư phạm Kỹ thuật TP.HCM](university) khác nhau như thế nào so với sinh viên nội địa.
+    - Học phí cho học kỳ đầu tiên và các học kỳ tiếp theo có khác nhau tại [đại học Kinh tế Quốc dân](university)?
+    - Có chính sách trả góp hoặc hỗ trợ vay vốn để đảm bảo việc thanh toán học phí ngành [quản trị kinh doanh](majors) dễ dàng tại [đại học Khoa học Tự nhiên TP.HCM](university) không
+    - trường [đại học công nghệ thông tin](university) có ngành [an toàn thông tin](majors) hồi năm rồi có học phí là bao nhiêu?
+    - Có sự khác biệt về học phí giữa các hệ đào tạo, như hệ đại học chính quy, hệ vừa làm vừa học, hay hệ tại [đại học Bách khoa Hà Nội](university) không
+    - tôi muốn xem học phí ngành [lập trình web](majors) năm rồi của [đại học đà nẵng](university) là bao nhiêu
+    - Tôi muốn biết về các gói hỗ trợ tài chính mà trường đang cung cấp để giảm thiểu áp lực về học phí ngành [an toàn thông tin](majors) tại.
+    - Học phí ngành [kỹ thuật điện tử viễn thông](majors) ở [đại học Bách khoa Hà Nội](university) là bao nhiêu?
+    - Học phí [hệ thống thông tin](majors) tại [đại học Kinh tế Quốc dân](university) là bao nhiêu?
+    - Học phí ngành [logistic](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Học phí ngành [marketing](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Học phí ngành [kế toán](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Có chính sách trả góp hoặc hỗ trợ vay vốn để đảm bảo việc thanh toán học phí ngành [quản trị kinh doanh](majors) dễ dàng tại [đại học Bách khoa TP.HCM](university) không?
+    - Học phí ngành [nuôi trồng thủy sản](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Học phí ngành [công nghệ tự động hóa](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Học phí ngành [kỹ thuật điện](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Học phí cho học kỳ đầu tiên và các học kỳ tiếp theo có khác nhau tại [đại học Khoa học Tự nhiên TP.HCM](university).
+    - Học phí cho sinh viên quốc tế, khu vực, đối tượng đặc biệt tại trường [đại học Nông Lâm TP.HCM](university) khác nhau như thế nào so với sinh viên nội địa.
+    - Học phí ngành [công nghệ cơ điện tử](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Học phí ngành [thú y](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Trường [đại học Kinh tế TP.HCM](university) có chính sách miễn giảm học phí cho sinh viên chuyển đổi từ trường khác hoặc từ nước ngoài không
+    - Học phí của [công nghệ tự động hóa](majors) tại [đại học cần thơ](university) hiện tại baoi nhiêu
+    - Học phí ngành [sư phạm toán](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Học phí ngành [sư phạm tiểu học](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Học phí ngành [công nghệ sinh học](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Có chính sách trả góp hoặc hỗ trợ vay vốn để đảm bảo việc thanh toán học phí dễ dàng tại [đại học Bách khoa Đà Nẵng](university) không?
+    - Học phí ngành [công nghệ máy tính](majors) ở trường [đại học cần thơ](university) là bao nhiêu tiền?
+    - Xin cho biết học phí ngành [quản trị kinh doanh](majors) ở [đại học Ngoại thương](university) là bao nhiêu?
+    - Xin cho biết học phí ngành [marketting](majors) ở [đại học Ngoại thương](university) là bao nhiêu?
+    - Xin cho biết học phí ngành [kế toán](majors) ở [đại học Ngoại thương](university) là bao nhiêu?
+    - Tôi quan tâm đến học phí [kỹ thuật ô tô](majors) tại [đại học Bách khoa TP.HCM](university), bạn có thể cung cấp thông tin chi tiết không?
+    - Tôi quan tâm đến học phí [kỹ thuật tự động hóa](majors) tại [đại học Bách khoa TP.HCM](university), bạn có thể cung cấp thông tin chi tiết không?
+    - Có sự khác biệt về học phí giữa các hệ đào tạo, như hệ đại học chính quy, hệ vừa làm vừa học, hay hệ tại [đại học Kiến trúc Hà Nội](university) không
+    - Tôi quan tâm đến học phí [kỹ thuật cơ điện tử](majors) tại [đại học Bách khoa TP.HCM](university), bạn có thể cung cấp thông tin chi tiết không?
+    - Học phí ngành [kỹ thuật công nghệ thông tin](majors) ở [đại học Công nghệ](university) là bao nhiêu?
+    - Tôi muốn biết học phí [quản lý kinh tế](majors) tại [đại học Kinh tế Quốc dân](university) là bao nhiêu?
+    - Xin thông tin về học phí [khoa học môi trường](majors) tại [đại học Khoa học Tự nhiên TP.HCM](university).
+    - Học phí ngành [kỹ thuật điều khiển và tự động hóa](majors) ở [đại học Bách khoa Đà Nẵng](university) là bao nhiêu?
+    - Trường [đại học Bách khoa Đà Nẵng](university) có chính sách miễn giảm học phí cho sinh viên chuyển đổi từ trường khác hoặc từ nước ngoài không
+    - Tôi quan tâm đến học phí [kỹ thuật xây dựng](majors) tại [đại học Xây dựng](university), bạn có thông tin chi tiết không?
+    - Học phí ngành [kỹ thuật công trình xây dựng](majors) ở [đại học Bách khoa HCM](university) là bao nhiêu?
+    - Tôi đang quan tâm đến học phí ngành [y khoa](majors) ở trường [đại học Y Hà Nội](university), bạn có thông tin chi tiết không?
+    - Tôi muốn tìm hiểu về học phí ngành [ngôn ngữ Anh](majors) ở trường [đại học Ngoại ngữ Hà Nội](university), bạn có thể giúp tôi không?
+    - Học phí ngành [quản trị kinh doanh](majors) ở trường [đại học Kinh tế TP.HCM](university) là bao nhiêu?
+    - Tôi quan tâm đến học phí [công nghệ thông tin](majors) trường [đại học Sư phạm Kỹ thuật TP.HCM](university), bạn có thông tin chi tiết không?
+    - Xin thông tin về học phí ngành [kiến trúc](majors) ở trường [đại học Kiến trúc Hà Nội](university).
+    - Tôi rất muốn biết về học phí ngành [kinh tế](majors) ở trường [đại học Nông Lâm TP.HCM](university), bạn có thông tin chi tiết về học phí ngành đó không?
+    - Tôi muốn biết chi tiết về học phí ngành [kỹ thuật điện](majors) tại [đại học Bách khoa Hà Nội](university).
+    - Cho tôi xin thông tin về học phí ngành [kinh tế quản lý](majors) tại [đại học Quốc gia TP.HCM](university), được không?
+    - Xin hãy cung cấp thông tin về học phí ngành [quản lý kinh doanh](majors) tại [đại học Kinh doanh và Công nghệ](university).
+    - Tôi cần biết học phí ngành [sư phạm tiếng Anh](majors) tại [đại học Sư phạm TP.HCM](university) là bao nhiêu.
+    - Cho tôi biết về mức học phí ngành [khoa học máy tính](majors) tại [đại học Khoa học Tự nhiên Hà Nội](university).
+    - Tôi quan tâm đến học phí ngành [y học](majors) tại [đại học Y Hà Nội](university), liệu có các hình thức hỗ trợ tài chính cho sinh viên không?
+    - Hãy cho tôi biết về học phí ngành [công nghệ sinh học](majors) tại [đại học Khoa học Tự nhiên TP.HCM](university) và các cơ hội học bổng.
+    - Tôi cần thông tin về học phí ngành [vật lý](majors) tại [ctu](university) và phí đóng học phí có thể trả theo kỳ không?
+    - Xin hãy tư vấn cho tôi về chi phí học tập của ngành [kinh tế phát triển](majors) tại [đại học Kinh tế TP.HCM](university) và cách tính học phí hàng năm.
+    - Tôi quan tâm đến học phí ngành [quản trị kinh doanh](majors) tại [CTU](university), xin hãy cho tôi biết các khoản phí cần trả đi kèm.
+- intent: curriculum
+  examples:  |
+    - Cho tôi xem chương trình đào tạo của ngành [Truyền thông Đa phương tiện](majors) tại [Đại học Cần Thơ](university).
+    - Tôi muốn tìm hiểu về kế hoạch học tập cho ngành [Khoa học Máy tính](majors) của [Đại học Cần Thơ](university).
+    - Xin hãy cung cấp thông tin về kế hoạch học tập của ngành [Kỹ thuật Phần mềm](majors) tại [Đại học Cần Thơ](university).
+    - Hãy cho biết những học phần thực tập hoặc thực hành có trong chương trình đào tạo của ngành [Kỹ thuật Phần mềm](majors) tại [Đại học Cần Thơ](university).
+    - Tôi quan tâm đến kế hoạch học tập của ngành [Công nghệ Thông tin](majors) tại [Đại học Cần Thơ](university). Bạn có thể chia sẻ thông tin không?
+    - Hãy cho tôi biết về chương trình đào tạo của ngành [Truyền thông Đa phương tiện](majors) tại [Đại học Cần Thơ](university).
+    - Tôi đang cần tìm thông tin về kế hoạch học tập cho ngành [Khoa học Máy tính](majors) của trường [Đại học Cần Thơ](university).
+    - Xin bạn hãy cung cấp chi tiết về kế hoạch học tập của ngành [Kỹ thuật Phần mềm](majors) tại [Đại học Cần Thơ](university).
+    - Học phần thực tập hoặc thực hành nào được đưa vào chương trình đào tạo của ngành [Kỹ thuật Phần mềm](majors) tại [Đại học Cần Thơ](university)?
+    - Cho tôi biết về kế hoạch học tập của ngành [Công nghệ Thông tin](majors) tại [Đại học Cần Thơ](university) để tôi có cái nhìn tổng quan.
+    - chương trình đào tạo ngành [truyền thông đa phương tiện](majors) của trường [đại học cần thơ](university)
+    - kế hoạch học tập ngành [khoa học máy tính](majors) của trường [đại học cần thơ](university)
+    - kế hoạch học tập ngành [kỹ thuật phần mềm](majors) của trường [đại học cần thơ](university)
+    - Học phần thực tập hoặc thực hành nào được cung cấp trong chương trình đào tạo ngành [kỹ thuật phần mềm](majors) của [đại học cần thơ](university)
+    - kế hoạch học tập ngành [công nghệ thông tin](majors) của trường [đại học cần thơ](university)
+    - Cho tôi xem chương trình đào tạo ngành [quản trị kinh doanh](majors) tại trường [Đại học Quốc gia Hà Nội](university).
+    - Hãy cung cấp thông tin về kế hoạch học tập của ngành [công nghệ thông tin](majors) tại [Đại học Bách Khoa TP.HCM](university).
+    - Tôi quan tâm đến chương trình đào tạo ngành [kỹ thuật cơ khí](majors) tại trường [Đại học Bách Khoa Hà Nội](university). Xin vui lòng giới thiệu về nó.
+    - Cho tôi biết về kế hoạch học tập của ngành [kỹ thuật điện tử viễn thông](majors) tại [Đại học Sư phạm Kỹ thuật Cần Thơ](university).
+    - Hãy cung cấp thông tin về chương trình đào tạo ngành [khoa học môi trường](majors) tại [Đại học Khoa học Tự nhiên TP.HCM](university).
+    - Tôi muốn tìm hiểu về kế hoạch học tập của ngành [khoa học xã hội](majors) tại [Đại học Ngoại ngữ Hà Nội](university). 
+    - Cho tôi biết chi tiết về chương trình đào tạo ngành [kỹ thuật công trình xây dựng](majors) tại [Đại học Xây dựng](university).
+    - Hãy giới thiệu về kế hoạch học tập của ngành [kinh tế học](majors) tại [Đại học Kinh tế TP.HCM](university).
+    - Tôi quan tâm đến chương trình đào tạo ngành [ngôn ngữ Anh](majors) tại trường [Đại học Sư phạm Huế](university). Hãy cho tôi biết thêm chi tiết.
+    - Xin vui lòng cung cấp thông tin về kế hoạch học tập của ngành [công nghệ sinh học](majors) tại [Đại học Nông Lâm TP.HCM](university).
+    - kế hoạch học tập ngành [an toàn thông tin](majors) của trường [đại học cần thơ](university)
+    - kế hoạch học tập ngành [hệ thống thông tin](majors) của trường [đại học cần thơ](university)
+    - xem chương trình đào tạo ngành [công nghệ thông tin](majors) ở trường [đại học nam cần thơ](university) 
+    - Học phần thực tập hoặc thực hành nào được cung cấp trong chương trình đào tạo ngành [kỹ thuật phần mềm](majors) của [Đại học Nam Cần Thơ](university)
+    - xem chương trình đào tạo ngành [công nghệ ô tô](majors) ở trường [CTU](university) 
+    - chương trình đào tạo ngành [kĩ thuật phần mềm](majors) ở trường [đại học fpt](university) như thế nào
+    - Học phần thực tập hoặc thực hành nào được cung cấp trong chương trình đào tạo ngành [marketting](majors) của [đại học fpt](university)
+    - chương trình đào tạo ngành [an toàn thông tin](majors) ở trường [đại học cần thơ](university)
+    - chương trình đào tạo ngành [marketting](majors) ở trường [đại học cần thơ](university)
+    - Trường có chương trình học kép hay cơ hội học chung với các trường đối tác trong và ngoài nước tại [Đại học FPT](university) không
+    - Chương trình đào tạo có sự lựa chọn tùy chọn hay các chuyên ngành để học sinh viên có thể tùy chỉnh chương trình học của mình không tại trường [Đại học Bách Khoa Đà Nẵng](university)
+    - chương trình đào tạo ngành [ngôn ngữ anh](majors) ở trường [đại học cần thơ](university)
+    - Vui lòng cung cấp thông tin tổng quan về chương trình đào tạo cho ngành học [công nghệ ô tô](majors) tại trường [đại học bách khoa](university)
+    - Có những môn học chính nào được bao gồm trong chương trình đào tạo của ngành [công nghệ tự động hóa](majors) tại [đại học đà nẵng](university)
+    - chương trình đào tạo ngành [kỹ thuật máy tính](majors) ở trường [đại học cần thơ](university)
+    - chương trình đào tạo ngành [kinh tế](majors) ở trường [đại học cần thơ](university)
+    - chương trình đào tạo của ngành [nuôi trồng thủy sản](majors) ở trường [đại học cần thơ](university)
+    - xem chương trình đào tạo ngành [sư phạm toán](majors) ở trường [đại học cần thơ](university)
+    - Chương trình đào tạo có thời gian kéo dài bao nhiêu năm của  và có yêu cầu bao nhiêu tín chỉ để tốt nghiệp tại [Đại học FPT](university).
+    - Có sự khác biệt về chương trình đào tạo giữa hệ đại học chính quy và hệ vừa làm vừa học ở trường [Đại học Nam Cần Thơ](university) không
+    - Học phần thực tập hoặc thực hành nào được cung cấp trong chương trình đào tạo ngành [kỹ thuật phần mềm](majors) của [đại học fpt](university)
+    - chương trình đào tạo ngành [giáo dục thể chất](majors) ở trường [đại học cần thơ](university)
+    - Chương trình đào tạo có sự lựa chọn tùy chọn hay các chuyên ngành để học sinh viên có thể tùy chỉnh chương trình học của mình không tại trường [Đại học Công nghệ](university)
+    - chương trình đào tạo ngành [công nghệ tự động hóa](majors) ở trường [đại học cần thơ](university)
+    - kế hoạch học tập ngành [công nghệ thông tin](majors) ở trường [đại học bách khoa](university) ra sao
+    - Trường có chương trình học kép hay cơ hội học chung với các trường đối tác trong và ngoài nước tại [Đại học Bách Khoa Hà Nội](university) không
+    - kế hoạch học tập ngành [hệ thống thông tin](majors) ở trường [đại học bách khoa](university) ra sao
+    - kế hoạch học tập ngành [truyền thông đa phương tiện](majors) ở trường [đại học bách khoa](university) ra sao
+    - [kĩ thuật máy tính](majors) ở trường [đại học khoa học tự nhiên](university) có khung chương trình đào tạo như thế nào?
+    - [kĩ thuật điện](majors) ở trường [đại học khoa học tự nhiên](university) có khung chương trình đào tạo như thế nào?
+    - [công nghệ tự động hóa](majors) ở trường [đại học khoa học tự nhiên](university) có khung chương trình đào tạo như thế nào?
+    - [công nghệ ô tô](majors) ở trường [đại học khoa học tự nhiên](university) có khung chương trình đào tạo như thế nào?
+    - Trường có chương trình học kép hay cơ hội học chung với các trường đối tác trong và ngoài nước tại [Đại học Bách Khoa Hà Nội](university) czur nhành [khoa học máy tính](majors) không
+    - [kỹ thuật máy tín](majors) ở trường [ctu](university) có khung chương trình đào tạo như thế nào?
+    - khung chương trình đào tạo ngành [khoa học máy tính](majors) ở trường [đại học đà nẵng](university) như thế nào
+    - Chương trình đào tạo có thời gian kéo dài bao nhiêu năm của [kỹ thuật phần mềm](majors) và có yêu cầu bao nhiêu tín chỉ để tốt nghiệp tại [Đại học FPT](university).
+    - khung chương trình đào tạo ngành [công nghệ thông tin](majors) ở trường [đại học đà nẵng](university) như thế nào
+    - khung chương trình đào tạo ngành [kỹ thuật phần mềm](majors) ở trường [đại học đà nẵng](university) như thế nào
+    - Có những môn học chính nào được bao gồm trong chương trình đào tạo của ngành [công nghệ tự động hóa](majors) tại [Đại học Công nghệ](university)
+    - Chương trình đào tạo ngành [truyền thông đa phương tiện](majors) của trường [Đại học Cần Thơ](university) như thế nào?
+    - Có sự khác biệt về chương trình đào tạo giữa hệ đại học chính quy và hệ vừa làm vừa học ở trường [Đại học Bách Khoa Hà Nội](university) không
+    - Kế hoạch học tập ngành [khoa học máy tính](majors) tại trường [Đại học Cần Thơ](university) được thiết kế như thế nào?
+    - Xin xem chương trình đào tạo ngành [công nghệ thông tin](majors) ở trường [Đại học Nam Cần Thơ](university) có những môn học nào?
+    - Tôi muốn tìm hiểu về chương trình đào tạo ngành [kỹ thuật phần mềm](majors) tại trường [Đại học FPT](university), liệu có cung cấp các khóa học thực hành không?
+    - Xin cho biết thông tin về kế hoạch học tập ngành [quản trị kinh doanh](majors) của trường [Đại học Bách Khoa Hà Nội](university) và yêu cầu tốt nghiệp của ngành này.
+    - Tôi quan tâm đến chương trình đào tạo ngành [kỹ thuật xây dựng](majors) ở trường [Đại học Bách Khoa TP.HCM](university), liệu chương trình này có chú trọng vào thực hành không?
+    - Tôi quan tâm đến chương trình đào tạo ngành [kiến trúc](majors) ở trường [Đại học Bách Khoa TP.HCM](university), liệu chương trình này có chú trọng vào thực hành không?
+    - Có sự khác biệt về chương trình đào tạo ngành [kỹ thuật cơ khí](majors) giữa hệ đại học chính quy và hệ vừa làm vừa học ở [Đại học Bách Khoa HCM](university) không
+    - Tôi quan tâm đến chương trình đào tạo ngành [kỹ thuật tự động hóa](majors) ở trường [Đại học Bách Khoa TP.HCM](university), liệu chương trình này có chú trọng vào thực hành không?
+    - Kế hoạch học tập ngành [kỹ thuật công nghệ thông tin](majors) tại trường [Đại học Công nghệ](university) được tổ chức như thế nào?
+    - Có những môn học chính nào được bao gồm trong chương trình đào tạo của ngành [kỹ thuật cơ khí](majors) tại [đại học bách khoa](university)
+    - Tôi muốn biết chi tiết về chương trình đào tạo ngành [khoa học môi trường](majors) của trường [Đại học Khoa học Tự nhiên TP.HCM](university), các chuyên ngành nó như thế nào?
+    - Xin xem kế hoạch học tập ngành [kỹ thuật điện tử viễn thông](majors) tại trường [Đại học Bách Khoa Đà Nẵng](university) và các môn học chuyên ngành.
+    - Tôi quan tâm đến chương trình đào tạo ngành [kỹ thuật cơ khí](majors) ở trường [Đại học Bách Khoa HCM](university), liệu có cơ hội thực tập và nghiên cứu với chuyên ngành đã học không không?
+    - Có những môn học chính nào được bao gồm trong chương trình đào tạo của ngành [kỹ thuật cơ khí](majors) tại [đại học bách khoa](university)?
+    - Tôi muốn biết chi tiết về chương trình đào tạo ngành [khoa học môi trường](majors) của trường [Đại học Khoa học Tự nhiên TP.HCM](university), các chuyên ngành nó như thế nào?
+    - Xin xem kế hoạch học tập ngành [kỹ thuật điện tử viễn thông](majors) tại trường [Đại học Giao thông vận tải](university) và các môn học chuyên ngành.
+    - Tôi quan tâm đến chương trình đào tạo ngành [kỹ thuật cơ khí](majors) ở trường [Đại học Bách Khoa HCM](university), liệu có cơ hội thực tập và nghiên cứu với chuyên ngành đã học không không?
+    - Hỏi về các môn học chính trong chương trình đào tạo ngành [khoa học máy tính](majors) tại [đại học công nghệ thông tin Hà Nội](university).
+    - Tôi muốn tìm hiểu về các chuyên ngành có trong ngành [quản trị kinh doanh](majors) tại trường [Đại học Kinh tế TP.HCM](university).
+    - Xin thông tin về kế hoạch học tập ngành [y khoa](majors) tại [Đại học Y Dược TP.HCM](university).
+    - Hỏi về các môn học chính trong chương trình đào tạo ngành [ngôn ngữ Anh](majors) tại [Đại học Sư phạm TP.HCM](university).
+- intent: criterias
+  examples:  |
+    - Xin hãy cung cấp thông tin về chỉ tiêu tuyển sinh của ngành [Khoa học Máy tính](majors) tại [Đại học Khoa học Tự nhiên](university) trong kỳ tuyển sinh gần nhất.
+    - Tôi muốn tìm hiểu về mức độ cạnh tranh để đỗ vào ngành [Khoa học Máy tính](majors) tại [Đại học Cần Thơ](university).
+    - Xin bạn hãy giới thiệu những tiêu chí và yêu cầu cần thiết để được nhận vào ngành [Công nghệ Thông tin](majors) tại [Đại học Cần Thơ](university).
+    - Thông tin về chỉ tiêu tuyển sinh của ngành [Kỹ thuật Máy tính](majors) tại [Đại học Khoa học Tự nhiên](university) trong năm học vừa qua là gì?
+    - Cho tôi biết về độ khó và sự cạnh tranh để đỗ vào ngành [Khoa học Máy tính](majors) tại [Đại học Cần Thơ](university).
+    - Vui lòng trình bày những tiêu chí và điều kiện cần thiết để được xét tuyển vào ngành [Công nghệ Thông tin](majors) tại [Đại học Cần Thơ](university).
+    - Hãy nói chi tiết về quá trình xét tuyển và những yêu cầu tuyển sinh vào ngành [Kỹ thuật Máy tính](majors) tại [Đại học Khoa học Tự nhiên](university).
+    - Xin thông tin về chỉ tiêu tuyển sinh của ngành [Công nghệ Thông tin](majors) tại [Đại học Cần Thơ](university) trong kỳ tuyển sinh mới nhất.
+    - Tôi muốn hiểu rõ về các tiêu chí và điều kiện tuyển sinh vào ngành [Khoa học Máy tính](majors) tại [Đại học Cần Thơ](university).
+    - Xin vui lòng chia sẻ thông tin về độ khó và tiêu chí tuyển sinh vào ngành [Công nghệ Thông tin](majors) tại [Đại học Cần Thơ](university).
+    - Xin hãy cung cấp thông tin về chỉ tiêu tuyển sinh của ngành [Khoa học Máy tính](majors) tại [Đại học Khoa học Tự nhiên](university) trong năm học vừa qua.
+    - Tôi muốn biết về sự cạnh tranh trong việc đỗ vào ngành [Khoa học Máy tính](majors) tại [Đại học Cần Thơ](university).
+    - Cho tôi biết các tiêu chí cần thiết để được nhận vào ngành [Công nghệ Thông tin](majors) tại [Đại học Cần Thơ](university).
+    - Hãy so sánh số lượng chỉ tiêu tuyển sinh của ngành [Kỹ thuật Phần mềm](majors) tại [Đại học FPT](university) và [Đại học Bách Khoa Hà Nội](university).
+    - Xin vui lòng giới thiệu về yêu cầu tuyển sinh vào ngành [Truyền thông Đa phương tiện](majors) tại [Đại học Cần Thơ](university).
+    - Tôi cần thông tin chi tiết về tiêu chí đánh giá vào ngành [Công nghệ Thông tin](majors) tại [Đại học Nam Cần Thơ](university).
+    - Có những yếu tố nào quyết định việc đỗ vào ngành [Kỹ thuật Phần mềm](majors) tại [Đại học FPT](university)?
+    - Hãy so sánh chỉ tiêu tuyển sinh của ngành [Truyền thông Đa phương tiện](majors) tại [Đại học Cần Thơ](university) và [Đại học Khoa học Xã hội và Nhân văn TP.HCM](university).
+    - Tôi muốn biết về tiêu chí xét tuyển vào ngành [Công nghệ Thông tin](majors) tại [Đại học Cần Thơ](university). Bạn có thể giúp tôi không?
+    - Cho tôi biết về các yêu cầu tuyển sinh vào ngành [Kỹ thuật Máy tính](majors) tại [Đại học Cần Thơ](university) trong năm học mới nhất.
+    - Ngành [kĩ thuật máy tính](majors) ở trường [đại học khoa học tự nhiên](university) năm nay có chỉ tiêu bao nhiêu
+    - thật tình cho tui hỏi ngành [khoa học máy tính](majors) của trường [đại học cần thơ](university) năm nay có chỉ tiêu bao nhiêu
+    - ngành [công nghệ thông tin](majors) của trường [đại học cần thơ](university) năm nay có chỉ tiêu bao nhiêu
+    - ngành [kỹ thuật phần mềm](majors) của trường [đại học cần thơ](university) năm nay có chỉ tiêu bao nhiêu
+    - Mà ngành [an toàn thông tin](majors) của trường [đại học cần thơ](university) năm nay có chỉ tiêu bao nhiêu
+    - ngành [truyền thông đa phương tiện](majors) của trường [đại học cần thơ](university) năm nay có chỉ tiêu bao nhiêu
+    - vậy ngành [mạng máy tính và truyền thông dữ liệu](majors) của trường [đại học cần thơ](university) năm nay có chỉ tiêu bao nhiêu
+    - ngành [kĩ thuật phần mềm](majors) ở trường [đại học cần thơ](university) năm nay lấy bao nhiêu người
+    - mà cái ngành [công nghệ thông tin](majors) ở trường [đại học bách khoa](university) năm nay có chỉ tiêu bao nhiêu
+    - ngành [an toàn thông tin](majors) của trường [đại học fpt](university) năm nay lấy bao nhiêu người
+    - Ngành [khoa học máy tính](majors) ở trường [đại học công nghệ](university) năm nay có chỉ tiêu là bao nhiêu người
+    - Chuyên ngàng ngành [trí tuệ nhân tạo](majors) ở trường [đại học quốc gia HCM](university) năm nay có chỉ tiêu là bao nhiêu người
+    - mấy cái ngành [công nghệ thông tin](majors) ở trường [ctu](university) năm nay có chỉ tiêu là bao nhiêu người
+    - Ngành [công nghệ ô tô](majors) ở trường [đại học quốc gia HCM](university) năm nay có chỉ tiêu là bao nhiêu người
+    - Khi tuyển sinh ngành [kỹ thuật phần mềm](majors) ở trường [Đại học FPT](university), họ lấy bao nhiêu người
+    - Khi tuyển sinh ngành [quản lý khách sạng](majors) ở trường [Đại học FPT](university), họ lấy bao nhiêu người
+    - Khi trường tuyển sinh ngành [marketting](majors) ở trường [Đại học FPT](university), họ lấy bao nhiêu người
+    - Khi được tuyển sinh ngành [thiết kế đồ họa](majors) ở trường [Đại học FPT](university), họ lấy bao nhiêu người
+    - Khi tuyển sinh ngành [kế toán](majors) ở trường [Đại học FPT](university), họ lấy bao nhiêu người
+    - năm nay chỉ tiêu ngành [kỹ thuật điện tử](majors) ở trường [Đại học Bách Khoa Hà Nội](university) lấy bao nhiêu người
+    - Ngành [kỹ thật máy tin](majors) ở trường [Đại học Bách Khoa Hà Nội](university) năm nay có bao nhiêu chỉ tiêu
+    - Ngành [khoa học kỹ thuật máy tính](majors) của trường [Đại học Bách Khoa TP.HCM](university) năm nay lấy bao nhiêu người
+    - Xin cho biết cái số lượng chỉ tiêu tuyển sinh ngành [kỹ thuật xây dựng](majors) tại trường [Đại học Bách Khoa Đà Nẵng](university) năm nay.
+    - Xin cho biết số lượng chỉ tiêu tuyển sinh ngành [kỹ thuật điện](majors) tại trường [đại học cần thơ](university) năm nay.
+    - Xin cho biết thật kĩ số lượng chỉ tiêu tuyển sinh ngành [kỹ thuật cơ điện tử](majors) tại trường [đại học cần thơ](university) năm nay.
+    - Xin cho biết số lượng chỉ tiêu tuyển sinh ngành [kỹ thuật tự động hóa](majors) tại trường [đại học cần thơ](university) năm nay.
+    - Xin cho em biết số lượng chỉ tiêu tuyển sinh ngành [kế toán](majors) tại trường [đại học cần thơ](university) năm nay.
+    - Xin cho tôi biết số lượng chỉ tiêu tuyển sinh ngành [kinh tế](majors) tại trường [đại học cần thơ](university) năm nay.
+    - Xin cho biết số lượng chỉ tiêu tuyển sinh ngành [thủy sản](majors) tại trường [đại học cần thơ](university) năm nay.
+    - Ngành [kỹ thuật công trình](majors) ở trường [Đại học Bách Khoa HCM](university) năm nay có bao nhiêu chỉ tiêu tuyển sinh
+    - Ngành [kỹ thuật công nghệ thông tin](majors) của trường [Đại học Công nghệ](university) năm nay lấy bao nhiêu người
+    - Khi tuyển sinh ngành [khoa học môi trường](majors) ở trường [Đại học Khoa học Tự nhiên TP.HCM](university), họ lấy bao nhiêu người
+    - Hãy cho tôi biết số lượng chỉ tiêu của ngành [Kỹ thuật Máy tính](majors) tại trường [Đại học Khoa học Tự nhiên](university) năm nay.
+    - Hãy cho tôi biết chính xác số lượng chỉ tiêu của ngành [Kỹ thuật cơ điện tử](majors) tại trường [Đại học Khoa học Tự nhiên](university) năm nay.
+    - Hãy cho em biết số lượng chỉ tiêu của ngành [công nghệ ô tô](majors) tại trường [Đại học Khoa học Tự nhiên](university) năm nay.
+    - Hãy cho tôi biết số lượng chỉ tiêu của ngành [công nghệ thông tinh](majors) tại trường [Đại học Khoa học Tự nhiên](university) năm nay.
+    - Xin vui lòng cung cấp thông tin về chỉ tiêu của ngành [Kỹ thuật phần mềm](majors) tại trường [Đại học giao thông vận tải hà nội](university) trong năm nay.
+    - Tôi muốn biết kĩ về số lượng chỉ tiêu tuyển sinh của ngành [Công nghệ thực phẩm](majors) tại trường [Đại học FPT](university) Tự nhiên năm nay.
+    - Tôi muốn biết số lượng chỉ tiêu tuyển sinh của ngành [quản lý khách sạn](majors) tại trường [Đại học FPT](university) Tự nhiên năm nay.
+    - Tôi muốn xem số lượng chỉ tiêu tuyển sinh của ngành [an toàn thông tin](majors) tại trường [Đại học FPT](university) Tự nhiên năm nay.
+    - Tôi muốn biết rõ hơn về số lượng chỉ tiêu tuyển sinh của ngành [kinh doanh quốc tế](majors) tại trường [Đại học FPT](university) Tự nhiên năm nay.
+    - Cho em hỏi năm nay ngành [kỹ thuật máy tính](majors) ở trường [đại học khoa học tự nhiên](university) có bao nhiêu chỉ tiêu tuyển sinh ạ?
+    - Xin thông tin về số lượng chỉ tiêu tuyển sinh của ngành [khoa học máy tính](majors) tại [đại học cần thơ](university) trong năm nay được không ạ?
+    - Em muốn tìm hiểu về chỉ tiêu tuyển sinh của ngành [công nghệ thông tin](majors) tại [đại học cần thơ](university) trong năm học mới, có thể giúp em được không ạ?
+    - Anh/chị có thể cho em biết ngành [kỹ thuật cơ khí](majors) ở trường [đại học bách khoa](university) năm nay có bao nhiêu chỉ tiêu không ạ?
+    - Em quan tâm đến chỉ tiêu tuyển sinh của ngành [khoa học môi trường](majors) tại trường [Đại học Khoa học Tự nhiên TP.HCM](university) năm học mới, có thể cung cấp thông tin cho em được không ạ?
+    - Anh/chị xem giúp em số lượng chỉ tiêu tuyển sinh của ngành [kỹ thuật điện tử viễn thông](majors) tại [Đại học Bách Khoa Đà Nẵng](university) trong năm học sắp tới được không ạ?
+    - Cho em hỏi số lượng chỉ tiêu tuyển sinh của ngành [kỹ thuật phần mềm](majors) tại [Đại học Bách Khoa HCM](university) trong năm nay là bao nhiêu ạ?
+    - Xin xem thông tin về chỉ tiêu tuyển sinh của ngành [kỹ thuật công trình xây dựng](majors) tại [Đại học Xây dựng TP.HCM](university) trong năm nay được không ạ?
+    - Em quan tâm đến số lượng chỉ tiêu tuyển sinh của ngành [truyền thông đa phương tiện](majors) tại trường [Đại học Kinh tế Quốc dân](university) trong năm học mới, có thể giúp em tìm hiểu được không ạ?
+    - Anh/chị có thể cho em biết số lượng chỉ tiêu tuyển sinh của ngành [khoa học xã hội](majors) tại [Đại học Khoa học Xã hội TP.HCM](university) trong năm nay được không ạ?
+    - Em muốn tìm hiểu về chỉ tiêu tuyển sinh của ngành [kỹ thuật điện](majors) tại [Đại học Bách Khoa Hà Nội](university) trong năm học tới ạ.
+    - Xin xem thông tin về số lượng chỉ tiêu tuyển sinh của ngành [kỹ thuật hóa học](majors) tại [Đại học Khoa học Tự nhiên Hà Nội](university) trong năm học mới được không ạ?
+    - Em quan tâm đến chỉ tiêu tuyển sinh của ngành [công nghệ sinh học](majors) tại [Đại học Khoa học Tự nhiên HCM](university) trong năm học tới, có thể giúp em tìm hiểu được không ạ?
+    - Anh/chị xin vui lòng cung cấp thông tin về số lượng chỉ tiêu tuyển sinh của ngành [kỹ thuật ô tô](majors) tại [Đại học giao thông vận tải TP.HCM](university) trong năm học mới ạ?
+    - Tôi quan tâm đến số lượng chỉ tiêu tuyển sinh của ngành [kinh doanh quốc tế](majors) tại trường [Đại học FPT](university) Tự nhiên năm nay.
+    - Cho em hỏi năm nay ngành [kỹ thuật máy tính](majors) ở trường [đại học khoa học tự nhiên](university) có bao nhiêu chỉ tiêu tuyển sinh ạ?
+    - Xin thông tin về số lượng chỉ tiêu tuyển sinh của ngành [khoa học máy tính](majors) tại [đại học cần thơ](university) trong năm nay được không ạ?
+    - Tôi quan tâm đến số lượng chỉ tiêu tuyển sinh của ngành [kỹ thuật công nghệ thông tin](majors) tại trường [Đại học Bách khoa TP.HCM](university) trong năm 2023.
+    - Hãy cho tôi biết về số lượng chỉ tiêu tuyển sinh của ngành [khoa học kỹ thuật máy tính](majors) tại [Đại học Sư phạm Kỹ thuật TP.HCM](university) năm nay.
+    - Tôi muốn tìm hiểu về số lượng chỉ tiêu tuyển sinh của ngành [kỹ thuật phần mềm](majors) tại trường [Đại học Giao thông vận tải](university) trong năm 2023.
+    - Cho tôi biết số lượng chỉ tiêu tuyển sinh của ngành [khoa học dữ liệu](majors) tại [Đại học Bách Khoa Hà Nội](university) năm nay.
+    - Xin thông tin về số lượng chỉ tiêu tuyển sinh của ngành [kỹ thuật điện tử viễn thông](majors) tại [Đại học Bách khoa Đà Nẵng](university) trong năm 2023.
+    - Tôi cần biết số lượng chỉ tiêu tuyển sinh của ngành [quản lý công nghiệp](majors) tại trường [Đại học Kinh tế Quốc dân](university) trong năm nay.
+    - Cho tôi thông tin về số lượng chỉ tiêu tuyển sinh của ngành [kỹ thuật hóa học](majors) tại [CTU](university) trong năm 2023.
+- intent: review
+  examples:  |
+    - Tại sao [Đại học Quốc gia Hà Nội](university) được đánh giá cao trong lĩnh vực khoa học xã hội? 
+    - Nếu bạn phải mô tả [Đại học Bách Khoa TP.HCM](university) trong ba từ, những từ đó sẽ là gì?
+    - Bạn đã nghe nói gì về [Đại học Sư phạm Kỹ thuật TP.HCM](university)? Hãy chia sẻ một khía cạnh bạn thấy thú vị.
+    - Tóm tắt ba điểm mạnh của [Đại học Khoa học Xã hội và Nhân văn Hà Nội](university) mà bạn biết.
+    - Nêu lý do mà [Đại học Công nghệ California - Đại học Bách Khoa TP.HCM](university) nổi tiếng về công nghệ.
+    - Tại sao [Đại học Bách Khoa TP.HCM](university) có danh tiếng mạnh trong lĩnh vực kỹ thuật?
+    - Cho biết điểm mạnh của [Đại học Khoa học Tự nhiên TP.HCM](university) trong lĩnh vực nghiên cứu khoa học.
+    - Tóm tắt ba điểm mạnh của [Đại học Kinh tế Quốc dân Hà Nội](university) mà bạn biết.
+    - Bạn có ý kiến gì về [Đại học FPT](university) trong lĩnh vực kỹ thuật và công nghệ?
+    - Tóm tắt ba điểm mạnh của [ctu](university) mà bạn biết.
+    - Tóm tắt ba điểm mạnh của [Đại học Y Khoa Phạm Ngọc Thạch](university) mà bạn biết.
+    - Nêu lý do mà [Đại học Quốc gia Hà Nội](university) được coi là một trong những trường đại học hàng đầu ở châu Á.
+    - Bạn đã nghe nói gì về [Đại học Ngân Hàng](university) ở Hàn Quốc? Hãy chia sẻ một khía cạnh bạn thấy thú vị.
+    - Tại sao [Học viện Biên Phòng](university) được biết đến trong lĩnh vực bảo vệ Tổ Quốc?
+    - Tóm tắt ba điểm mạnh của [Học viện cảnh sát nhân dân](university) mà bạn biết.
+    - Tại sao bạn nghĩ trường [đại học khoa học tự nhiên](university) được nhiều người lựa chọn?
+    - Nếu bạn phải mô tả trường [đại học cần thơ](university) trong ba từ, những từ đó sẽ là gì?
+    - Bạn đã nghe nói gì về trường [đại học bách khoa](university)? Hãy chia sẻ một khía cạnh bạn thấy thú vị.
+    - Tóm tắt ba điểm mạnh của trường [đại học khoa học tự nhiên](university) mà bạn biết.
+    - Cho tôi biết về một ưu điểm và một nhược điểm của trường [đại học khoa học tự nhiên](university).
+    - Đối với bạn, điều gì làm nổi bật trường [đại học cần thơ](university) so với các trường khác?
+    - Hãy chia sẻ ý kiến của bạn về trường [đại học cần thơ](university) trong ba câu.
+    - Một điều mà bạn thích ở trường [đại học bách khoa](university) là gì và tại sao?
+    - Nếu trường [đại học khoa học tự nhiên](university) là một món ăn, bạn nghĩ nó sẽ giống món gì?
+    - Hãy tả cảm giác mà bạn có khi đặt chân đến trường [đại học khoa học tự nhiên](university) lần đầu tiên.
+    - Bạn đã nghe về trường [đại học cần thơ](university) từ một người nào đó, hãy chia sẻ lại những gì bạn đã nghe được.
+    - Nếu trường [đại học cần thơ](university) là một tác phẩm nghệ thuật, bạn nghĩ nó sẽ có tên gì và được làm từ nguyên liệu gì?
+    - Hãy tưởng tượng trường [đại học bách khoa](university) là một người bạn, bạn sẽ miêu tả họ như thế nào trong một bức thư ngắn?
+    - Tôi muốn nghe câu chuyện thú vị nhất mà bạn biết về trường [đại học khoa học tự nhiên](university).
+    - Nếu bạn phải dùng một từ để mô tả trường [đại học khoa học tự nhiên](university), từ đó là gì và tại sao?
+    - Người bạn thân của bạn đã học tại trường [đại học cần thơ](university) và có thể bạn sẽ chia sẻ một số ấn tượng của họ?
+    - Hãy tưởng tượng rằng trường [đại học cần thơ](university) là một người, bạn nghĩ họ sẽ có tính cách như thế nào?
+    - Nếu bạn có cơ hội gặp nhà sáng lập trường [đại học bách khoa](university), bạn sẽ hỏi họ điều gì?
+    - cho tui chút review về trường [đại học khoa học tự nhiên](university)
+    - cho tôi chút nhận xét về trường [CTU](university)
+    - cho tôi chút nhận xét về trường [đại học cần thơ](university)
+    - review một chút về trường [đại học cần thơ](university) cho tui đi
+    - review về trường [đại học bách khoa](university)
+    - review về trường [đại học quốc gia](university)
+    - review có tâm về trường [đại học nam cần thơ](university)
+    - giới thiệu vài nét về trường [đại học bách khoa](university) cho tui biết
+    - giới thiệu về trường [đại học cần thơ](university)
+    - giới thiệu trường [đại học quốc gia](university) 
+    - giới thiệu một chút về trường [đại học nam cần thơ](university)
+    - giới thiệu về trường [Đại học Bách Khoa TP.HCM](university)
+    - cho tui chút review về trường [đại học cần thơ](university)
+    - cho tui một chút review về trường [Đại học Bách Khoa TP.HCM](university)
+    - cho tui ít review về trường [Đại học FPT](university)
+    - cho tui chút review về trường [đại học quốc gia](university)
+    - cho tui chút review có tâm và nhận xét về trường [đại học nam cần thơ](university)
+    - [đại học nam cần thơ](university) và những điều tôi nên biết
+    - [Đại học Bách Khoa TP.HCM](university) và những điều tôi nên biết
+    - Tôi quan tâm đến thông tin đánh giá về trường [đại học fpt](university)
+    - [Đại học FPT](university) và những điều tôi nên biết
+    - [đại học quốc gia](university) và những điều tôi nên biết 
+    - [đại học nam cần thơ](university) và những điều tôi nên biết 
+    - giới thiệu trường [đại học fpt](university) cho tôi biết
+    - cho tui chút review về trường [đại học công nghệ](university) được không
+    - cho tui chút review về trường [đại học fpt](university) trước khi nhập học
+    - những đạnh giá về trường [đại học cần thơ](university)
+    - cho tui chút review về trường [đại học cần thơ](university)
+    - cho tui một chút review về trường [Đại học Bách Khoa TP.HCM](university)
+    - cho tui chút review về trường [đại học quốc gia](university)
+    - Cho tôi xin ít thông tin về trường [Đại học Khoa học Tự nhiên](university).
+    - Tôi muốn biết ý kiến của bạn về trường [Đại học Cần Thơ](university).
+    - Bạn có thể cho tôi một số nhận xét về trường [Đại học FPT](university) được không
+    - Tôi muốn biết ý kiến của sinh viên về trường [đại học cần thơ](university)
+    - Tôi quan tâm đến thông tin đánh giá về trường [Đại học Giao thông vận tải](university), bạn có thể chia sẻ được không
+    - Xin hãy cho tôi biết đánh giá tổng quan về trường [Đại học Khoa học Tự nhiên TPHCM](university).
+    - Tôi muốn nghe ý kiến của bạn về trường [Đại học Cần Thơ](university) có tốt không
+    - Tôi quan tâm đến đánh giá từ sinh viên về trường [Đại học Tây Đô](university), bạn có thể chia sẻ được không
+    - Tôi muốn biết ý kiến của sinh viên về trường [Đại học Nam Cần Thơ](university), liệu có thể chia sẻ thông tin đó được không
+    - Nếu bạn có thông tin trường [Đại học Giao thông vận tải](university) thì bạn cho tui một lời nhận xét về trường, hay là review cũng được nữa
+    - Bạn có thể đưa ra một số đánh giá về trường [Đại học Quốc gia Sài Gòn](university) không?
+    - Tôi muốn nghe ý kiến của bạn về trường [ctu](university).
+    - Bạn có thể chia sẻ với tôi những ấn tượng của bạn về trường [Đại học Công nghệ Thông tin](university) không?
+    - Tôi đang xem xét việc học tại [Đại học Ngoại ngữ](university), có thể bạn cho tôi biết một số nhận xét về trường này không?
+    - Tôi đang cân nhắc đăng ký vào [Đại học Sư phạm](university), bạn có thể chia sẻ kinh nghiệm của mình về trường này không?
+    - Tôi muốn nghe ý kiến của những người đã học tại trường [Đại học Y Dược](university).
+    - Tôi quan tâm đến chất lượng giảng dạy tại [Đại học Khoa học Xã hội và Nhân văn](university), có thể bạn đưa ra một số đánh giá về điều này không?
+    - Bạn có thể đưa ra một cái nhìn tổng quan về trường [Đại học Nông nghiệp](university) không?
+    - Cho tôi biết những điểm mạnh và điểm yếu của [Đại học Luật](university) từ góc nhìn của bạn.
+    - Tôi muốn nghe ý kiến của bạn về trường [đại học giao thông vận tải](university), có thể cho tôi một chút review không ạ?
+    - Bạn có thể chia sẻ nhận xét về trường [đại học khoa học tự nhiên](university) được không?
+    - Xin hãy cho tôi một ít review về trường [đại học nam cần thơ](university) ạ.
+    - Tôi quan tâm đến trường [đại học khoa học tự nhiên](university), bạn có thể đánh giá về trường này một chút không ạ?
+    - Bạn đã từng nghe về trường [đại học cần thơ](university) chưa? Cho tôi biết ý kiến của bạn về trường này nhé.
+    - Review về trường [đại học quốc gia tphcm](university) cho tôi xin được không ạ?
+    - Tôi đang muốn tìm hiểu về trường [đại học FPT](university), bạn có thể chia sẻ nhận xét về trường này cho tôi không ạ?
+    - Bạn đã từng có trải nghiệm học tập tại trường [đại học khoa học tự nhiên](university) chưa? Hãy viết vài dòng review về trường này đi ạ.
+    - Review về trường [đại học cần thơ](university) cho tôi biết nhé.
+    - Tôi muốn biết ý kiến của bạn về trường [đại học bách khoa đà nẵng](university), bạn có thể cho tôi một vài nhận xét không ạ?
+    - Bạn đã từng nghe đến trường [đại học giao thông vận tại hcm](university) chưa? Cho tôi biết nhận xét của bạn về trường này.
+    - Nếu bạn phải đưa ra một lời khuyên cho những người muốn tham gia vào trường [Đại học Nông nghiệp](university), điều gì sẽ làm bạn ấn tượng và muốn giới thiệu về trường này?
+    - Bạn đã từng học tại trường [Đại học Cần Thơ](university) chưa? Vui lòng chia sẻ ý kiến của bạn về trường này có tốt không ạ?
+    - Tôi quan tâm đến đánh giá từ sinh viên về trường [Đại học Tây Đô](university). Bạn có thể chia sẻ nhận xét và đánh giá của sinh viên về trường này được không ạ?
+    - Bạn có thông tin về trường [Đại học Nam Cần Thơ](university)? Tôi muốn biết ý kiến của sinh viên về trường này. Bạn có thể chia sẻ thông tin đó được không ạ?
+    - Nếu bạn có thông tin về trường [Đại học Giao thông vận tải](university), bạn có thể cho tôi một lời nhận xét hoặc review về trường này được không ạ?
+    - Bạn có thể đưa ra một số đánh giá về trường [CTU](university) dựa trên những thông tin và trải nghiệm của bạn không ạ?
+- intent: profile
+  examples:  |
+    - Cho tôi biết danh sách các tài liệu cần thiết để nộp hồ sơ nhập học vào [Đại học Bách khoa](university)
+    - Trường [ctu](university) yêu cầu những giấy tờ gì khi đăng ký nhập học?
+    - Hồ sơ đăng ký học của Trường [Đại học Luật](university) bao gồm những thông tin nào?
+    - Làm thế nào để hoàn thành hồ sơ nhập học vào Trường [Đại học Nông nghiệp](university)?
+    - Xin hãy cho biết các bước cần thực hiện để đăng ký vào [Đại học Khoa học Tự nhiên](university).
+    - Trường [Đại học Ngoại thương](university) yêu cầu những giấy tờ gì khi nộp đơn nhập học?
+    - Hãy cho tôi biết về các yêu cầu đối với hồ sơ đăng ký học tại [Đại học Khoa học và Công nghệ Hồng Kông](university).
+    - Tôi muốn biết về quá trình nộp hồ sơ học tại [Đại học Sân khấu Điện ảnh](university). Bạn có thể giúp tôi không?
+    - Trường [Đại học Khoa học Xã hội và Nhân văn Hà Nội](university) cần những giấy tờ gì khi đăng ký nhập học?
+    - Xin vui lòng cung cấp thông tin về hồ sơ đăng ký học tại [Đại học Khoa học Tự nhiên Hà Nội](university).
+    - Làm thế nào để hoàn tất hồ sơ nhập học tại [Đại học Sư phạm Hà Nội](university)?
+    - Trường [Đại học Y Dược Hà Nội](university) yêu cầu những giấy tờ gì khi đăng ký nhập học?
+    - Hãy nói cho tôi biết về các bước cần thực hiện để đăng ký vào [Đại học Nông Lâm Hà Nội](university).
+    - Xin vui lòng giúp tôi hiểu về yêu cầu đối với hồ sơ đăng ký học tại [Đại học Đông Á](university).
+    - Tôi muốn biết về quá trình nộp hồ sơ học tại [Đại học Kinh tế Quốc dân](university). Bạn có thể hướng dẫn không?
+    - Trường [Đại học Sư phạm Huế](university) cần những giấy tờ gì khi đăng ký nhập học?
+    - Có những thông tin gì cần có trong hồ sơ xét tuyển của [Đại học Nông Lâm](university)?
+    - Gợi ý các bước để hoàn thành hồ sơ nhập học tại trường [đại học cần thơ](university)
+    - [Đại học Khoa học Xã hội và Nhân văn](university) yêu cầu thủ tục gì cho việc nộp hồ sơ xét tuyển?
+    - Tôi có thể gửi hồ sơ nhập học đến [Đại học Bách khoa](university) qua email không?
+    - Những tài liệu cần chuẩn bị khi xin học tại [Đại học Nông Lâm](university) là gì?
+    - [đại học cần thơ](university) có hỗ trợ tư vấn việc làm hồ sơ xét tuyển không?
+    - Tôi cần làm thế nào để bổ sung thông tin sau khi đã nộp hồ sơ xét tuyển vào [Đại học Khoa học Xã hội và Nhân văn](university)?
+    - Có những mẹo nào giúp tối ưu hóa hồ sơ xét tuyển cho [Đại học Bách khoa](university)?
+    - [Đại học Nông Lâm](university) yêu cầu bản sao công chứng của các giấy tờ không?
+    - Tôi đã nộp hồ sơ xét tuyển vào [đại học cần thơ](university), làm cách nào để theo dõi tình trạng xét duyệt?
+    - [Đại học Khoa học Xã hội và Nhân văn](university) yêu cầu những thông tin gì trong hồ sơ xét tuyển
+    - Tôi muốn biết cách thu thập hồ sơ nhập học của [Đại học Bách khoa](university)
+    - Thời hạn nộp hồ sơ xét tuyển vào [Đại học Nông Lâm](university) là khi nào
+    - [đại học cần thơ](university) nhận hồ sơ xét tuyển đến khi nào
+    - [Đại học Khoa học Xã hội và Nhân văn](university) có chấp nhận hồ sơ xét tuyển trực tuyến không
+    - Hồ sơ xét tuyển vào [Đại học Bách khoa](university) cần được nộp ở đâu
+    - Tôi cần liên hệ với ai nếu có vấn đề về hồ sơ nhập học của [Đại học Nông Lâm](university)
+    - [đại học cần thơ](university) có yêu cầu khắt khe về bản sao công chứng trong hồ sơ xét tuyển không
+    - Tôi muốn biết thêm về hồ sơ nhập học của [Đại học Khoa học Xã hội và Nhân văn](university)
+    - [Đại học Bách khoa](university) yêu cầu bảng điểm các môn nào trong hồ sơ xét tuyển
+    - Hồ sơ nhập học của trường [Đại học Nông Lâm](university) gồm những gì
+    - Thông tin về hồ sơ nhập học của trường [đại học cần thơ](university) gồm những gì
+    - Hồ sơ nhập học chính thức của trường [Đại học Khoa học Xã hội và Nhân văn](university) gồm những gì
+    - Hồ sơ nhập học trên trang web của trường [Đại học Bách khoa](university) gồm những gì
+    - Yêu cầu những giấy tờ nào để hoàn thành hồ sơ nhập học ở Trường [Đại học Kinh tế](university)
+    - Yêu cầu những giấy tờ nào để hoàn thành hồ sơ nhập học ở Trường [đại học cần thơ](university) gồm những gì
+    - Cần chuẩn bị những thông tin gì khi lập hồ sơ nhập học tại Trường [Đại học Y khoa](university)
+    - Yêu cầu những giấy tờ nào để hoàn thành hồ sơ nhập học ở Trường [đại học cần thơ](university) gồm những gì
+    - Cần chuẩn bị những thông tin gì khi lập hồ sơ nhập học tại Trường [đại học cần thơ](university)
+    - Cần chuẩn bị những thông tin gì khi lập hồ sơ nhập học tại Trường [ctu](university)
+    - Cho tôi biết danh sách các tài liệu cần thiết để nộp hồ sơ nhập học vào Trường [Đại học Ngoại ngữ](university)
+    - Cho tôi biết danh sách các tài liệu cần thiết để nộp hồ sơ nhập học vào [Đại học Bách khoa](university)
+    - Trường [Đại học Khoa học Xã hội](university) yêu cầu những giấy tờ gì khi đăng ký nhập học
+    - Hồ sơ đăng ký học của Trường [Đại học Luật](university) bao gồm những thông tin nào
+    - Làm thế nào để hoàn thành hồ sơ nhập học vào Trường [Đại học Nông nghiệp](university)
+    - Tôi muốn biết những bước cần làm để nộp hồ sơ nhập học vào Trường [Đại học Khoa học Tự nhiên](university).
+    - Hồ sơ nhập học vào Trường [Đại học Quốc gia tp hcm](university) bao gồm những giấy tờ nào
+    - Hồ sơ nhập học vào Trường [Đại học Bách khoa](university) bao gồm những giấy tờ nào
+    - Hồ sơ nhập học vào Trường [đại học cần thơ](university) bao gồm những giấy tờ nào
+    - Tôi cần chuẩn bị những thông tin gì khi lập hồ sơ nhập học tại Trường [Đại học Sư phạm Sài Gòn](university)
+    - Tôi cần chuẩn bị những thông tin gì khi lập hồ sơ nhập học tại Trường [Đại học FPT](university)
+    - Tôi cần chuẩn bị những thông tin gì khi lập hồ sơ nhập học tại Trường [Đại học Luật](university)
+    - Để nhập học vào trường [Đại học Bách khoa](university), hồ sơ cần bao gồm những thông tin và giấy tờ nào
+    - Yêu cầu những giấy tờ và thông tin cần thiết khi đăng ký nhập học tại trường [Đại học Kinh tế](university) là gì
+    - Khi lập hồ sơ nhập học vào trường [Đại học Y khoa](university), cần chuẩn bị những thông tin và tài liệu nào
+    - Xin vui lòng cung cấp danh sách các giấy tờ cần thiết để hoàn thành hồ sơ nhập học vào trường [Đại học Ngoại ngữ](university).
+    - Để đăng ký nhập học vào trường [Đại học Khoa học Xã hội](university), cần nộp những giấy tờ và thông tin gì
+    - Trường [Đại học Kinh tế quốc dân](university) yêu cầu những tài liệu và giấy tờ nào khi đăng ký nhập học
+    - Làm thế nào để hoàn thành hồ sơ nhập học vào trường [Đại học Nông Lâm](university)
+    - Vui lòng hướng dẫn các bước cần làm để nộp hồ sơ nhập học vào trường [Đại học Khoa học Tự nhiên tphcm](university).
+    - Xin vui lòng cung cấp danh sách giấy tờ và thông tin cần chuẩn bị khi lập hồ sơ nhập học tại trường [Đại học Quốc tế](university).
+    - Khi lập hồ sơ nhập học tại trường [Đại học Sư phạm Đà Nẵng](university), cần chuẩn bị những thông tin và tài liệu gì
+    - Hồ sơ nhập học vào trường [Đại học Kinh doanh và Công nghệ](university) bao gồm những giấy tờ và thông tin nào
+    - Hồ sơ nhập học vào trường Trường [đại học cần thơ](university) bao gồm những giấy tờ và thông tin nào
+    - Yêu cầu giấy tờ và thông tin cần thiết khi đăng ký nhập học vào trường [Đại học Y học cổ truyền](university) là gì
+    - Khi lập hồ sơ nhập học tại trường [Đại học Cần Thơ](university), cần chuẩn bị những giấy tờ và thông tin gì
+    - Để nhập học vào trường [Đại học Nghệ thuật và Thiết kế](university), hồ sơ cần bao gồm những thông tin và tài liệu nào
+    - Hồ sơ nhập học vào trường [Đại học Công nghệ thông tin](university) yêu cầu những giấy tờ và thông tin gì
+    - Xin vui lòng cung cấp danh sách giấy tờ và thông tin cần thiết để nộp hồ sơ nhập học vào trường [Đại học Công nghệ thông tin và Truyền thông Thái Nguyên](university).
+    - Để đăng ký nhập học vào trường [Đại học FPT](university), cần nộp những giấy tờ và thông tin gì
+    - Trường [Đại học Kỹ thuật công nghiệp](university) yêu cầu những tài liệu và giấy tờ nào khi đăng ký nhập học
+    - Hồ sơ nhập học của trường [CTU](university) yêu cầu những giấy tờ gì?
+    - Cho tôi biết về các bước cần làm để hoàn thành hồ sơ nhập học của trường [Đại học Khoa học Tự nhiên](university).
+    - Tôi quan tâm đến hồ sơ nhập học của trường [Đại học Y Dược](university). Bạn có thể hướng dẫn tôi cách hoàn thành hồ sơ không ạ?
+    - Hồ sơ nhập học của trường [Đại học Ngoại ngữ](university) gồm những phần nào cần điền thông tin?
+    - Tôi đang muốn tìm hiểu về hồ sơ nhập học của trường [Đại học Sư phạm Kỹ thuật](university). Bạn có thể cho tôi biết chi tiết về các bước cần làm không ạ?
+    - Yêu cầu những giấy tờ nào để hoàn thành hồ sơ nhập học ở trường [Đại học Khoa học Xã hội và Nhân văn](university)?
+    - Tôi muốn biết về hồ sơ nhập học của trường [Đại học Cần Thơ](university) cho ngành Kinh tế học. Có gì đặc biệt mà tôi cần biết không ạ?
+    - Hồ sơ nhập học của trường [Đại học Bách khoa Đà Nẵng](university) bao gồm những thủ tục nào cần hoàn thành?
+    - Bạn có thể cho tôi biết về hồ sơ nhập học của trường [Đại học Kinh tế](university) tại các khối ngành khác nhau không ạ?
+    - Tôi cần hướng dẫn về việc thu thập các giấy tờ cần thiết để hoàn thành hồ sơ nhập học tại trường [Đại học Nông Lâm](university).
+    - Hồ sơ nhập học của trường [Đại học Y Dược Cần Thơ](university) bao gồm những bước nào để hoàn thành?
+    - Tôi muốn tìm hiểu về hồ sơ nhập học của trường [Đại học Khoa học Tự nhiên TP.HCM](university) dành cho học bổng. Cần chuẩn bị những giấy tờ gì?
+    - Hồ sơ nhập học của trường [Đại học Ngoại Thương](university) yêu cầu bản sao công chứng các giấy tờ hay không?
+    - Tôi quan tâm đến hồ sơ nhập học của trường [Đại học Cần Thơ](university) cho ngành Nông nghiệp. Bạn có thể cung cấp thông tin chi tiết không ạ?
+    - Hồ sơ nhập học của trường [Đại học Sư phạm Hồ Chí Minh](university) cần chuẩn bị bản sao công chứng bằng tốt nghiệp phải không?
+    - Tôi muốn biết về các yêu cầu hồ sơ nhập học của trường [Đại học Kỹ thuật Công nghệ Cần Thơ](university) dành cho học việc làm và học bổng.
+    - Hồ sơ nhập học của trường [Đại học Khoa học Xã hội và Nhân văn TP.HCM](university) gồm những phần nào tôi cần điền thông tin?
+    - Tôi đang quan tâm đến hồ sơ nhập học của trường [Đại học Khoa học Tự nhiên Đà Nẵng](university) cho học việc làm nghiên cứu. Bạn có thể cung cấp thông tin chi tiết không ạ?
+    - Hồ sơ nhập học của trường [Đại học Kinh tế Cần Thơ](university) cần kèm theo giấy xác nhận tham gia kỳ thi quốc gia không?
+    - Tôi muốn biết về các hồ sơ cần nộp khi xin nhập học tại trường [Đại học Bách khoa TP.HCM](university) cho ngành Kỹ thuật Máy tính.
+    - Trường [Đại học Bách khoa Hà Nội](university) yêu cầu những giấy tờ nào trong hồ sơ nhập học cho ngành Khoa học Máy tính?
+    - Bạn đã từng nộp hồ sơ nhập học tại trường [Đại học Khoa học Tự nhiên TP.HCM](university) chưa? Vui lòng chia sẻ về trải nghiệm của bạn trong quá trình này.
+    - Cho tôi biết về hồ sơ nhập học của trường [Đại học Y Dược Huế](university) cho ngành Y sĩ học. Cần phải chuẩn bị những giấy tờ gì?
+    - Bạn có thể cung cấp thông tin về các bước cần thực hiện để hoàn thành hồ sơ nhập học của trường [Đại học Sư phạm Kỹ thuật Hưng Yên](university) không?
+    - Hồ sơ nhập học của trường [Đại học Nông Lâm TP.HCM](university) gồm những phần nào cần phải điền thông tin?
+    - Tôi quan tâm đến yêu cầu hồ sơ nhập học của trường [ctu](university) cho học việc làm sau tốt nghiệp. Có những điều gì đặc biệt mà tôi cần biết không?
+- intent: dormitory
+  examples:  |
+    - Tôi đang quan tâm về kí túc xá của trường [ctu](university)
+    - Tôi muốn tìm hiểu về kí túc xá của trường [Đại học FPT](university).
+    - Cho tôi thông tin về kí túc xá tại trường [Đại học Nông nghiệp](university).
+    - thông tin về kí túc xá tại trường [Đại học Nông nghiệp](university).
+    - Tôi muốn biết về dịch vụ và hoạt động giải trí trong kí túc xá của trường [Đại học Kinh doanh và Công nghệ](university).
+    - Hãy cho tôi biết về chính sách đặt chỗ và thời gian ở tại kí túc xá của trường [Đại học Y học cổ truyền](university).
+    - Tôi quan tâm đến việc đăng ký và ưu đãi cho sinh viên nước ngoài trong kí túc xá của trường [Đại học Quốc tế Hồng Bàng](university).
+    - Cho tôi thông tin về các loại phòng và mức giá trong kí túc xá của trường [Đại học Nghệ thuật và Thiết kế](university).
+    - Tôi cần biết về chính sách và quy định về vệ sinh và an ninh trong kí túc xá của trường [Đại học Công nghệ thông tin](university).
+    - thông tin về kí túc xá tại trường [Đại học FPT](university)
+    - thông tin về kí túc xá tại trường [Đại học Cần Thơ](university).
+    - Tôi quan tâm đến chính sách và tiện ích của kí túc xá của trường [Đại học Y khoa](university).
+    - Tôi cần biết thông tin về kí túc xá tại trường [Đại học Kinh tế và Quản trị kinh doanh](university).
+    - Cho tôi biết chi tiết về kí túc xá của trường [Đại học Luật](university).
+    - Tôi đang tìm hiểu về kí túc xá của trường [Đại học Sư phạm tp hcm](university).
+    - Tôi quan tâm đến giá cả và loại phòng trong kí túc xá của trường [Đại học Khoa học Tự nhiên](university).
+    - Tôi muốn tìm hiểu về quy định và tiện ích trong kí túc xá của trường [Đại học Quốc tế](university).
+    - chi tiết về hệ kí túc xá của trường [Đại học FPT](university)
+    - chút chi tiết về kí túc xá của trường [Đại học Nông nghiệp](university).
+    - chi tiết về kí túc xá của trường [Đại học Cần Thơ](university).
+    - Tôi cần thông tin về kí túc xá tại trường [Đại học Y học cổ truyền](university).
+    - Tôi cần biết về chính sách và thời gian đăng ký ở kí túc xá của trường [Đại học Khoa học Tự nhiên](university).
+    - Cho tôi thông tin về dịch vụ giặt là và phòng tập thể dục trong kí túc xá của trường [Đại học Sư phạm Hà Nội](university).
+    - Hãy cho tôi biết về chương trình đón tiễn và hỗ trợ sinh viên quốc tế ở kí túc xá của trường [Đại học Bách Khoa Đà Nẵng](university).
+    - Tôi quan tâm đến các hoạt động xã hội và tổ chức trong kí túc xá của trường [Đại học Kinh tế TP.HCM](university).
+    - Xin thông tin về loại phòng và giá cả trong kí túc xá của trường [Đại học Sư phạm Kỹ thuật Cần Thơ](university).
+    - Tôi muốn biết về chính sách và ưu đãi đặt chỗ dành cho học viên mới trong kí túc xá của trường [Đại học Nông Lâm TP.HCM](university).
+    - Hãy miêu tả về môi trường sống và học tập của kí túc xá tại trường [Đại học Khoa học Xã hội và Nhân văn](university).
+    - Tôi cần biết về các tiện ích và dịch vụ tại kí túc xá của trường [Đại học Ngoại ngữ Đà Nẵng](university).
+    - Cho tôi thông tin về phòng ở đôi và điều kiện đăng ký tại kí túc xá của trường [Đại học Sư phạm Thành phố Hồ Chí Minh](university).
+    - Tôi quan tâm đến việc đăng ký và ưu đãi trong kí túc xá của trường [Đại học Y học cổ truyền](university).
+    - Tôi cần thông tin về kí túc xá tại trường [Đại học Cần Thơ](university).
+    - Tôi cần thông tin về kí túc xá tại trường [Đại học FPT](university)
+    - Tôi quan tâm đến việc đăng ký và ưu đãi trong kí túc xá của trường [Đại học Bách khoa](university).
+    - Tôi quan tâm đến việc đăng ký và ưu đãi trong kí túc xá của trường [Đại học Cần Thơ](university).
+    - Tôi cần thông tin về kí túc xá tại trường [Đại học Kinh doanh và Công nghệ](university).
+    - Tôi quan tâm đến việc đăng ký và ưu đãi trong kí túc xá của trường [Đại học Y học cổ truyền](university).
+    - Tôi muốn biết về chính sách và loại phòng trong kí túc xá của trường [Đại học Quốc tế Hồng Bàng](university).
+    - Cho tôi thông tin về kí túc xá tại trường [Đại học Nghệ thuật và Thiết kế](university).
+    - Tôi cần biết về tiện ích và quy định trong kí túc xá của trường [Đại học Công nghệ thông tin](university).
+    - Tôi đang tìm hiểu về kí túc xá của trường [Đại học Công nghệ thông tin và Truyền thông Thái Nguyên](university).
+    - Tôi quan tâm đến giá cả và loại phòng trong kí túc xá của trường [Đại học Khoa học Xã hội và Nhân văn](university).
+    - Tôi muốn tìm hiểu về chính sách và tiện ích trong kí túc xá của trường [Đại học Bách Khoa tphcm](university).
+    - Tôi cần thông tin về kí túc xá tại trường [Đại học Nghệ thuật](university).
+    - Tôi quan tâm đến việc đăng ký và ưu đãi trong kí túc xá của trường [Đại học Khoa học Xã hội và Môi trường](university).
+    - Tôi muốn biết về chính sách và loại phòng trong kí túc xá của trường [Đại học Bách khoa](university).
+    - Cho tôi thông tin về kí túc xá tại trường [Đại học Ngoại ngữ](university).
+    - Tôi quan tâm đến việc đăng ký và ưu đãi trong kí túc xá của trường [Đại học Kinh doanh và Công nghệ](university).
+    - Tôi muốn biết về chính sách và loại phòng trong kí túc xá của trường [Đại học Y Phạm Ngọc Thạch](university).
+    - Cho tôi thông tin về kí túc xá tại trường [Đại học Khoa học Xã hội](university).
+    - Tôi cần biết về tiện ích và quy định trong kí túc xá của trường [Đại học Nông Lâm](university).
+    - Tôi quan tâm đến giá cả và loại phòng trong kí túc xá của trường [ctu](university).
+    - Tôi muốn tìm hiểu về chính sách và tiện ích trong kí túc xá của trường [Đại học Luật](university).
+    - Tôi cần thông tin về kí túc xá tại trường [Đại học Sư phạm](university).
+    - Tôi quan tâm đến việc đăng ký và ưu đãi trong kí túc xá của trường [Đại học Khoa học Tự nhiên](university).
+    - Tôi muốn biết về chính sách và loại phòng trong kí túc xá của trường [Đại học Cần Thơ](university).
+    - Tôi đang quan tâm về kí túc xá của trường [Đại học Kỹ thuật công nghiệp](university). Bạn có thể cung cấp thông tin về kí túc xá này được không ạ?
+    - Tôi muốn tìm hiểu về kí túc xá của trường [Đại học FPT](university). Bạn có thể cho tôi biết chi tiết về kí túc xá này không ạ?
+    - Cho tôi thông tin về kí túc xá tại trường [Đại học Nông nghiệp](university). Tôi quan tâm đến các điều kiện và tiện ích của kí túc xá ở đây.
+    - Tôi đang tìm hiểu về các kí túc xá của trường [Đại học Sư phạm Hà Nội](university). Bạn có thể so sánh các kí túc xá khác nhau của trường này không ạ?
+    - Kí túc xá của trường [Đại học Ngoại thương TP.HCM](university) có cung cấp dịch vụ ăn uống trong khuôn viên hay không?
+    - Tôi muốn biết về kí túc xá tại trường [Đại học Bách khoa Hà Nội](university) cho học sinh năm nhất. Có những điều đặc biệt mà tôi nên biết không?
+    - Học sinh đại học tại trường [Đại học Kinh tế Quốc dân](university) có thể lựa chọn ở kí túc xá nào trong khuôn viên trường không?
+    - Tôi quan tâm đến chính sách và giá cả của kí túc xá tại trường [Đại học Y Dược Đà Nẵng](university). Bạn có thể cung cấp thông tin chi tiết không ạ?
+    - Kí túc xá tại trường [Đại học Cần Thơ](university) có cung cấp dịch vụ giặt là không? Nếu có thì phí dịch vụ như thế nào?
+    - Tôi đang tìm hiểu về kí túc xá dành cho du học sinh tại trường [Đại học Sư phạm Kỹ thuật Hưng Yên](university). Bạn có thể cho tôi biết thêm về chương trình này được không?
+    - Kí túc xá của trường [Đại học Nông Lâm TP.HCM](university) có hỗ trợ internet miễn phí cho sinh viên không?
+    - Tôi muốn biết về kí túc xá của trường [Đại học Ngoại ngữ Hà Nội](university) dành cho sinh viên nước ngoài. Có những chính sách riêng cho họ không ạ?
+    - Cho tôi thông tin về kí túc xá tại trường [Đại học Sư phạm Thành phố Hồ Chí Minh](university). Tôi quan tâm đến khoảng cách giữa kí túc xá và các tòa nhà học tập của trường.
+    - Kí túc xá của trường [Đại học Khoa học Xã hội và Nhân văn Hồ Chí Minh](university) có cung cấp dịch vụ đưa đón sinh viên từ kí túc xá đến các tòa nhà học tập không?
+    - Tôi đang quan tâm đến kí túc xá dành cho sinh viên nữ tại trường [Đại học Sư phạm Kỹ thuật Cần Thơ](university). Bạn có thể cung cấp thông tin về nó không ạ?
+    - Kí túc xá của trường [Đại học Nông nghiệp Hà Nội](university) có hỗ trợ dịch vụ bảo vệ 24/7 không? 
+    - Tôi muốn tìm hiểu về kí túc xá của trường [Đại học Y Dược Huế](university). Bạn có thể cho tôi biết về cơ sở vật chất và tiện nghi của kí túc xá không ạ?
+    - Cho tôi thông tin về kí túc xá dành cho sinh viên nước ngoài tại trường [Đại học FPT](university). Có chính sách riêng cho họ không ạ?
+    - Tôi quan tâm đến chính sách giảm giá và hỗ trợ kí túc xá tại trường [Đại học Kinh tế Quốc dân](university). Bạn có thể cung cấp thông tin về điều này không ạ?
+    - Kí túc xá của trường [Đại học Ngoại Thương TP.HCM](university) có cung cấp dịch vụ hướng dẫn du lịch và tham quan cho sinh viên không?
+    - Tôi đang tìm hiểu về kí túc xá của trường [Đại học Bách khoa Hà Nội](university) cho sinh viên học cao học. Có những điều đặc biệt mà tôi nên biết không?
+    - Kí túc xá tại trường [Đại học Nông Lâm TP.HCM](university) có khu vực chơi thể thao và tập gym không?
+    - Tôi muốn biết về kí túc xá của trường [Đại học Khoa học Tự nhiên Đà Nẵng](university). Bạn có thể cho tôi biết về điều kiện và tiện ích của kí túc xá này không ạ?
+    - Kí túc xá của trường [Đại học Cần Thơ](university) có gần các cửa hàng tiện lợi và nhà hàng không?
+    - Tôi quan tâm đến chính sách ưu tiên đặt chỗ ở kí túc xá của trường [Đại học Sư phạm Hà Nội](university). Bạn có thể cung cấp thông tin chi tiết không ạ?
+    - Kí túc xá tại trường [Đại học Ngoại ngữ Hà Nội](university) có cung cấp dịch vụ giặt ủi và làm sạch phòng không?
+    - Tôi đang tìm hiểu về kí túc xá dành cho học viên cao học tại trường [Đại học Kinh tế TP.HCM](university). Bạn có thể cho tôi biết về các tiện nghi và phụ phí của kí túc xá này không ạ?
+    - Kí túc xá của trường [Đại học Y Dược Đà Nẵng](university) có quy định về thời gian ra vào kí túc xá không?
+    - Tôi muốn biết về kí túc xá tại trường [Đại học Nông Lâm TP.HCM](university) có cung cấp dịch vụ ăn uống và nhà hàng trong khuôn viên không?
+    - Kí túc xá của trường [Đại học Ngoại thương TP.HCM](university) có giờ giấc giới nghiêm không?
+    - Tôi đang quan tâm đến kí túc xá dành cho học viên nước ngoài tại trường [Đại học FPT](university). Bạn có thể cho tôi biết về các tiện ích và chính sách hỗ trợ cho họ không ạ?
+    - Kí túc xá của trường [Đại học Sư phạm Kỹ thuật Cần Thơ](university) có khu vực dành riêng cho nữ và nam không?
+    - Cho tôi thông tin về kí túc xá tại trường [Đại học Bách khoa Hà Nội](university) cho sinh viên năm nhất. Tôi muốn biết về mức phí và chính sách ưu tiên đặt chỗ.
+    - Tôi muốn biết về cơ sở vật chất của ký túc xá tại trường [Đại học Khoa học Xã hội và Nhân văn TP.HCM](university). Có phòng học tập riêng cho sinh viên không?
+    - Kí túc xá của trường [Đại học Nông nghiệp TP.HCM](university) có dịch vụ giặt ủi và làm sạch quần áo cho sinh viên không?
+    - Tôi cần thông tin về kí túc xá dành cho người khuyết tật tại trường [Đại học Sư phạm Hà Nội](university). Trường có hỗ trợ đặc biệt cho học sinh như thế nào?
+    - Xin cho biết về cơ sở vật chất và các hoạt động giải trí, vui chơi giải lao trong khu vực ký túc xá tại trường [Đại học Văn hóa Nghệ thuật TP.HCM](university).
+    - Hãy mô tả về cơ sở vật chất và tiện nghi của kí túc xá tại trường [Đại học Giao thông vận tải HCM](university). Có trung tâm thể dục và dịch vụ chăm sóc sức khỏe không?
+    - Cho tôi thông tin về cơ sở vật chất và chính sách ưu tiên đặt phòng kí túc xá cho sinh viên thuộc dân tộc thiểu số tại trường [Đại học Nghệ thuật TP.HCM](university).
+    - Tôi quan tâm đến cơ sở vật chất của kí túc xá tại trường [Đại học Y Dược TP.HCM](university). Trường có cung cấp dịch vụ y tế nội trú không?
+    - Hãy cho tôi biết về chính sách giảm giá và hỗ trợ kinh tế cho sinh viên khi ở kí túc xá tại trường [ctu](university).
+    - Tôi muốn tìm hiểu về các hoạt động văn hóa và các câu lạc bộ sinh viên trong khuôn viên kí túc xá tại trường [Đại học Bách khoa Hà Nội](university).
+    - Hãy cung cấp thông tin về cơ sở vật chất và tiện ích trong kí túc xá dành cho học viên quốc tế tại trường [Đại học Ngoại ngữ](university).
+- intent: dormitory
+  examples:  |
+    - Trường [Đại học Cần Thơ](university) đã đầu tư vào cơ sở vật chất đến mức nào? Hãy cho tôi biết những nét nổi bật.
+    - Tưởng tượng rằng bạn đang bước vào một phòng học ở [ctu](university). Mô tả cảm giác và những thứ bạn thấy.
+    - Tôi muốn biết về những không gian sáng tạo tại trường [Đại học Cần Thơ](university). Có điều gì đặc biệt ở đó?
+    - Trường [Đại học quốc gia tphcm](university) đã áp dụng công nghệ vào việc giảng dạy và học tập như thế nào?
+    - Hãy tưởng tượng rằng bạn đang tham gia một buổi học tại trường [Đại học Cần Thơ](university). Sự hiện đại và sáng tạo xuất hiện ở đâu?
+    - Mô tả một phòng học hiện đại tại trường [dhct](university) như thế nào?
+    - Bạn có thể kể về một trải nghiệm học tập sử dụng công nghệ tại trường [Đại học Khoa học Xã hội và Nhân văn](university) không?
+    - Nếu trường [Đại học Cần Thơ](university) là một quần áo, bạn sẽ mô tả nó như thế nào để thể hiện cơ sở vật chất?
+    - Một ngày học tại trường [Đại học giao thông vận tải tphcm](university) bao gồm việc sử dụng những trang thiết bị nào?
+    - Bạn đã từng nghe về không gian học tập độc đáo nào tại trường [Đại học Cần Thơ](university) mà bạn muốn chia sẻ?
+    - Cơ sở vật chất trường [Đại học Cần Thơ](university) như thế nào
+    - Cơ sở vật chất trường [Đại học Khoa học Xã hội và Nhân văn](university).
+    - Hãy cho tôi biết về trang thiết bị và công nghệ giảng dạy tại trường [Đại học Cần Thơ](university).
+    - Tôi muốn tìm hiểu về các trung tâm học thuật và phòng thí nghiệm của trường [Đại học Khoa học Xã hội và Nhân văn](university).
+    - Cơ sở vật chất của trường [Đại học Cần Thơ](university) có đáp ứng đủ nhu cầu học tập của sinh viên không?
+    - Cho tôi thông tin về cơ sở vật chất và tiện nghi tại trường [Đại học Nam Cần Thơ](university) cho sinh viên nước ngoài.
+    - Hãy cho tôi biết về cơ sở vật chất và tiện ích của trường [Đại học CT](university) dành cho sinh viên ngành kỹ thuật.
+    - Hãy miêu tả về cơ sở vật chất và dịch vụ hỗ trợ cho sinh viên tại trường [Đại học Cần Thơ](university).
+    - Cơ sở vật chất trường [Đại học Ngoại ngữ](university) ra sao.
+    - Cơ sở vật chất sơ bộ của trường [Đại học Công nghệ cao](university) như thế nào
+    - Cơ sở vật chất của trường [Đại học Bách khoa](university) như thế nào
+    - Cho tôi biết về các phòng học, phòng thí nghiệm và cơ sở vật chất khác tại trường [Đại học Kinh tế](university).
+    - Cho tôi biết về các phòng học, phòng thí nghiệm và cơ sở vật chất khác tại trường [Đại học Cần Thơ](university)
+    - Hãy miêu tả về môi trường sống và học tập của trường [Đại học Cần Thơ](university) cho sinh viên ngoại tỉnh.
+    - Cho tôi biết sơ bộ về các phòng học, phòng thí nghiệm và cơ sở vật chất khác tại trường [Đại học Ngoại ngữ](university).
+    - Cho tôi biết về các phòng học, phòng thí nghiệm và cơ sở vật chất khác tại trường [Đại học Bách khoa](university)
+    - Tôi cần biết chi tiết về trang thiết bị và cơ sở vật chất hiện có tại trường [Đại học Luật](university).
+    - Hãy đưa ra mô tả về các cơ sở vật chất, phòng học và phòng thí nghiệm của trường [Đại học Nông nghiệp](university).
+    - Cơ sở vật chất của trường [Đại học Khoa học Tự nhiên](university) như thế nào
+    - Xin vui lòng mô tả về cơ sở vật chất và tiện nghi tại trường [Đại học Quốc tế](university).
+    - Tôi quan tâm về cơ sở vật chất của trường [Đại học Sư phạm](university), có thể cho tôi biết thông tin chi tiết
+    - Tôi quan tâm về thông tin cơ sở vật chất của trường [Đại học Cần Thơ](university), có thể cho tôi biết thông tin chi tiết
+    - Tôi quan tâm một chút về cơ sở vật chất của trường [Đại học Khoa học Xã hội và Nhân văn](university), có thể cho tôi biết thông tin chi tiết
+    - Tôi rất quan tâm về cơ sở vật chất của trường [Đại học Nông nghiệp](university), có thể cho tôi biết thông tin chi tiết
+    - Tôi quan tâm về cơ sở vật chất của trường [Đại học Khoa học và Công nghệ](university), có thể cho tôi biết thông tin chi tiết
+    - Cho tôi sơ sơ về biết về các phòng học, phòng thí nghiệm và cơ sở vật chất khác tại trường [Đại học Ngoại ngữ](university).
+    - Cho tôi biết về các phòng học, phòng thí nghiệm và cơ sở vật chất khác tại trường [Đại học Công nghệ cao](university).
+    - Cho tôi biết một chút về các phòng học, phòng thí nghiệm và cơ sở vật chất khác tại trường [Đại học Khoa học Kỹ thuật và Môi trường](university).
+    - Cho tôi biết về các phòng học, phòng thí nghiệm và cơ sở vật chất khác tại trường [Đại học Cần Thơ](university).
+    - Tôi muốn tìm hiểu về cơ sở vật chất và tiện nghi của trường [CTU](university).
+    - Tôi muốn tìm hiểu kĩ về cơ sở vật chất và tiện nghi của trường [Đại học Ngoại ngữ](university).
+    - Tôi đang tìm hiểu về cơ sở vật chất và tiện nghi của trường [Đại học Cần Thơ](university), bạn có thể cho tui biết chứ
+    - Tôi muốn tìm hiểu về cơ sở vật chất và tiện nghi của trường [Đại học Văn hóa Nghệ thuật Địa lý](university).
+    - Tôi đang muốn tìm hiểu về cơ sở vật chất và tiện nghi của trường [Đại học Luật](university).
+    - Cho tôi biết thông tin về các phòng học, phòng thí nghiệm và cơ sở vật chất khác tại trường [Đại học Công nghệ cao](university).
+    - Tôi quan tâm đến cơ sở vật chất của trường [Đại học Khoa học và Công nghệ](university).
+    - Hãy mô tả về tiện ích và cơ sở vật chất tại trường [Đại học Du lịch](university).
+    - Tôi cần biết thông tin về cơ sở vật chất và trang thiết bị tại trường [Đại học Văn hóa Nghệ thuật Địa lý](university).
+    - Xin vui lòng miêu tả về cơ sở vật chất của trường [Đại học Y Dược](university).
+    - Tôi quan tâm đến các phòng học, thư viện và cơ sở vật chất khác tại trường [Đại học Khoa học Kỹ thuật và Môi trường](university).
+    - Hãy cho tôi biết sơ sơ về cơ sở vật chất và tiện nghi tại trường [Đại học Ngoại thương](university).
+    - Hãy cho tôi biết kĩ về cơ sở vật chất và tiện nghi tại trường [Đại học Cần Thơ](university).
+    - Hãy giúp cho tôi biết về cơ sở vật chất và tiện nghi tại trường [Đại học Bách khoa](university).
+    - Tôi muốn tìm hiểu về các phòng thí nghiệm, trung tâm nghiên cứu và cơ sở vật chất tại trường [Đại học Văn Lang](university).
+    - Tôi đang muốn tìm hiểu về các phòng thí nghiệm, trung tâm nghiên cứu và cơ sở vật chất tại trường [Đại học Bách khoa](university).
+    - Cho tôi thông tin về cơ sở vật chất và trang thiết bị tại trường [Đại học Khoa học và Công nghệ Hồng Bàng](university).
+    - Cơ sở vật chất trường [Đại học Cần Thơ](university) như thế nào? Tôi muốn biết về kí túc xá và các tòa nhà học tập của trường.
+    - Thông tin về cơ sở vật chất trường [Đại học Khoa học Xã hội và Nhân văn](university) ra sao? Tôi quan tâm đến khu vực sinh hoạt chung và nhà ăn của trường.
+    - Cơ sở vật chất trường [ctu](university) như thế nào? Tôi muốn biết về phòng học và các tiện ích trong khuôn viên trường.
+    - Cơ sở vật chất trường [Đại học Công nghệ cao](university) như thế nào? Tôi quan tâm đến khu vực thư viện và phòng thực hành của trường.
+    - Tôi muốn biết về các trung tâm học thuật và nghiên cứu tại trường [Đại học Sư phạm Hà Nội](university). Có những tiện ích và cơ sở vật chất đáp ứng cho nghiên cứu khoa học không?
+    - Cho tôi biết thông tin về cơ sở vật chất và tiện nghi tại trường [Đại học Kinh tế TP.HCM](university). Tôi quan tâm đến khu vực thư viện và phòng học của trường.
+    - Tôi muốn tìm hiểu về các khu vực sinh hoạt chung và nhà ăn tại trường [Đại học Nông nghiệp Hà Nội](university). Bạn có thể mô tả về các cơ sở vật chất dành cho sinh viên không?
+    - Hãy miêu tả về tiện ích và cơ sở vật chất tại trường [Đại học Bách khoa Đà Nẵng](university). Tôi quan tâm đến các trung tâm nghiên cứu và phòng thí nghiệm của trường.
+    - Tôi muốn biết về các khu vực học tập và phòng thí nghiệm tại trường [Đại học Khoa học Xã hội và Nhân văn Hồ Chí Minh](university). Có những phòng học đặc biệt nào dành cho sinh viên không?v- Cho tôi thông tin về cơ sở vật chất và tiện nghi tại trường [Đại học Công nghệ thông tin](university). Tôi quan tâm đến các trung tâm học thuật và khu vực làm việc cho sinh viên.
+    - Tôi muốn tìm hiểu về các cơ sở vật chất và tiện nghi tại trường [Đại học Ngoại ngữ Hà Nội](university). Có những phòng học đa năng nào được sử dụng cho học tập và nghiên cứu không?
+    - Hãy mô tả về cơ sở vật chất và tiện ích tại trường [Đại học Sư phạm Kỹ thuật Cần Thơ](university). Tôi quan tâm đến các khu vực sinh hoạt chung và phòng thí nghiệm của trường.
+    - Cho tôi biết thông tin về các trung tâm nghiên cứu và phòng thí nghiệm tại trường [Đại học Kinh tế Quốc dân](university). Có những cơ sở vật chất và trang thiết bị đáp ứng cho nghiên cứu khoa học không?
+    - Tôi muốn tìm hiểu về cơ sở vật chất và tiện nghi tại trường [Đại học Nông Lâm TP.HCM](university). Có các khu vực chuyên dụng cho các ngành học đặc biệt như nông nghiệp, lâm nghiệp hay thủy sản không?
+    - Tôi quan tâm đến các hoạt động văn hóa và sinh viên tại trường [Đại học Văn Lang](university). Hãy cho tôi biết về các khu vực sinh hoạt chung và sân trường của trường.
+    - Hãy mô tả về tiện ích và cơ sở vật chất tại trường [Đại học Bách Khoa TP.HCM](university). Tôi muốn biết về các trung tâm học thuật và các cơ sở nghiên cứu của trường.
+    - Tôi muốn biết về các cơ sở vật chất và trang thiết bị thể dục thể thao tại trường [Đại học Sư phạm TP.HCM](university).
+    - Cho tôi thông tin về các hoạt động ngoại khóa và câu lạc bộ học thuật tại trường [Đại học Giao thông vận tải](university).
+    - Tôi cần biết về các cơ sở vật chất và tiện ích cho sinh viên tại trường [Đại học Bách khoa Hà Nội](university).
+    - Hãy cho tôi biết về các khu vực sinh hoạt chung và phòng học của trường [Đại học Y Hà Nội](university).
+    - Tôi muốn tìm hiểu về cơ sở vật chất và tiện nghi tại trường [Đại học Nông nghiệp TP.HCM](university).
+    - Tôi quan tâm đến các hoạt động văn hóa và thể thao của trường [Đại học Văn hóa Nghệ thuật TP.HCM](university).
+    - Hãy mô tả về các trung tâm học thuật và phòng thí nghiệm tại trường [Đại học Sư phạm Hà Nội](university).
+    - Cho tôi thông tin về cơ sở vật chất và tiện nghi tại trường [Đại học Ngoại ngữ Đà Nẵng](university).
+    - Cho tôi biết về cơ sở vật chất và tiện ích cho sinh viên tại trường [ctu](university).
+    - Hãy mô tả về các trung tâm học thuật và phòng thí nghiệm tại trường [Đại học Bách khoa Đà Nẵng](university).
+    - Tôi cần tìm hiểu về khu vực ký túc xá và dịch vụ ăn uống tại trường [Đại học Công nghệ Thông tin TP.HCM](university).
+    - Xin cho biết về các khu vực tự học và thư viện tại trường [Đại học Kinh tế Quốc dân Hà Nội](university).
+    - Tôi muốn biết về cơ sở vật chất và các khu vực sinh hoạt chung tại trường [Đại học Y Dược TP.HCM](university).
+    - Cho tôi biết về các cơ sở vật chất và tiện ích tại trường [CTU](university).
+- intent: career_opportunities
+  examples:  |
+    - Cơ hội làm việc sau khi ra trường [Đại học Cần Thơ](university)
+    - Thông tin cơ hội làm việc sau khi ra trường [ctu](university) rất đa dạng và hấp dẫn.
+    - Cơ hội làm việc sau khi ra trường [Đại học Sư phạm Thành phố Hồ Chí Minh](university) là lương ngàn đô hả
+    - Cơ hội làm việc sau khi ra trường [Đại học Công nghệ Thủ Đô Hà Nội](university) rất đa dạng và hấp dẫn. 
+    - Tôi muốn biết về cơ hội việc làm sau khi ra trường [Đại học Nông nghiệp TP.HCM](university) trong lĩnh vực nông nghiệp và công nghệ thực phẩm.
+    - Thông tin cơ hội nghề nghiệp sau khi ra trường [Đại học FPT](university) đa dạng và đầy hấp dẫn.
+    - Cho tôi biết về các chương trình hỗ trợ việc làm cho sinh viên tại trường [Đại học Sư phạm Kỹ thuật Cần Thơ](university).
+    - Tôi quan tâm đến cơ hội làm việc trong lĩnh vực công nghệ thông tin sau khi ra trường [Đại học Khoa học Tự nhiên Hà Nội](university).
+    - Hãy cung cấp thông tin về cơ hội việc làm trong ngành kinh doanh quốc tế sau khi tốt nghiệp tại trường [Đại học Ngoại thương TP.HCM](university).
+    - Cơ hội làm việc sau khi ra trường [Đại học Sư phạm Hà Nội](university) trong lĩnh vực giáo dục và đào tạo rất tiềm năng.
+    - Tôi quan tâm đến cơ hội làm việc trong ngành kỹ thuật máy tính sau khi ra trường [Đại học Công nghệ Thông tin TP.HCM](university).
+    - Hãy cho tôi biết về các chương trình thực tập và hỗ trợ việc làm tại trường [Đại học Nghệ thuật TP.HCM](university).
+    - Tôi muốn tìm hiểu về cơ hội việc làm trong ngành nghệ thuật sau khi tốt nghiệp tại trường [Đại học Văn hóa Nghệ thuật TP.HCM](university).
+    - Tui sợ thất nghiệp thì không biết cơ hội làm việc sau khi ra trường [Đại học Ngoại thương Thành phố Hồ Chí Minh](university) có đa dạng và hấp dẫn không.
+    - Cơ hội làm việc sau khi ra trường [Đại học Y Dược Hà Nội](university) rất đa dạng và hấp dẫn phải không.
+    - cho tui biết cái cơ hội làm việc sau khi ra trường [Đại học Khoa học Xã hội và Nhân văn TP.HCM](university) 
+    - Cơ hội làm việc sau khi ra trường [Đại học Công nghệ - Đại học Quốc gia TP.HCM](university) có đa dạng và hấp dẫn không vậy.
+    - Cơ hội làm việc sau khi ra trường [Đại học Nông nghiệp và Công nghệ TP.HCM](university) có nhiều hông.
+    - việc làm cũng như cơ hội sau khi ra trường [Đại học Đà Nẵng](university) ra sao
+    - Cơ hội làm việc sau khi ra trường [Đại học Khoa học Tự nhiên - Đại học Quốc gia TP.HCM](university) có lương cao hông
+    - mà cơ hội làm việc sau khi ra trường [Đại học Nam Cần Thơ](university)
+    - Cơ hội làm việc sau khi ra trường [Đại học Giao thông vận tải](university).
+    - Có những cơ hội làm việc nào sau khi tốt nghiệp từ trường [Đại học Nam Cần Thơ](university)
+    - Có một số cơ hội làm việc gì sau khi tốt nghiệp từ trường [ctu](university).
+    - Có những cơ hội làm việc nào sau khi tốt nghiệp từ trường [Đại học Nam Cần Thơ](university)
+    - Hãy nêu ra các cơ hội nghề nghiệp có sẵn cho sinh viên tốt nghiệp từ trường [Đại học Giao thông vận tải](university).
+    - Liệt kê ra các cơ hội nghề nghiệp có sẵn cho sinh viên tốt nghiệp từ trường [Đại học Cần Thơ](university).
+    - Hãy nêu ra các cơ hội nghề nghiệp có sẵn cho học sinh sinh viên tốt nghiệp từ trường [Đại học Giao thông vận tải](university).
+    - Tôi quan tâm đến việc tìm hiểu về các cơ hội việc làm sau khi ra trường từ trường [Đại học Bách Khoa Đà Nẵng](university).
+    - Tôi đang quan tâm đến việc tìm hiểu về các cơ hội việc làm ngay khi ra trường từ trường [Đại học Sài Gòn](university).
+    - Tôi quan tâm đến việc tìm hiểu về các cơ hội việc làm sau khi ra trường từ trường [Đại học Kinh tế quốc dân](university.
+    - Xin hãy cung cấp thông tin về cơ hội nghề nghiệp và sự phát triển sau khi tốt nghiệp từ trường [Đại học UEH](university).
+    - Xin hãy cung cấp chi tiết thông tin về cơ hội nghề nghiệp và sự phát triển sau khi tốt nghiệp từ trường [Đại học Sư phạm Thành phố Hồ Chí Minh](university)
+    - Xin hãy cho tui biết hay là cung cấp thông tin về cơ hội nghề nghiệp và sự phát triển sau khi tốt nghiệp từ trường [Đại học Công nghệ Thủ Đô Hà Nội](university)
+    - Xin hãy cung cấp sơ bộ thông tin về cơ hội nghề nghiệp và sự phát triển sau khi tốt nghiệp từ trường [Đại học Ngoại thương Thành phố Hồ Chí Minh](university)
+    - Xin hãy cung cấp thông tin về cơ hội nghề nghiệp và sự phát triển sau khi tốt nghiệp từ trường [Đại học Khoa học Tự nhiên - Đại học Quốc gia TP.HCM](university)
+    - Tôi muốn biết về khả năng thăng tiến và cơ hội nghề nghiệp mà trường [Đại học Cần Thơ](university) có thể cung cấp.
+    - Xin hãy tư vấn cho tôi về cơ hội việc làm và sự phát triển nghề nghiệp tại trường [CTU](university).
+    - Tôi cần thông tin sơ bộ về các công ty hoặc tổ chức nổi tiếng mà sinh viên từ trường [Đại học Kinh tế quốc dân](university) thường được tuyển dụng.
+    - Tôi cần thông tin về các công ty hoặc tổ chức nổi tiếng mà sinh viên từ trường [Đại học Nam Cần Thơ](university) thường được tuyển dụng.
+    - Tôi cần thông tin chi tiết về các công ty hoặc tổ chức nổi tiếng mà sinh viên từ trường [Đại học Cần Thơ](university) thường được tuyển dụng.
+    - Hãy nêu ra các công ty mà sinh viên tốt nghiệp từ trường [Đại học Cần Thơ](university) có thể theo đuổi và đi làm sau khi ra trường.
+    - Tôi quan tâm đến việc biết được các thành công nổi bật của các cựu sinh viên từ trường [Đại học HULIF](university).
+    - Xin hãy tư vấn cho tôi về cơ hội thực tập và các chương trình liên kết công nghiệp mà trường [Đại học Nam Cần Thơ](university) có hỗ trợ.
+    - Cơ hội làm việc sau khi ra trường [Đại học Bách khoa](university) như thế nào
+    - Cơ hội làm việc ngay khi ra trường [Đại học Sư phạm](university) như thế nào
+    - Cơ hội làm việc sau khi ra trường [Đại học Cần Thơ](university) như thế nào
+    - Hãy nêu ra các công ty hay tổ chức mà sinh viên tốt nghiệp từ trường [Đại học Khoa học Xã hội và Nhân văn](university) thường theo đuổi, hay vô trường tuyển dụng.
+    - Hãy nêu ra các công ty hay tổ chức mà sinh viên tốt nghiệp từ trường [Đại học Cần Thơ](university) thường theo đuổi, hay vô trường tuyển dụng.
+    - Hãy nêu ra các công ty hay tổ chức mà sinh viên tốt nghiệp từ trường [Đại học Nam Cần Thơ](university) thường theo đuổi, hay vô trường tuyển dụng.
+    - Tôi quan tâm đến việc biết được cơ hội việc làm và phát triển nghề nghiệp tại trường [Đại học Kinh tế](university).
+    - Tôi quan tâm đến việc biết được cơ hội việc làm và phát triển nghề nghiệp tại trường [Đại học Nông nghiệp](university).
+    - Xin hãy tư vấn cho tôi về khả năng thăng tiến và cơ hội nghề nghiệp mà trường [Đại học Luật](university) có thể cung cấp.
+    - Tôi cần thông tin về các công ty hoặc tổ chức nổi tiếng mà sinh viên từ trường [Đại học Nông nghiệp](university) thường được tuyển dụng.
+    - Tôi quan tâm đến việc biết được các thành công nổi bật của các cựu sinh viên từ trường [Đại học Quốc tế](university).
+    - Xin hãy tư vấn cho tôi về cơ hội thực tập và các chương trình liên kết công nghiệp mà trường [Đại học Sư phạm](university) có hỗ trợ.
+    - Tôi cần thông tin về các công ty hoặc tổ chức nổi tiếng mà sinh viên từ trường [Đại học Nghệ thuật và Thiết kế](university) thường được tuyển dụng.
+    - Hãy nêu ra các ngành nghề mà sinh viên tốt nghiệp từ trường [Đại học Công nghệ thông tin và Truyền thông](university) thường theo đuổi.
+    - Cơ hội làm việc hay du học nước ngoài gì sau khi ra trường [Đại học FPT](university)
+    - Cơ hội làm việc sau khi ra trường [Đại học Cần Thơ](university)
+    - Có những đặc ân hay cơ hội làm việc nào sau khi tốt nghiệp từ trường [Đại học Công nghệ thông tin và Truyền thông Thái Nguyên](university) không
+    - Có những đặc ân hay cơ hội làm việc nào sau khi tốt nghiệp từ trường [Đại học Cần Thơ](university) không
+    - Tôi muốn biết về các chương trình hỗ trợ khởi nghiệp và doanh nghiệp mà trường [Đại học Kinh tế](university) cung cấp cho sinh viên.
+    - Cho tôi thông tin về các công ty đối tác và cơ hội làm việc sau tốt nghiệp tại trường [Đại học Bách khoa Đà Nẵng](university).
+    - Tôi quan tâm đến cơ hội việc làm nước ngoài sau khi tốt nghiệp từ trường [Đại học Ngoại ngữ Hà Nội](university). Trường có chương trình trao đổi sinh viên quốc tế không?
+    - Hãy nêu ra các chương trình hỗ trợ việc làm và tư vấn nghề nghiệp tại trường [Đại học Sư phạm TP.HCM](university).
+    - Tôi muốn biết về cơ hội thực tập và làm việc trong ngành công nghiệp thời trang sau khi tốt nghiệp từ trường [Đại học Nghệ thuật TP.HCM](university).
+    - Xin hãy cung cấp thông tin về các chương trình đào tạo liên kết và cơ hội việc làm cho sinh viên tại trường [Đại học Công nghệ thông tin](university).
+    - Tôi quan tâm đến việc biết thông tin về các dự án nghiên cứu và chương trình học thuật đặc biệt tại trường [Đại học Khoa học Xã hội và Nhân văn](university).
+    - Cho tôi biết về các chương trình đào tạo theo yêu cầu của doanh nghiệp tại trường [Đại học Kinh tế Quốc dân](university).
+    - Tôi muốn tìm hiểu về cơ hội việc làm trong lĩnh vực kỹ thuật và công nghệ thông tin tại trường [Đại học Bách Khoa Hà Nội](university).
+    - Hãy cho tôi biết về những thành công đáng chú ý của cựu sinh viên từ trường [Đại học Nông nghiệp Hà Nội](university). Có những người đã thành công trong ngành nghề nào?
+    - Tôi quan tâm đến các chương trình hỗ trợ việc làm và thực tập tại trường [Đại học Sư phạm Kỹ thuật Cần Thơ](university).
+    - Hãy miêu tả về các công ty hoặc tổ chức nổi tiếng mà sinh viên từ trường [ctu](university) thường được tuyển dụng.
+    - Tôi cần thông tin về các chương trình đào tạo theo yêu cầu của doanh nghiệp tại trường [Đại học Kinh tế TP.HCM](university).
+    - Cho tôi biết về cơ hội việc làm trong lĩnh vực kỹ thuật và công nghệ thông tin tại trường [Đại học Bách khoa Đà Nẵng](university).
+    - Tôi quan tâm đến việc biết thông tin về các dự án nghiên cứu và chương trình học thuật đặc biệt tại trường [Đại học Khoa học Xã hội và Nhân văn](university).
+    - Hãy nêu ra các chương trình hỗ trợ việc làm và tư vấn nghề nghiệp tại trường [Đại học Sư phạm TP.HCM](university).
+    - Tôi muốn biết về cơ hội thực tập và làm việc trong ngành công nghiệp thời trang sau khi tốt nghiệp từ trường [Đại học Nghệ thuật TP.HCM](university).
+    - Xin hãy cung cấp thông tin về các chương trình đào tạo liên kết và cơ hội việc làm cho sinh viên tại trường [Đại học Công nghệ thông tin](university).
+    - Tôi quan tâm đến việc biết thông tin về các doanh nghiệp và công ty startup do cựu sinh viên từ trường [Đại học Kinh tế Quốc dân](university) sáng lập.
+    - Cho tôi biết về cơ hội việc làm và thực tập sau khi tốt nghiệp tại trường [Đại học Bách khoa Hà Nội](university).
+    - Hãy miêu tả về các chương trình hỗ trợ việc làm và thực tập tại trường [Đại học Giao thông vận tải](university).
+    - Tôi quan tâm đến việc biết thông tin về các doanh nghiệp và công ty startup do cựu sinh viên từ trường [Đại học Khoa học Tự nhiên TP.HCM](university) sáng lập.
+    - Cho tôi biết về cơ hội việc làm và thực tập sau khi tốt nghiệp tại trường [Đại học Sư phạm Hà Nội](university).
+    - Tôi muốn biết về các chương trình đào tạo liên kết và cơ hội việc làm cho sinh viên tại trường [Đại học Kinh doanh và Công nghệ](university).
+    - Xin hãy cung cấp thông tin về các doanh nghiệp và tổ chức hàng đầu mà sinh viên từ trường [Đại học Nông Lâm TP.HCM](university) thường được tuyển dụng.
+    - Tôi cần thông tin về các chương trình hỗ trợ việc làm và cơ hội thực tập sau khi tốt nghiệp tại trường [Đại học Văn Lang](university).
+    - Hãy nêu ra những thành công đáng chú ý trong lĩnh vực kinh doanh và quản lý của cựu sinh viên từ trường [Đại học Kinh tế Quốc dân](university).
+    - Tôi muốn biết về cơ hội việc làm và các chương trình học thuật hấp dẫn tại trường [Đại học Sư phạm Kỹ thuật Cần Thơ](university).
+    - Cho tôi biết về các công ty đối tác và cơ hội làm việc sau tốt nghiệp tại trường [Đại học Bách khoa Đà Nẵng](university).
+    - Tôi quan tâm đến việc biết thông tin về các dự án nghiên cứu và cơ hội việc làm sau khi tốt nghiệp từ trường [Đại học Khoa học Xã hội và Nhân văn](university).
+    - Tôi quan tâm đến việc biết thông tin về cơ hội làm việc và các chương trình học thuật tại trường [Đại học Bách khoa Đà Nẵng](university).
+    - Cho tôi thông tin về cơ hội việc làm và các dự án nghiên cứu của sinh viên từ trường [Đại học Công nghệ Thông tin](university).
+    - Tôi muốn biết về các chương trình hỗ trợ việc làm và thực tập sau khi tốt nghiệp tại trường [Đại học Ngoại thương TP.HCM](university).
+    - Xin hãy tư vấn cho tôi về cơ hội việc làm và các hoạt động hỗ trợ nghề nghiệp tại trường [Đại học Sư phạm Kỹ thuật Hưng Yên](university).
+    - Hãy cung cấp cho tôi thông tin về các công ty đối tác và cơ hội việc làm sau khi tốt nghiệp tại trường [ctu](university).
+    - Tôi quan tâm đến việc biết thông tin về các dự án nghiên cứu và cơ hội việc làm sau khi tốt nghiệp từ trường [Đại học Khoa học Xã hội và Nhân văn](university).
+
+- intent: comparison_school
+  examples:  |
+    - So sánh 2 trường [fpt](school1) và [ctu](school2)
+    - Học [công nghệ thông tin](majors) thì nên học trường [bách khoa đà nẵng] hay [bách khoa tp hcm]
+    - Đánh giá [Đại học Cần Thơ](school1) và [Đại học Khoa học Tự nhiên](school2) có điểm gì khác biệt?
+    - [Đại học Cần Thơ](school1) và [Đại học Sài Gòn](school2) nên chọn trường nào cho ngành [Kỹ thuật điện](majors)?
+    - Tôi đang phân vân giữa [Đại học Sư phạm Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2), bạn có thể so sánh giúp tôi không?
+    - Cho tôi biết sự khác biệt giữa [Đại học Ngoại thương](school1) và [Đại học Kinh tế Quốc dân](school2) ở ngành [Kinh tế](majors)?
+    - [Khoa học máy tính](majors) ở [Đại học Sài Gòn](school1) và [Đại học Bách khoa Hà Nội](school2) khác nhau như thế nào?
+    - Tôi muốn so sánh [Đại học Y Dược TP HCM](school1) và [Đại học Y Dược Hà Nội](school2) về chất lượng đào tạo ngành [Y học](majors).
+    - Có gì khác biệt giữa [Đại học Xây dựng](school1) và [Đại học Kiến trúc](school2) cho ngành [Kiến trúc](majors)?
+    - [Ngoại ngữ](majors) ở [Đại học Sư phạm Hà Nội](school1) so với [Đại học Sư phạm TP HCM](school2) có gì khác nhau?
+    - [Đại học Bách khoa Hà Nội](school1) và [Đại học Bách khoa Đà Nẵng](school2) nên chọn trường nào cho ngành [Công nghệ thông tin](majors)?
+    - Tôi muốn biết sự so sánh giữa [ctu](school1) và [Đại học Khoa học Xã hội và Nhân văn](school2) cho ngành [Lịch sử](majors).
+    - [Đại học Sài Gòn](school1) và [Đại học Công nghệ TP HCM](school2) khác nhau như thế nào về ngành [Kỹ thuật điện tử](majors)?
+    - So sánh [Đại học Ngoại thương](school1) và [Đại học Kinh tế Quốc dân](school2) cho ngành [Quản trị kinh doanh](majors).
+    - [Y học](majors) ở [Đại học Y Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) có điểm gì khác biệt?
+    - Tôi đang phân vân giữa [Đại học Sư phạm Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) cho ngành [Sư phạm Tiếng Anh](majors), bạn có thể tư vấn không?
+    - [Đại học Khoa học Tự nhiên](school1) và [Đại học Ngoại ngữ](school2) nên chọn trường nào cho ngành [Ngôn ngữ học](majors)?
+    - Cho tôi biết về sự khác biệt giữa [Đại học Kỹ thuật Hà Nội](school1) và [Đại học Bách khoa TP HCM](school2) cho ngành [Kỹ thuật cơ khí](majors).
+    - [Đại học Nông Lâm TP HCM](school1) và [Đại học Cần Thơ](school2) có gì khác biệt về ngành [Nông học](majors)?
+    - So sánh [Đại học Y Dược Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) cho ngành [Y sĩ](majors).
+    - Tôi quan tâm đến [Đại học Sư phạm Huế](school1) và [Đại học Sư phạm Quy Nhơn](school2) cho ngành [Sư phạm Toán học](majors), bạn có thông tin gì không?
+    - [Khoa học máy tính](majors) ở [CTU](school1) so với [Đại học Bách khoa Hà Nội](school2) có điểm gì khác nhau?
+    - Cho tôi biết về sự so sánh giữa [Đại học Kinh tế - Luật](school1) và [Đại học Ngoại thương](school2) cho ngành [Luật kinh doanh](majors).
+    - [Đại học Công nghệ Thông tin](school1) và [Đại học Công nghệ TP HCM](school2) nên chọn trường nào cho ngành [Hệ thống thông tin](majors)?
+    - Tôi muốn so sánh [Đại học Khoa học Xã hội và Nhân văn](school1) và [Đại học Sư phạm Kỹ thuật](school2) về ngành [Tâm lý học](majors).
+    - [Đại học Nông Lâm Hà Nội](school1) và [Đại học Cần Thơ](school2) có điểm gì khác biệt về ngành [Khoa học Môi trường](majors)?
+    - Tôi đang phân vân giữa [Đại học Ngoại ngữ](school1) và [Đại học Ngoại thương](school2) cho ngành [Ngôn ngữ học](majors), bạn có thể giúp tôi không?
+    - [Đại học Kỹ thuật Xây dựng](school1) và [Đại học Kiến trúc](school2) nên chọn trường nào cho ngành [Kiến trúc](majors)?
+    - So sánh [Đại học Sư phạm Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) cho ngành [Sư phạm Toán học](majors).
+    - [Ngoại ngữ](majors) ở [Đại học Ngoại thương](school1) so với [Đại học Sư phạm TP HCM](school2) có điểm gì khác nhau?
+    - Đêm nay, chúng ta sẽ lạc vào câu chuyện đầy phép thuật giữa [Đại học Quốc gia Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) cho [Ngôn ngữ học](majors).
+    - Nếu cuộc đua xuyên màn đêm giữa [ctu](school1) và [Đại học Công nghệ TP HCM](school2) cho [Kỹ thuật Điện tử](majors) ở Việt Nam, ai sẽ chạm đến ánh sáng đầu tiên?
+    - Hãy cùng bước vào khu rừng thần bí của [Đại học Kinh tế Quốc dân](school1) và [Đại học Ngoại thương](school2) cho [Quản trị kinh doanh](majors), nơi những chiến binh thương hiệu ra đời.
+    - Trong cuộc so tài vũ trang giữa [Đại học Y Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) cho [Y học](majors), ai sẽ có bàn tay thần kỳ chữa trị những bệnh tật?
+    - Nếu so sánh là một cuộc chinh phục đỉnh cao giữa [Đại học Sư phạm Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) cho [Sư phạm Toán học](majors), người hùng của ngày mới sẽ là ai?
+    - Nếu bạn là một nhà nghiên cứu tại [Đại học Công nghệ Thông tin](school1) hoặc [Đại học Công nghệ TP HCM](school2), hãy nhảy vào cuộc cuộc chiến số liệu và mã lệnh cho [Hệ thống thông tin](majors).
+    - Trong thế giới thần tiên của [Đại học Khoa học Tự nhiên](school1) và [Đại học Khoa học Xã hội và Nhân văn](school2) cho [Lịch sử](majors) ở Việt Nam, những bí mật của quá khứ sẽ được bật mí.
+    - Hãy tham gia vào trận chiến của [CTU](school1) và [Đại học Ngoại thương](school2) cho [Luật kinh doanh](majors), nơi những vụ án ẩn sau những con số sẽ được làm sáng tỏ.
+    - Trong cuộc đua độc đáo giữa [Đại học Sân khấu Điện ảnh](school1) và [Đại học Sư phạm Âm nhạc](school2) cho [Nghệ thuật Biểu diễn](majors), ai sẽ sáng tạo ra những câu chuyện đẹp nhất?
+    - Hãy tham gia vào cuộc so tài bất tận giữa [Đại học Nông Lâm Hà Nội](school1) và [Đại học Cần Thơ](school2) cho [Khoa học Môi trường](majors), nơi sức sống của thiên nhiên sẽ được bảo vệ.
+    - Trong thế giới phép thuật của [Đại học Y Dược Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) cho [Y sĩ](majors), ai sẽ có khả năng hồi sinh những mạng sống?
+    - Đặt chân vào cuộc phiêu lưu tuyệt vời của [Đại học Sư phạm Huế](school1) và [Đại học Sư phạm Quy Nhơn](school2) cho [Sư phạm Toán học](majors), nơi những nhà giáo tương lai sẽ được hình thành.
+    - Hãy mở cửa thần kỳ và bước vào lĩnh vực thần thánh của [Đại học Khoa học và Công nghệ Hồng Kông](school1) và [Đại học Quốc gia Singapore](school2) cho [Khoa học Máy tính](majors) ở Việt Nam.
+    - Trong cuộc đua siêu tốc giữa [Đại học Khoa học Xã hội và Nhân văn](school1) và [Đại học Sư phạm Kỹ thuật](school2) cho [Tâm lý học](majors), ai sẽ đánh bại ác quỷ bên trong con người?
+    - Thách thức tận cùng giữa [Đại học Nông Lâm Hà Nội](school1) và [Đại học Cần Thơ](school2) cho [Khoa học Môi trường](majors) ở miền sông nước, ai sẽ nắm giữ bí quyết bảo vệ hành tinh này?
+    - Trong cuộc chiến không khoan nhượng giữa [Đại học Ngoại ngữ](school1) và [Đại học Ngoại thương](school2) cho [Ngôn ngữ học](majors), ai sẽ trở thành người phiêu lưu tới các vùng đất mới?
+    - Tôi đang suy nghĩ về việc học [Nghiên cứu y học](majors) ở [Đại học Y Hà Nội](school1) hoặc [Đại học Y Dược TP HCM](school2). Có điểm gì đặc biệt?
+    - So sánh [Khoa học máy tính](majors) ở [Đại học Khoa học Tự nhiên](school1) và [Đại học Bách khoa Hà Nội](school2).
+    - [Đại học Kinh tế - Luật](school1) và [Đại học Ngoại thương](school2) - ai nên đứng đầu cho [Luật kinh doanh](majors)?
+    - Tôi quan tâm đến [Nghệ thuật Biểu diễn](majors) và đang phân vân giữa [Đại học Sân khấu Điện ảnh](school1) và [Đại học Sư phạm Âm nhạc](school2). Có lời khuyên gì không?
+    - [Khoa học Môi trường](majors) ở [Đại học Nông Lâm Hà Nội](school1) so với [Đại học Cần Thơ](school2) có điểm gì khác biệt?
+    - So sánh [Y sĩ](majors) ở [Đại học Y Dược Hà Nội](school1) và [Đại học Y Dược TP HCM](school2).
+    - Tôi đang phân vân giữa [Đại học Sư phạm Huế](school1) và [Đại học Sư phạm Quy Nhơn](school2) cho [Sư phạm Toán học](majors), bạn có thông tin gì không?
+    - [Khoa học Máy tính](majors) ở [Đại học Khoa học Tự nhiên](school1) so với [Đại học Bách khoa Hà Nội](school2) có điểm gì khác nhau?
+    - Cho tôi biết về sự so sánh giữa [Đại học Khoa học Xã hội và Nhân văn](school1) và [Đại học Sư phạm Kỹ thuật](school2) cho [Tâm lý học](majors).
+    - [Khoa học Môi trường](majors) ở [Đại học Nông Lâm Hà Nội](school1) và [Đại học Cần Thơ](school2) có điểm gì khác biệt?
+    - Đặt cược vào cuộc chiến đối đầu giữa [Đại học Bách khoa Hà Nội](school1) và [Đại học Công nghệ TP HCM](school2) cho [Công nghệ thông tin](majors). Ai sẽ nắm giữ ngôi vị vương giả?
+    - Hãy xem [Đại học Quốc gia Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) như những vận động viên thi đấu trong cuộc so tài về [Sư phạm Toán học](majors). Ai có bước chạy mạnh mẽ hơn?
+    - Nếu so sánh là một trận chiến tư duy, [Đại học Y Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) sẽ đối đầu trong lĩnh vực [Y học](majors). Ai sẽ giải mã bí ẩn của cơ thể con người?
+    - Trong cuộc đua khám phá lịch sử, [Đại học Khoa học Tự nhiên](school1) và [Đại học Khoa học Xã hội và Nhân văn](school2) cho [Lịch sử](majors) là hai nhà thám hiểm. Ai sẽ khám phá những sự thật ẩn sau dấu vết của thời gian?
+    - Nếu so sánh là một cuộc hành trình vào không gian số, [Đại học Bách khoa Hà Nội](school1) và [Đại học Công nghệ TP HCM](school2) sẽ thi đấu cho [Kỹ thuật Điện tử](majors). Ai sẽ điều khiển sao hỏa?
+    - Hãy xem [Đại học Kinh tế Quốc dân](school1) và [Đại học Ngoại thương](school2) như hai danh nhân kinh doanh đang tranh giành danh hiệu cho [Quản trị kinh doanh](majors). Ai sẽ xây dựng đế chế lớn nhất?
+    - Tôi đứng trước một bức tranh tưởng chừng vô tận về [Nghiên cứu y học](majors). [Đại học Y Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) đang là những nghệ sĩ nghị thuật. Ai sẽ vẽ nên tác phẩm đỉnh cao?
+    - Trong cuộc đua của những trí thức, [Khoa học máy tính](majors) là sân chơi của [Đại học Khoa học Tự nhiên](school1) và [Đại học Bách khoa Hà Nội](school2). Ai sẽ tạo ra những phần mềm và công nghệ tiên tiến nhất?
+    - Hãy tưởng tượng [Đại học Kinh tế - Luật](school1) và [Đại học Ngoại thương](school2) như hai tay đua đang tranh giành chiến thắng trong cuộc đua vận động kinh tế. Ai sẽ tiến đến đích trước?
+    - Tôi đang đứng trước sân khấu của [Nghệ thuật Biểu diễn](majors) và hai diễn viên xuất sắc, [Đại học Sân khấu Điện ảnh](school1) và [Đại học Sư phạm Âm nhạc](school2), sẽ thi đấu. Ai sẽ thắng trong vở kịch cuộc đời này?
+    - Hãy nghĩ về [Khoa học Môi trường](majors) như một cuộc đua mạo hiểm trong thiên nhiên hoang dã. [Đại học Nông Lâm Hà Nội](school1) và [Đại học Cần Thơ](school2) đang đi săn sự thật về môi trường. Ai sẽ trở thành thợ săn hàng đầu?
+    - [Đại học Y Dược Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) - ai nên chọn để theo đuổi [Y học](majors)?
+    - Hãy so sánh [Đại học Nông Lâm Hà Nội](school1) và [Đại học Cần Thơ](school2) trong lĩnh vực [Khoa học Môi trường](majors).
+    - [Đại học Ngoại ngữ](school1) và [ctu](school2) - ai nên chọn để nghiên cứu [Ngôn ngữ học](majors)?
+    - Tôi đang suy nghĩ về việc học [Nghệ thuật Biểu diễn](majors) tại [Đại học Sân khấu Điện ảnh](school1) hoặc [Đại học Sư phạm Âm nhạc](school2). Có điểm gì đặc biệt về chất lượng giảng dạy?
+    - [Đại học Khoa học và Công nghệ Hồng Kông](school1) và [Đại học Quốc gia Singapore](school2) - ai nên đứng đầu trong [Khoa học Máy tính](majors) tại Việt Nam?
+    - Hãy so sánh [Đại học Kinh tế - Luật](school1) và [Đại học Ngoại thương](school2) trong lĩnh vực [Luật kinh doanh](majors). Ai cung cấp kiến thức pháp lý tốt nhất?
+    - [Khoa học Môi trường](majors) tại [Đại học Nông Lâm Hà Nội](school1) so với [Đại học Cần Thơ](school2) - điểm khác biệt chính là gì?
+    - Tôi đang đứng trước quyết định giữa [Đại học Sư phạm Kỹ thuật](school1) và [Đại học Sân khấu Điện ảnh](school2) cho ngành [Nghệ thuật Kỹ thuật](majors). Bạn có thể giúp tôi so sánh chúng không?
+    - Hãy nghĩ về [Khoa học Máy tính](majors) như một cuộc đua sáng tạo phần mềm. [Đại học Khoa học Tự nhiên](school1) và [Đại học Bách khoa Hà Nội](school2) - ai có khả năng phát triển công nghệ tiên tiến hơn?
+    - [Đại học Kinh tế Quốc dân](school1) và [Đại học Ngoại thương](school2) - ai dành vị trí hàng đầu cho [Kinh tế](majors)?
+    - Tôi đang suy nghĩ về việc học [Y sĩ](majors) tại [Đại học Y Dược Hà Nội](school1) hoặc [Đại học Y Dược TP HCM](school2). Có điểm gì đặc biệt về chương trình đào tạo?
+    - [Đại học Sư phạm Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) - ai nên chọn cho [Sư phạm Toán học](majors)?
+    - Hãy tưởng tượng [Khoa học Môi trường](majors) như một cuộc chiến bảo vệ hành tinh. [Đại học Nông Lâm Hà Nội](school1) và [Đại học Cần Thơ](school2) là những chiến binh. Ai sẽ trở thành người bảo vệ hàng đầu của thiên nhiên và môi trường sống?
+    - [Đại học Sư phạm Huế](school1) và [Đại học Sư phạm Quy Nhơn](school2) - ai nên chọn để trở thành giáo viên [Sư phạm Toán học](majors)?
+    - Tôi đang phân vân giữa [Đại học Khoa học Xã hội và Nhân văn](school1) và [Đại học Sư phạm Kỹ thuật](school2) cho ngành [Tâm lý học](majors). Bạn có thể giúp tôi so sánh chúng không?
+    - So sánh [Đại học Sư phạm Huế](school1) và [Đại học Sư phạm Quy Nhơn](school2) trong [Sư phạm Toán học](majors).
+    - [Đại học Sư phạm Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) - ai nên chọn để theo đuổi [Sư phạm Toán học](majors)?
+    - Hãy so sánh [Đại học Y Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) trong [Y học](majors). Ai có chương trình đào tạo vượt trội hơn?
+    - [Đại học Khoa học Xã hội và Nhân văn](school1) và [Đại học Khoa học Tự nhiên](school2) - ai nên đứng đầu trong [Lịch sử](majors) tại Việt Nam?
+    - So sánh [Đại học Khoa học Xã hội và Nhân văn](school1) và [Đại học Khoa học Tự nhiên](school2) trong [Lịch sử](majors) tại Việt Nam.
+    - [Đại học Khoa học và Công nghệ Hồng Kông](school1) và [Đại học Quốc gia Singapore](school2) - ai nên đứng đầu trong [Khoa học Máy tính](majors) tại Việt Nam?
+    - Hãy so sánh [Đại học Kinh tế - Luật](school1) và [Đại học Ngoại thương](school2) trong lĩnh vực [Luật kinh doanh](majors). Ai cung cấp kiến thức pháp lý tốt nhất?
+    - [Khoa học Môi trường](majors) tại [Đại học Nông Lâm Hà Nội](school1) so với [Đại học Cần Thơ](school2) - điểm khác biệt chính là gì?
+    - Tôi đang đứng trước quyết định giữa [Đại học Sư phạm Kỹ thuật](school1) và [Đại học Sân khấu Điện ảnh](school2) cho ngành [Nghệ thuật Kỹ thuật](majors). Bạn có thể giúp tôi so sánh chúng không?
+    - Hãy tưởng tượng [Khoa học Máy tính](majors) như một cuộc đua sáng tạo phần mềm. [Đại học Khoa học Tự nhiên](school1) và [ctu](school2) - ai có khả năng phát triển công nghệ tiên tiến hơn?
+    - [Đại học Kinh tế Quốc dân](school1) và [Đại học Ngoại thương](school2) - ai dành vị trí hàng đầu cho [Kinh tế](majors)?
+    - Tôi đang suy nghĩ về việc học [Y sĩ](majors) tại [Đại học Y Dược Hà Nội](school1) hoặc [Đại học Y Dược TP HCM](school2). Có điểm gì đặc biệt về chương trình đào tạo?
+    - [Đại học Sư phạm Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) - ai nên chọn để theo đuổi [Sư phạm Toán học](majors)?
+    - Hãy so sánh [Đại học Sư phạm Huế](school1) và [Đại học Sư phạm Quy Nhơn](school2) trong [Sư phạm Toán học](majors).
+    - [Đại học Sư phạm Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) - ai nên chọn để theo đuổi [Sư phạm Toán học](majors)?
+    - Hãy so sánh [Đại học Y Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) trong [Y học](majors). Ai có chương trình đào tạo vượt trội hơn?
+    - [Đại học Khoa học Xã hội và Nhân văn](school1) và [Đại học Khoa học Tự nhiên](school2) - ai nên đứng đầu trong [Lịch sử](majors) tại Việt Nam?
+    - Tôi đang suy nghĩ về việc học [Nghiên cứu y học](majors) tại [Đại học Y Hà Nội](school1) hoặc [Đại học Y Dược TP HCM](school2). Có điểm gì đặc biệt về chương trình đào tạo của 2 trường đó
+    - So sánh [Đại học Bách khoa Đà Nẵng](school1) và [Đại học Bách khoa TP HCM](school2) trong [Công nghệ thông tin](majors). 
+    - Hãy đưa ra so sánh giữa [Đại học Kinh tế - Luật TP HCM](school1) và [Đại học Kinh tế TP HCM](school2) về [Quản trị kinh doanh](majors).
+    - Tôi đang phân vân giữa [Đại học Y Dược Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) cho [Y học](majors). Bạn có thể so sánh chúng không?
+    - So sánh [Đại học Sư phạm Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) trong [Sư phạm Toán học](majors).
+    - [Đại học Sư phạm Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) - ai nên chọn để theo đuổi [Sư phạm Toán học](majors)?
+    - Hãy so sánh [Đại học Y Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) trong [Y học](majors). Ai có chương trình đào tạo vượt trội hơn?
+    - So sánh [Đại học Khoa học Xã hội và Nhân văn Hà Nội](school1) và [Đại học Khoa học Xã hội và Nhân văn TP HCM](school2) trong [Lịch sử](majors).
+    - [Đại học Sân khấu Điện ảnh Hà Nội](school1) và [Đại học Sân khấu Điện ảnh TP HCM](school2) - ai nên chọn cho [Nghệ thuật Biểu diễn](majors)?
+    - Tôi đang đứng trước quyết định giữa [CTU](school1) và [Đại học Khoa học Tự nhiên TP HCM](school2) cho [Khoa học Máy tính](majors). Có điểm gì đặc biệt về chất lượng giảng dạy?
+    - Hãy so sánh [Đại học Kinh tế Quốc dân](school1) và [Đại học Ngoại thương](school2) trong [Kinh tế](majors). Ai cung cấp kiến thức về thương mại quốc tế tốt hơn?
+    - So sánh [Đại học Ngoại thương](school1) và [Đại học Kinh tế - Luật](school2) trong [Quản trị kinh doanh](majors). 
+    - [Đại học Nông Lâm Hà Nội](school1) và [Đại học Cần Thơ](school2) - ai nên chọn để nghiên cứu [Khoa học Môi trường](majors)?
+    - Tôi đang phân vân giữa [Đại học Sư phạm Kỹ thuật](school1) và [Đại học Sân khấu Điện ảnh](school2) cho ngành [Nghệ thuật Kỹ thuật](majors). Có điểm gì đặc biệt về chất lượng giảng dạy?
+    - Hãy so sánh [Đại học Khoa học và Công nghệ Hồng Kông](school1) và [Đại học Quốc gia Singapore](school2) trong [Khoa học Máy tính](majors).
+    - [Đại học Y Dược Hà Nội](school1) và [Đại học Y Dược TP HCM](school2) - ai nên chọn để trở thành bác sĩ?
+    - So sánh [Đại học Sư phạm Huế](school1) và [Đại học Sư phạm Quy Nhơn](school2) trong [Sư phạm Toán học](majors).
+    - [Đại học Sư phạm Hà Nội](school1) và [Đại học Sư phạm TP HCM](school2) - ai nên chọn để theo đuổi [Sư phạm Toán học](majors)?
+    - Tôi đang suy nghĩ về việc học [Nghiên cứu y học](majors) tại [Đại học Y Hà Nội](school1) hoặc [Đại học Y Dược TP HCM](school2). Có điểm gì đặc biệt về cơ hội nghiên cứu?
+    - Hãy so sánh [Đại học Khoa học Xã hội và Nhân văn Hà Nội](school1) và [Đại học Khoa học Xã hội và Nhân văn TP HCM](school2) trong [Lịch sử](majors).
+    - [Đại học Sân khấu Điện ảnh Hà Nội](school1) và [Đại học Sân khấu Điện ảnh TP HCM](school2) - ai nên chọn cho [Nghệ thuật Biểu diễn](majors)?
+    - Nếu phải chọn một trường đại học để học, bạn sẽ chọn [Đại học Quốc gia TP.HCM](school1) hay [Đại học Bách Khoa Hà Nội](school2)? Và tại sao?
+    - Nếu bạn muốn theo đuổi sự nghiệp kinh doanh, bạn sẽ học ở [Đại học Sài Gòn](school1) hay [ctu](school2)? Và tại sao?
+    - Nếu bạn muốn theo đuổi ngành nghệ thuật, bạn sẽ học tại [Học viện Âm nhạc Quốc gia](school1) hay [Đại học Mỹ thuật Công nghiệp (Hanoi University of Industrial Fine Arts)](school2)? Và tại sao?

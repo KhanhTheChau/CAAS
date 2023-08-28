@@ -1,0 +1,13 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: vi
+
+pipeline:
+  - name: components.featurizers.HFTransformersPhobert
+    model_weights: "bert-base-multilingual-cased"
+    model_name: "bert"
+  - name: LanguageModelTokenizer
+  - name: LanguageModelFeaturizer
+  - name: DIETClassifier
+    epochs: 50
+    constrain_similarities: true

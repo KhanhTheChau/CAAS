@@ -1,0 +1,64 @@
+* Nếu lỗi:
+    Sửa tại: C:\Users\Admin\anaconda3\envs\py37-rasa\Lib\site-packages\rasa\core\channels
+    Dòng: console.py DEFAULT_STREAM_READING_TIMEOUT_IN_SECONDS = 30
+
+python: 3.7.16
+* Chạy rasa x
+    - SET RASA_VERSION_TIMEOUT_IN_SECONDS=60
+    - export RASA_VERSION_TIMEOUT_IN_SECONDS=60
+    - rasa x
+    - rasa run actions
+    - rasa x --rasa-x-port 5000
+
+Ubuntu
+Terminal 1: 
+    - export RASA_VERSION_TIMEOUT_IN_SECONDS=60
+    - rasa x --rasa-x-port 5000
+Terminal 2:
+    - rasa run actions
+
+test NLU:
+rasa test nlu --config config.yml --cross-validation --runs 5 --fold 5 --out results/test4 --nlu test/nlu_test.yml
+rasa test nlu --config config.yml --cross-validation --runs 10 --fold 10 --out results/test2 --nlu test/nlu_test.yml
+
+
+
+evaluate_on_number_of_examples: Đây là một tùy chọn để đánh giá hiệu suất của mô hình trên một số lượng ví dụ cụ thể trong quá trình đào tạo. Việc này giúp theo dõi sự cải thiện của mô hình qua từng vòng lặp đào tạo.
+
+evaluate_every_number_of_epochs: Đây là tùy chọn để đánh giá mô hình trên tập dữ liệu kiểm tra sau mỗi số lượng epochs cụ thể. Điều này giúp đo lường hiệu suất và theo dõi tiến trình đào tạo.
+
+checkpoint_model: Nếu được đặt thành True, mô hình sẽ được lưu lại (checkpoint) sau mỗi vòng lặp đào tạo. Điều này giúp bạn khôi phục mô hình từ trạng thái trước đó nếu cần.
+
+masking: Đã được đề cập ở trên, đây là tùy chọn để sử dụng kỹ thuật che phủ (masking) trong quá trình đào tạo.
+
+Điều quan trọng là mô hình DIETClassifier có thể có nhiều tùy chọn khác nữa tùy thuộc vào phiên bản và cấu hình cụ thể của nó. Bạn nên tham khảo tài liệu hoặc mã nguồn của Rasa để có cái nhìn tổng quan về tất cả các tùy chọn và tính năng có sẵn trong DIETClassifier.
+
+
+
+
+User
+
+Thêm tính năng khác trong  DIETClassifier
+ChatGPT
+Dưới đây là một số tính năng khác mà DIETClassifier có thể cung cấp:
+
+model_confidence: Điều này thường liên quan đến cách mà mô hình tính toán xác suất cho các dự đoán của nó. Bạn có thể điều chỉnh cách mô hình đánh giá độ tin cậy của dự đoán. Ví dụ, có thể sử dụng hàm softmax hoặc hàm sigmoid để ước tính xác suất.
+
+entity_recognition: Mô hình DIETClassifier có khả năng nhận dạng và trích xuất thông tin về các thực thể (entities) trong văn bản. Thuộc tính này có thể liên quan đến cách mà mô hình được đào tạo để thực hiện nhiệm vụ nhận dạng thực thể.
+
+use_masked_language_model: Nếu được đặt thành True, mô hình sẽ sử dụng một mô hình ngôn ngữ che phủ (masked language model) như BERT hoặc RoBERTa để biểu diễn văn bản đầu vào. Điều này có thể cải thiện khả năng hiểu và tổng hợp thông tin của mô hình.
+
+model_confidence_threshold: Đây là một ngưỡng xác định mức độ tin cậy tối thiểu để mô hình chấp nhận dự đoán cuối cùng. Nếu xác suất dự đoán không vượt qua ngưỡng này, mô hình có thể từ chối dự đoán hoặc chọn một hành động mặc định khác.
+
+use_entity_recognition_crf: Đây là tùy chọn để sử dụng mô hình Conditional Random Field (CRF) trong quá trình nhận dạng thực thể. CRF là một mô hình thống kê thường được sử dụng trong các nhiệm vụ như nhận dạng thực thể để cải thiện hiệu suất.
+
+intent_classification: Mô hình DIETClassifier cũng có khả năng phân loại các ý định (intent) từ văn bản đầu vào. Bạn có thể điều chỉnh cách mô hình thực hiện nhiệm vụ phân loại ý định này.
+
+Lưu ý rằng danh sách trên chỉ là một số ví dụ, và DIETClassifier có thể cung cấp nhiều tính năng và tùy chọn khác nhau tùy thuộc vào phiên bản và cấu hình cụ thể của nó.
+
+
+
+
+
+
+Regenerate response

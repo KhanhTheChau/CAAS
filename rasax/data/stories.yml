@@ -1,0 +1,66 @@
+stories:
+- steps:
+  - intent: greet
+  - action: action_greet
+  story: greet
+- steps:
+  - intent: goodbye
+  - action: action_goodbye
+  story: goodbye
+- steps:
+  - intent: thank
+  - action: action_thank
+  story: thank
+- steps:
+  - intent: ask_name
+  - action: action_ask_name
+  story: ask_name
+- steps:
+  - intent: help
+  - action: action_help
+  story: help
+- steps:
+  - intent: consultation
+  - action: action_consultation
+  story: consultation
+- steps:
+  - intent: benchmark
+  - action: action_benchmark
+  story: benchmark
+- steps:
+  - intent: tuition
+  - action: action_tuition
+  story: tuition
+- steps:
+  - intent: curriculum
+  - action: action_curriculum
+  story: curriculum
+- steps:
+  - intent: criterias
+  - action: action_criterias
+  story: criterias
+- steps:
+  - intent: review
+  - action: action_review
+  story: review
+- steps:
+  - intent: profile
+  - action: action_profile
+  story: profile
+- steps:
+  - intent: dormitory
+  - action: action_dormitory
+  story: dormitory
+- steps:
+  - intent: facilities
+  - action: action_facilities
+  story: facilities
+- steps:
+  - intent: career_opportunities
+  - action: action_career_opportunities
+  story: career_opportunities
+- steps:
+  - intent: comparison_school
+  - action: action_comparison_school
+  story: comparison_school
+version: '2.0'

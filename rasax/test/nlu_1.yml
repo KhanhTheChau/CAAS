@@ -1,0 +1,200 @@
+nlu: 
+- intent:  greet
+  examples:  |
+    - chào bạn hiền
+    - xin chào bạn nhé
+    - Hey
+    - chào
+    - cu
+    - hey
+    - alo alo
+    - hi
+    - hello cu
+    - Xin chào
+
+- intent:  goodbye
+  examples:  |
+    - tạm biệt bạn nhé
+    - bye nhé
+    - goodbye
+    - hẹn gặp lại lần sau
+    - tắt đi nhé
+    - see you again
+    - gặp lại sau
+    - Bye
+    - tôi có công chuyện rồi, hẹn gặp lại
+    - Mình nói chuyện sau nhé
+
+- intent: thank
+  examples:  |
+    - cảm ơn bạn 
+    - cảm ơn
+    - thank
+    - làm tốt lắm đây
+    - cám ơn
+    - tuyệt
+    - tốt
+    - tuyệt vời
+    - rất tốt
+    - Cảm ơn
+
+- intent: help
+  examples:  |
+    - bạn giúp được gì cho tôi
+    - bạn làm được gì
+    - Tôi cần một chút sự giúp đỡ của bạn.
+    - Tôi đang gặp khó khăn trong việc chọn trường và cần sự giúp đỡ của bạn.
+    - Tôi cần được giúp đỡ, bạn có thể làm gì?
+    - bot! Mày biết làm gì
+    - Tôi muốn biết về khả năng và chức năng của mày đó bot.
+    - khả năng của bạn là gì
+    - chức năng của bạn là gì
+    - mày giúp cho tao được gì không bot
+
+- intent: ask_name
+  examples:  |
+    - Xin chào, tôi là Nguyễn Thị Minh Hương, nhưng bạn có thể gọi tôi là Hương.
+    - Tôi tên là Lê Văn An, người thường gọi tôi là An.
+    - Gọi tôi là Trần Thanh Tùng, hay là Tùng Rapper.
+    - Mình là Nguyễn Xuân Phúc, rất vui được gặp bạn ở đây.
+    - Tôi tên là Trần Thị Thanh Mai, tôi đang tìm hiểu về chủ đề này.
+    - Xin chào, mình là Nguyễn Đình Hoàng, một người đam mê công nghệ.
+    - Mình là Trần Văn Bình
+    - Tên mình là Hạnh Hoa.
+    - Mình tên là Trần Quốc Trung.
+    - Mình có tên là Anh.
+
+
+- intent: consultation
+  examples:  |
+    - tư vấn cho tui nhé
+    - giúp tui tư vấn đi
+    - vậy tư vấn cho tui đi
+    - tui muốn bạn tư vấn cho tui
+    - vậy giúp tui xác định nghề nghiệp đi
+    - giúp tui định hướng nghề nghiệp 
+    - tui chưa biết nghề nghiệp sau này, giúp tui tư vấn với
+    - Bạn có thể tư vấn cho tôi về vấn đề này được không?
+    - Cần bạn tư vấn giúp cho tôi một chút
+    - Tôi muốn bạn tư vấn cho tôi về việc này.
+
+
+- intent: benchmark
+  examples:  |
+    - Tôi muốn biết điểm chuẩn ngành kỹ thuật phần mềm năm trước ở trường đại học Bách Khoa Hà Nội là bao nhiêu?
+    - Cho tôi biết điểm chuẩn kinh tế năm ngoái ở trường đại học Quốc gia TP.HCM là bao nhiêu vậy?
+    - Tìm hiểu giúp tôi điểm chuẩn ngành y khoa năm trước ở trường đại học Y Hà Nội nhé.
+    - Bạn có thông tin về điểm chuẩn ngôn ngữ Anh năm rồi ở trường đại học Ngoại ngữ Hà Nội không?
+    - Tôi muốn biết điểm chuẩn ngành quản trị kinh doanh năm trước ở trường đại học Kinh tế TP.HCM là bao nhiêu.
+    - Cho tôi xin thông tin về điểm chuẩn công nghệ thông tin năm trước ở trường đại học Sư phạm Kỹ thuật TP.HCM được không?
+    - Tìm giúp tôi điểm chuẩn kiến trúc năm rồi ở trường đại học Kiến trúc Hà Nội với.
+    - Bạn có thông tin về điểm chuẩn ngành ngôn ngữ Nhật năm trước ở trường đại học Sư phạm TP.HCM không?
+    - Tôi muốn biết điểm chuẩn ngành kinh tế năm rồi ở trường đại học Nông Lâm TP.HCM là bao nhiêu.
+    - Cho tôi xin thông tin về điểm chuẩn công nghệ kỹ thuật điện tử năm trước ở trường đại học Bách Khoa TP.HCM được không?
+
+- intent: tuition
+  examples:  |
+    - Học phí ngành truyền thông đa phương tiện ở trường đại học cần thơ là bao nhiêu tiền?
+    - Học phí công nghệ thông tin trường đại học Nam Cần Thơ là bao nhiêu?
+    - Tôi quan tâm đến học phí ngành kỹ thuật phần mềm ở trường đại học Bách Khoa Hà Nội, bạn có thông tin chi tiết không?
+    - Xin thông tin về học phí kinh tế trường đại học Quốc gia TP.HCM.
+    - Tôi đang quan tâm đến học phí ngành y khoa ở trường đại học Y Hà Nội, bạn có thông tin chi tiết không?
+    - Tôi muốn tìm hiểu về học phí ngành ngôn ngữ Anh ở trường đại học Ngoại ngữ Hà Nội, bạn có thể giúp tôi không?
+    - Học phí ngành quản trị kinh doanh ở trường đại học Kinh tế TP.HCM là bao nhiêu?
+    - Tôi quan tâm đến học phí công nghệ thông tin trường đại học Sư phạm Kỹ thuật TP.HCM, bạn có thông tin chi tiết không?
+    - Xin thông tin về học phí ngành kiến trúc ở trường đại học Kiến trúc Hà Nội.
+    - Tôi rất muốn biết về học phí ngành kinh tế ở trường đại học Nông Lâm TP.HCM, bạn có thông tin chi tiết không?
+
+
+- intent: curriculum
+  examples:  |
+    - Tôi muốn tìm hiểu về chương trình đào tạo ngành truyền thông đa phương tiện của trường đại học Cần Thơ.
+    - Cho tôi biết kế hoạch học tập ngành khoa học máy tính của trường đại học Cần Thơ.
+    - Tôi quan tâm đến chương trình đào tạo ngành truyền thông đa phương tiện tại trường đại học Cần Thơ, bạn có thể chia sẻ thông tin chi tiết với tôi không?
+    - Tôi đang tìm hiểu về kế hoạch học tập ngành khoa học máy tính ở trường đại học Cần Thơ, bạn có thể giúp tôi không?
+    - Tôi muốn biết chi tiết về chương trình đào tạo ngành truyền thông đa phương tiện tại trường đại học Cần Thơ.
+    - Xin thông tin về kế hoạch học tập ngành khoa học máy tính của trường đại học Cần Thơ.
+    - Tôi quan tâm đến chương trình đào tạo ngành truyền thông đa phương tiện ở trường đại học Cần Thơ, có thông tin gì về nó không?
+    - Tôi đang tìm hiểu về kế hoạch học tập ngành khoa học máy tính tại trường đại học Cần Thơ, bạn có thể giúp tôi không?
+    - Xin thông tin chi tiết về chương trình đào tạo ngành truyền thông đa phương tiện của trường đại học Cần Thơ.
+
+
+- intent: criterias
+  examples:  |
+    - Xin thông tin về chỉ tiêu ngành kĩ thuật máy tính ở trường đại học Khoa học Tự nhiên năm nay là bao nhiêu?
+    - Tôi muốn biết chỉ tiêu ngành khoa học máy tính của trường đại học Cần Thơ năm nay là bao nhiêu?
+    - Tìm hiểu về chỉ tiêu ngành kĩ thuật máy tính ở trường đại học Khoa học Tự nhiên năm nay có bao nhiêu?
+    - Cho tôi biết chỉ tiêu ngành khoa học máy tính của trường đại học Cần Thơ năm nay là bao nhiêu?
+    - Xin thông tin về số lượng chỉ tiêu ngành kĩ thuật máy tính ở trường đại học Khoa học Tự nhiên trong năm này.
+    - Tôi muốn biết số lượng chỉ tiêu ngành khoa học máy tính của trường đại học Cần Thơ trong năm này là bao nhiêu?
+    - Tìm hiểu về số lượng chỉ tiêu ngành kĩ thuật máy tính ở trường đại học Khoa học Tự nhiên trong năm nay có bao nhiêu?
+    - Cho tôi biết số lượng chỉ tiêu ngành khoa học máy tính của trường đại học Cần Thơ trong năm nay là bao nhiêu?
+    - Ngành CNTT của trường giao thông vận tải năm nay lấy bao nhiêu người.
+    - Xin cho biết số lượng chỉ tiêu tuyển sinh ngành kỹ thuật máy tính tại trường Đại học Bách Khoa Đà Nẵng năm nay.
+
+
+- intent: review
+  examples:  |
+    - Tôi muốn nghe chút review về trường đại học Khoa học Tự nhiên.
+    - Cho tôi xin một số nhận xét về trường đại học Cần Thơ.
+    - Tôi quan tâm đến trường đại học Khoa học Tự nhiên, bạn có thể cho tôi biết chút thông tin nhận xét không?
+    - Tôi muốn biết ý kiến người khác về trường đại học Cần Thơ.
+    - Cho tôi chút review về trường đại học Khoa học Tự nhiên được không?
+    - Tôi muốn biết một vài đánh giá về Đại học Cần Thơ. 
+    - Tôi muốn nghe chút review về trường đại học Cần Thơ.
+    - Tôi đang cần một số nhận xét về trường đại học Cần Thơ, bạn có thể giúp tôi không?
+    - Tôi quan tâm đến trường đại học Khoa học Tự nhiên, bạn có thể chia sẻ với tôi một số đánh giá không?
+    - Cho tôi xin chút nhận xét về trường đại học Cần Thơ được không?
+
+- intent: profile
+  examples:  |
+    - Hồ sơ nhập học của trường Đại học Bách khoa bao gồm những gì?
+    - Cho tôi biết về yêu cầu hồ sơ nhập học tại trường Đại học Kinh tế.
+    - Tôi quan tâm đến nộp hồ sơ nhập học tại trường Đại học Y khoa, có thể cho tôi biết những thông tin cần thiết trong hồ sơ?
+    - Hãy liệt kê những tài liệu và thông tin cần thiết để hoàn thành hồ sơ nhập học của trường Đại học Nghệ thuật.
+    - Tôi muốn biết về các bước và yêu cầu để hoàn thành hồ sơ nhập học tại trường Đại học Nông nghiệp.
+    - Hồ sơ nhập học của trường Đại học Khoa học Xã hội và Nhân văn bao gồm những gì?
+    - Cho tôi biết về yêu cầu hồ sơ nhập học tại trường Đại học Y Dược.
+    - Tôi quan tâm đến nộp hồ sơ nhập học tại trường Đại học Ngoại ngữ, có thể cho tôi biết những thông tin cần thiết trong hồ sơ?
+    - Hãy liệt kê những tài liệu và thông tin cần thiết để hoàn thành hồ sơ nhập học của trường Đại học Kỹ thuật công nghiệp.
+    - Tôi muốn biết về các bước và yêu cầu để hoàn thành hồ sơ nhập học tại trường Đại học Sư phạm.
+
+- intent: dormitory
+  examples:  |
+    - Tôi quan tâm về kí túc xá của trường Đại học Sư phạm, có thể cung cấp thông tin chi tiết?
+    - Hãy cho tôi biết về cơ sở kí túc xá và tiện nghi tại trường Đại học Khoa học Xã hội và Nhân văn.
+    - Tôi muốn tìm hiểu về kí túc xá của trường Đại học Y khoa và những dịch vụ hỗ trợ sinh viên.
+    - Xin vui lòng mô tả về kí túc xá và các hoạt động sinh viên tại trường Đại học Nông nghiệp.
+    - Cho tôi thông tin về kí túc xá và các tiện ích tại trường Đại học Kinh tế.
+    - Tôi quan tâm đến kí túc xá của trường Đại học Kỹ thuật công nghiệp và chính sách ưu đãi dành cho sinh viên.
+    - Hãy đưa ra mô tả về kí túc xá, phòng ở và các dịch vụ hỗ trợ sinh viên tại trường Đại học Y Dược.
+    - Tôi cần thông tin về kí túc xá và các tiện ích tại trường Đại học Ngoại ngữ.
+    - Xin vui lòng mô tả về kí túc xá và cơ sở vật chất tại trường Đại học Khoa học Tự nhiên.
+    - Cho tôi biết về kí túc xá và các dịch vụ hỗ trợ sinh viên tại trường Đại học Nghệ thuật.
+
+- intent: facility
+  examples:  |
+    - thông tin về cơ sở vật chất Đại học Cần Thơ.
+    - thông tin về cơ sở vật chất Trường Đại học Y dược Cần Thơ.
+    - tình hình cở sở vật chất các phòng học Đại học Cần Thơ.
+    - tình hình cở sở vật chất các phòng học trường Đại học Bách khoa.
+    - một vài thông tin về cơ sở vật chất Đại học Cần Thơ
+    - vài nét về các thiết bị Đại học Cần Thơ.
+    - tình trạng cơ sở vật chất của các thiết bị tại trường Đại học Ngoại ngữ.
+    - tình trạng cơ sở vật chất của các thiết bị tại trường Đại học FPT Cần Thơ.
+    - vài nét về các thiết bị Đại học Bách Khoa Hà Nội.
+    - thông tin có liên quan về cơ sở vật chất và các thiết bị Đại học Cần Thơ.
+
+
+- intent: career_opportunities
+  examples:  |
+    - các cơ hội việc làm sau khi tốt nghiệp Đại học Cần Thơ.
+    - các vị trí tuyển dụng sau khi tốt nghiệp Đại học Bách Khoa.
+    - các vị trí tuyển dụng sao khi tốt nghiệp trường Đại học fpt.
+    - cơ hội việt làm khi tốt nghiệp trường Đại học Y Dược cần Thơ.
+    - cơ hội việt làm khi tốt nghiệp trường Đại học Nông nghiệp.
+    - các công ty và cơ sở nào tiếp nhận tuyển dụng khi tốt nghiệp Đại học fpt.
+    - cơ hội phát triển sau khi tốt nghiệp đại học Cần Thơ.
+    - các tổ chức tuyển dụng tiếp nhận sinh viên sau khi tốt nghiệp Đại học Cần Thơ.
+    - cơ hội việc làm sau khi tốt nghiệp Đại học cần Thơ.
+    - hãy cho tôi biết các thông tin về cơ hội việc làm sau khi tốt nghiệp trường Đại học Nam Cần Thơ.

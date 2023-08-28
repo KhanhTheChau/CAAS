@@ -1,0 +1,113 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- ask_name
+- benchmark
+- career_opportunities
+- comparison_school
+- consultation
+- criterias
+- curriculum
+- dormitory
+- facilities
+- goodbye
+- greet
+- help
+- profile
+- review
+- thank
+- tuition
+entities:
+- majors
+- university
+- name
+- school1
+- school2
+slots:
+  majors:
+    type: text
+    influence_conversation: true
+  university:
+    type: text
+    influence_conversation: true
+  name:
+    type: text
+    influence_conversation: true
+  school1:
+    type: text
+    influence_conversation: true
+  school2:
+    type: text
+    influence_conversation: true
+responses:
+  utter_greet:
+  - text: ''
+  utter_goodbye:
+  - text: ''
+  utter_thank:
+  - text: ''
+  utter_consultation:
+  - text: ''
+  utter_ask_name:
+  - text: ''
+  utter_help:
+  - text: ''
+  utter_benchmark:
+  - text: ''
+  utter_tuition:
+  - text: ''
+  utter_default_fallback:
+  - text: ''
+  utter_curriculum:
+  - text: ''
+  utter_criterias:
+  - text: ''
+  utter_review:
+  - text: ''
+  utter_profile:
+  - text: ''
+  utter_facilities:
+  - text: ''
+  utter_dormitory:
+  - text: ''
+  utter_career_opportunities:
+  - text: ''
+  utter_comparison_school:
+  - text: ''
+actions:
+- utter_greet
+- utter_goodbye
+- utter_default_fallback
+- utter_thank
+- utter_ask_name
+- utter_consultation
+- utter_help
+- utter_benchmark
+- utter_tuition
+- utter_curriculum
+- utter_criterias
+- utter_review
+- utter_profile
+- utter_dormitory
+- utter_facilities
+- utter_comparison_school
+- utter_career_opportunities
+- action_greet
+- action_default_fallback
+- action_goodbye
+- action_thank
+- action_ask_name
+- action_consultation
+- action_help
+- action_benchmark
+- action_tuition
+- action_curriculum
+- action_criterias
+- action_review
+- action_profile
+- action_dormitory
+- action_facilities
+- action_career_opportunities
+- action_comparison_school

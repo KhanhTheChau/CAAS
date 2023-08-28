@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Học phí ngành truyền thông đa phương tiện ở trường đại học cần thơ là bao nhiêu tiền?",
+    "intent": "tuition",
+    "intent_prediction": {
+      "name": "curriculum",
+      "confidence": 0.722769021987915
+    }
+  },
+  {
+    "text": "tạm biệt bạn nhé",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.44192248582839966
+    }
+  },
+  {
+    "text": "thank",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.658588171005249
+    }
+  },
+  {
+    "text": "làm tốt lắm đây",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "career_opportunities",
+      "confidence": 0.6614965200424194
+    }
+  }
+]

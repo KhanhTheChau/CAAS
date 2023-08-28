@@ -1,0 +1,153 @@
+{
+  "greet": {
+    "precision": 0.967741935483871,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.909090909090909,
+    "support": 35,
+    "confused_with": {
+      "help": 2,
+      "ask_name": 2
+    }
+  },
+  "goodbye": {
+    "precision": 0.9583333333333334,
+    "recall": 0.92,
+    "f1-score": 0.9387755102040817,
+    "support": 25,
+    "confused_with": {
+      "thank": 1,
+      "review": 1
+    }
+  },
+  "consultation": {
+    "precision": 0.9333333333333333,
+    "recall": 0.875,
+    "f1-score": 0.9032258064516129,
+    "support": 32,
+    "confused_with": {
+      "help": 2,
+      "review": 1
+    }
+  },
+  "tuition": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 70,
+    "confused_with": {}
+  },
+  "ask_name": {
+    "precision": 0.958904109589041,
+    "recall": 0.9859154929577465,
+    "f1-score": 0.9722222222222222,
+    "support": 71,
+    "confused_with": {
+      "thank": 1
+    }
+  },
+  "thank": {
+    "precision": 0.9230769230769231,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.9230769230769231,
+    "support": 39,
+    "confused_with": {
+      "help": 1,
+      "goodbye": 1
+    }
+  },
+  "curriculum": {
+    "precision": 0.9882352941176471,
+    "recall": 0.9882352941176471,
+    "f1-score": 0.9882352941176471,
+    "support": 85,
+    "confused_with": {
+      "criterias": 1
+    }
+  },
+  "benchmark": {
+    "precision": 0.9642857142857143,
+    "recall": 0.9759036144578314,
+    "f1-score": 0.970059880239521,
+    "support": 83,
+    "confused_with": {
+      "curriculum": 1,
+      "criterias": 1
+    }
+  },
+  "career_opportunities": {
+    "precision": 0.9578947368421052,
+    "recall": 1.0,
+    "f1-score": 0.978494623655914,
+    "support": 91,
+    "confused_with": {}
+  },
+  "comparison_school": {
+    "precision": 0.9814814814814815,
+    "recall": 0.9814814814814815,
+    "f1-score": 0.9814814814814815,
+    "support": 108,
+    "confused_with": {
+      "review": 1,
+      "career_opportunities": 1
+    }
+  },
+  "help": {
+    "precision": 0.84375,
+    "recall": 0.84375,
+    "f1-score": 0.84375,
+    "support": 32,
+    "confused_with": {
+      "consultation": 2,
+      "thank": 1
+    }
+  },
+  "dormitory": {
+    "precision": 0.994475138121547,
+    "recall": 0.9836065573770492,
+    "f1-score": 0.989010989010989,
+    "support": 183,
+    "confused_with": {
+      "review": 2,
+      "career_opportunities": 1
+    }
+  },
+  "criterias": {
+    "precision": 0.9764705882352941,
+    "recall": 1.0,
+    "f1-score": 0.988095238095238,
+    "support": 83,
+    "confused_with": {}
+  },
+  "profile": {
+    "precision": 1.0,
+    "recall": 0.9900990099009901,
+    "f1-score": 0.9950248756218906,
+    "support": 101,
+    "confused_with": {
+      "benchmark": 1
+    }
+  },
+  "review": {
+    "precision": 0.9375,
+    "recall": 0.9473684210526315,
+    "f1-score": 0.9424083769633508,
+    "support": 95,
+    "confused_with": {
+      "career_opportunities": 2,
+      "benchmark": 2
+    }
+  },
+  "accuracy": 0.969991173874669,
+  "macro avg": {
+    "precision": 0.9590321725266862,
+    "recall": 0.9514386434376771,
+    "f1-score": 0.9548634753487854,
+    "support": 1133
+  },
+  "weighted avg": {
+    "precision": 0.9700624924632619,
+    "recall": 0.969991173874669,
+    "f1-score": 0.9698179858520095,
+    "support": 1133
+  }
+}

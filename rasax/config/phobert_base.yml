@@ -1,0 +1,22 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: vi
+
+pipeline:
+  - name: components.featurizers.HFTransformersPhobert
+    model_weights: "vinai/phobert-base"
+    model_name: "roberta"
+  - name: LanguageModelTokenizer
+  # - name: components.tokenizers.VietnameseTokenizer
+  - name: LanguageModelFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: DIETClassifier
+    epochs: 50
+    constrain_similarities: true
+policies:
+  - name: MemoizationPolicy
+  - name: RulePolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+    constrain_similarities: true

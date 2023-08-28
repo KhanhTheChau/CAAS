@@ -1,0 +1,274 @@
+[
+  {
+    "text": "hù",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_name",
+      "confidence": 0.22677800059318542
+    }
+  },
+  {
+    "text": "lô lô",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_name",
+      "confidence": 0.630399763584137
+    }
+  },
+  {
+    "text": "bạn đang làm gì thế",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.9881289601325989
+    }
+  },
+  {
+    "text": "Làm ơn hỗ trợ tôi",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9877855777740479
+    }
+  },
+  {
+    "text": "Tôi gặp rắc rối và cần một số hướng dẫn",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "consultation",
+      "confidence": 0.9922924637794495
+    }
+  },
+  {
+    "text": "Đối với bạn, điều gì làm nổi bật trường đại học cần thơ so với các trường khác?",
+    "intent": "review",
+    "intent_prediction": {
+      "name": "career_opportunities",
+      "confidence": 0.4557812511920929
+    }
+  },
+  {
+    "text": "Nếu bạn có cơ hội gặp nhà sáng lập trường đại học bách khoa, bạn sẽ hỏi họ điều gì?",
+    "intent": "review",
+    "intent_prediction": {
+      "name": "career_opportunities",
+      "confidence": 0.3090333938598633
+    }
+  },
+  {
+    "text": "Bạn đã từng nghe về không gian học tập độc đáo nào tại trường Đại học Cần Thơ mà bạn muốn chia sẻ?",
+    "intent": "dormitory",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.9998993873596191
+    }
+  },
+  {
+    "text": "good",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8808630108833313
+    }
+  },
+  {
+    "text": "bạn biết gì",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4809917211532593
+    }
+  },
+  {
+    "text": "Bạn biết những điều gì",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.9523721933364868
+    }
+  },
+  {
+    "text": "Tôi cần một chút hướng dẫn, bạn có thể giúp tôi không?",
+    "intent": "consultation",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.9772464036941528
+    }
+  },
+  {
+    "text": "Cho tôi biết về một ưu điểm và một nhược điểm của trường đại học khoa học tự nhiên.",
+    "intent": "review",
+    "intent_prediction": {
+      "name": "benchmark",
+      "confidence": 0.9291396737098694
+    }
+  },
+  {
+    "text": "Cho tôi biết những điểm mạnh và điểm yếu của Đại học Luật từ góc nhìn của bạn.",
+    "intent": "review",
+    "intent_prediction": {
+      "name": "benchmark",
+      "confidence": 0.5790342688560486
+    }
+  },
+  {
+    "text": "Tôi muốn biết về những không gian sáng tạo tại trường Đại học Cần Thơ. Có điều gì đặc biệt ở đó?",
+    "intent": "dormitory",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.6292667388916016
+    }
+  },
+  {
+    "text": "Nếu bạn muốn theo đuổi ngành nghệ thuật, bạn sẽ học tại Học viện Âm nhạc Quốc gia hay Đại học Mỹ thuật Công nghiệp (Hanoi University of Industrial Fine Arts)? Và tại sao?",
+    "intent": "comparison_school",
+    "intent_prediction": {
+      "name": "career_opportunities",
+      "confidence": 0.8146226406097412
+    }
+  },
+  {
+    "text": "Công Lí",
+    "intent": "ask_name",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.6484272480010986
+    }
+  },
+  {
+    "text": "Tôi đang phân vân giữa việc chọn trường Đại học A và B. Bạn có thể tư vấn về các yếu tố cần xem xét khi lựa chọn trường không",
+    "intent": "consultation",
+    "intent_prediction": {
+      "name": "comparison_school",
+      "confidence": 0.4899691343307495
+    }
+  },
+  {
+    "text": "bot ơí ời ơi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.9304385781288147
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.7427841424942017
+    }
+  },
+  {
+    "text": "tắt đi",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.2778819501399994
+    }
+  },
+  {
+    "text": "Tôi thật sự đánh giá cao sự giúp đỡ của bạn",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.9088965654373169
+    }
+  },
+  {
+    "text": "Có thể bạn giúp tôi giải quyết vấn đề này không?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "consultation",
+      "confidence": 0.706922173500061
+    }
+  },
+  {
+    "text": "Tôi đang đắn đo và cần ý kiến của bạn về việc chọn trường học.",
+    "intent": "consultation",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.953406035900116
+    }
+  },
+  {
+    "text": "Tôi cần một số lời khuyên, bạn có thể giúp không?",
+    "intent": "consultation",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.8517305850982666
+    }
+  },
+  {
+    "text": "Cho tôi thông tin về điểm chuẩn ngành khoa học máy tính tại trường đại học Bách khoa Đà Nẵng và những chỉ tiêu đánh giá khác mà tôi nên xem xét khi xét tuyển.",
+    "intent": "benchmark",
+    "intent_prediction": {
+      "name": "criterias",
+      "confidence": 0.7607861757278442
+    }
+  },
+  {
+    "text": "Tôi đang xem xét ngành khoa học máy tính tại trường đại học Công nghệ Thông tin Hà Nội.",
+    "intent": "benchmark",
+    "intent_prediction": {
+      "name": "curriculum",
+      "confidence": 0.5030854344367981
+    }
+  },
+  {
+    "text": "Tôi muốn tìm hiểu về các chuyên ngành có trong ngành quản trị kinh doanh tại trường Đại học Kinh tế TP.HCM.",
+    "intent": "curriculum",
+    "intent_prediction": {
+      "name": "criterias",
+      "confidence": 0.2621833086013794
+    }
+  },
+  {
+    "text": "Tại sao Học viện Biên Phòng được biết đến trong lĩnh vực bảo vệ Tổ Quốc?",
+    "intent": "review",
+    "intent_prediction": {
+      "name": "dormitory",
+      "confidence": 0.8208218812942505
+    }
+  },
+  {
+    "text": "Nếu phải chọn một trường đại học để học, bạn sẽ chọn Đại học Quốc gia TP.HCM hay Đại học Bách Khoa Hà Nội? Và tại sao?",
+    "intent": "comparison_school",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.8201729655265808
+    }
+  },
+  {
+    "text": "Có ai ở đây không?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "comparison_school",
+      "confidence": 0.51385897397995
+    }
+  },
+  {
+    "text": "thank",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "ask_name",
+      "confidence": 0.5178864598274231
+    }
+  },
+  {
+    "text": "Những tài liệu cần chuẩn bị khi xin học tại Đại học Nông Lâm là gì?",
+    "intent": "profile",
+    "intent_prediction": {
+      "name": "benchmark",
+      "confidence": 0.8714163899421692
+    }
+  },
+  {
+    "text": "Xin cho biết về các khu vực tự học và thư viện tại trường Đại học Kinh tế Quốc dân Hà Nội.",
+    "intent": "dormitory",
+    "intent_prediction": {
+      "name": "career_opportunities",
+      "confidence": 0.9488086700439453
+    }
+  }
+]

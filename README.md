@@ -132,3 +132,7 @@ mv VnCoreNLP-1.1.1.jar vncorenlp/
 mv vi-vocab vncorenlp/models/wordsegmenter/  
 mv wordsegmenter.rdr vncorenlp/models/wordsegmenter/  
 ```
+### 8. Result:
+![alt text](img/result1.png)
+![alt text](img/result2.jpg)
+![alt text](img/result3.jpg)

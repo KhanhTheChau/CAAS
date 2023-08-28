@@ -7,12 +7,12 @@
 
 ### 1. Create NLU data
 
-1.1 Edit data in `dataset/data.yaml`
+1.1 Edit data in `dataset/data.yml`
 
 1.2 Export data with command
 
 ```bash
-python scripts/export_data.py
+python export_data.py
 ```
 
 1.3 Edit `data/stories.yml` (optional)
@@ -24,7 +24,7 @@ python scripts/export_data.py
 - Download [cc.vi.300.bin](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vi.300.bin.gz), move it to `.cache/fasttext`
 
 ```bash
-rasa train --config config
+rasa train 
 ```
 
 #### 2.2 Train with other pipline
@@ -45,6 +45,8 @@ rasa train nlu --config {config_file}
 rasa shell
 # or
 rasa shell nlu
+# or
+rasa shell --debug
 ```
 
 ### 3. Evaluate NLU
@@ -53,6 +55,7 @@ Example: 5 folds CV
 
 ```bash
 rasa test nlu --config config.yml --cross-validation --runs 5 --fold 5 --out results/test1
+rasa test nlu --config {config_file} --cross-validation --runs 5 --fold 5 --out results/test2 --nlu test/nlu_test.yml
 ```
 
 or run all configs, see `test_models.bat`
@@ -84,6 +87,7 @@ pip3 install rasa-x==1.0.1 --extra-index-url https://pypi.rasa.com/simple --use-
 - Required trained model with **{config_file}** before
 ```bash
 rasa x --config {config_file}
+rasa x --rasa-x-port 5000
 
 # Sample output
 Starting Rasa X in local mode... >

@@ -198,3 +198,16 @@ nlu:
     - các tổ chức tuyển dụng tiếp nhận sinh viên sau khi tốt nghiệp Đại học Cần Thơ.
     - cơ hội việc làm sau khi tốt nghiệp Đại học cần Thơ.
     - hãy cho tôi biết các thông tin về cơ hội việc làm sau khi tốt nghiệp trường Đại học Nam Cần Thơ.
+
+- intent: comparison_school
+  examples:  |
+    - So sánh đại học Cần Thơ Sài Gòn và đại học Cần Thơ về chương trình đào tạo Kinh tế.
+    - Nếu muốn học Y học, thì đại học Cần Thơ và đại học Nam Cần Thơ nên chọn trường nào?
+    - Đánh giá sự khác biệt giữa đại học Sư phạm Cần Thơ  và đại học Sư phạm Thành phố Hồ Chí Minh cho chương trình đào tạo Giáo dục Tiểu học.
+    - đại học Cần Thơ và đại học Nam Cần Thơ có điểm gì khác biệt trong việc đào tạo ngôn ngữ học?
+    - Nếu muốn học Khoa học Môi trường, thì đại học Cần Thơ và đại học Khoa học Xã hội và Nhân văn Thành phố Hồ Chí Minh nên chọn trường nào?
+    - So sánh đại học Cần Thơ và đại học Nam Cần Thơ về chương trình đào tạo Công nghệ Thông tin.
+    - Đánh giá sự khác biệt giữa đại học Cần Thơ và đại học Công nghệ Thông tin và Truyền thông Thủ Đức cho chương trình đào tạo Kỹ thuật Phần mềm.
+    - Nếu muốn học Quản trị Kinh doanh, thì đại học Cần Thơ và đại học Ngoại Thương nên chọn trường nào?
+    - So sánh đại học Cần Thơ và đại học Lâm nghiệp về chương trình đào tạo Nông nghiệp học.
+    - Đánh giá sự khác biệt giữa đại học Cần Thơ và đại học Khoa học Xã hội và Nhân văn Thành phố Hồ Chí Minh cho chương trình đào tạo Sử học.

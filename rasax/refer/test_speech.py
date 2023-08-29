@@ -12,8 +12,8 @@ import os
 def speak(text):
     print("AI: "+ text)
     tts=gTTS(text=text,lang='vi') 
-    tts.save("D:\Programming_Languages\Project\project\\file_mp3\sound.mp3")
-    os.system("D:\Programming_Languages\Project\project\\file_mp3\sound.mp3")
+    tts.save("D:\\project\\file_mp3\\sound.mp3")
+    os.system("D:\\project\\file_mp3\\sound.mp3")
 def get_audio():
     AI_ear= sr.Recognizer()
     while True:

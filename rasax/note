@@ -18,7 +18,7 @@ Terminal 2:
     - rasa run actions
 
 test NLU:
-rasa test nlu --config config.yml --cross-validation --runs 5 --fold 5 --out results/test4 --nlu test/nlu_test.yml
+rasa test nlu --config config.yml --cross-validation --runs 5 --fold 5 --out results/test1 --nlu test/nlu_test.yml
 rasa test nlu --config config.yml --cross-validation --runs 10 --fold 10 --out results/test2 --nlu test/nlu_test.yml
 
 

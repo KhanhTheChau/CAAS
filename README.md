@@ -1,11 +1,6 @@
-# Link RACOS: https://github.com/KhanhTheChau/RACOS  ![#f03c15]`(an improved version of CAAS)`
-
+# Link RACOS: https://github.com/KhanhTheChau/RACOS  
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+- (an improved version of CAAS)
 ```
 
 ## CAAS: CHAT-VOICE ADMISSIONS ADVISORY SUPPORT USING CHATGPT AND MACHINE LEARNING

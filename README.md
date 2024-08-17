@@ -1,7 +1,5 @@
-# Link RACOS: https://github.com/KhanhTheChau/RACOS  $${\color{red}Red}$$
-```diff 
-- (an improved version of CAAS) 
-```
+# Link RACOS: https://github.com/KhanhTheChau/RACOS  $${\color{red}(an improved version of CAAS)}$$
+
 
 ## CAAS: CHAT-VOICE ADMISSIONS ADVISORY SUPPORT USING CHATGPT AND MACHINE LEARNING
 ## By Truong-Thanh Ma, The-Khanh Chau, Thien-Phuc Nguyen, Gia-Khuong Huynh, Ti-Hon Nguyen, Viet-Chau Tran, Thanh-Nghi Do

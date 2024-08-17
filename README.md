@@ -1,4 +1,4 @@
-# Link RACOS: https://github.com/KhanhTheChau/RACOS  
+# Link RACOS: https://github.com/KhanhTheChau/RACOS  $${\color{red}Red}$$
 ```diff 
 - (an improved version of CAAS) 
 ```

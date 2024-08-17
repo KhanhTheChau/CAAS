@@ -1,4 +1,4 @@
-# Link RACOS: https://github.com/KhanhTheChau/RACOS  ![#f03c15] (an improved version of CAAS)`#f03c15`
+# Link RACOS: https://github.com/KhanhTheChau/RACOS  ![#f03c15](an improved version of CAAS)`#f03c15`
 
 
 

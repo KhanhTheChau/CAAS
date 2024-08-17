@@ -2,6 +2,9 @@
 ## By Truong-Thanh Ma, The-Khanh Chau, Thien-Phuc Nguyen, Gia-Khuong Huynh, Ti-Hon Nguyen, Viet-Chau Tran, Thanh-Nghi Do
 
 
+# Link RACOS: https://github.com/KhanhTheChau/CAAS
+
+
 ### Introduction:
 *In the realm of admissions consultation, its enduring significance has spanned across numerous years. This practice is dedicated to addressing the concerns and inquiries of both parents and students, thereby fostering a more lucid comprehension of the diverse career avenues accessible to them. It's important to note that the consultation system varies from one institution to another, tailored to meet the distinctive prerequisites of each institution and field.*
 *Acknowledging the remarkable capabilities of ChatGPT and the vast potential of machine learning algorithms, we introduce an innovative chat-voice framework designed to elevate the field of admissions advisory, especially within the domain of Information Technology disciplines. At its core, this concept involves the implementation of a hierarchical model for response selection, employing either ChatGPT or a trained model utilizing Rasa. Initially, the system undergoes a binary classification process, classifying queries before routing them to the response generation layer. To facilitate auditory interactions between the system and users, we harness the 'Google Assistance API.'*

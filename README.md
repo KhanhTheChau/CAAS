@@ -1,4 +1,4 @@
-# Link RACOS: https://github.com/KhanhTheChau/RACOS  $${\color{red}(an improved version of CAAS)}$$
+# Link RACOS: https://github.com/KhanhTheChau/RACOS  $${\color{red}(an-improved-version-of-CAAS)}$$
 
 
 ## CAAS: CHAT-VOICE ADMISSIONS ADVISORY SUPPORT USING CHATGPT AND MACHINE LEARNING
